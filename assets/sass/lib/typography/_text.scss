@@ -1,0 +1,60 @@
+p {}
+
+p.notes {}
+
+a {
+	&:hover {}
+	&:active {}
+	&:visited {}
+}
+
+strong {
+	font-weight: 600;
+}
+
+em {
+	font-style: italic;
+}
+
+.muted {
+}
+
+// Abbreviations and acronyms
+
+abbr[title] {
+	cursor: help;
+}
+
+// Quotes
+
+blockquote {
+	p {}
+}
+
+blockquote:before,
+blockquote:after {
+	content: ""
+}
+
+
+q:before,
+q:after,
+ {
+	content: "";
+}
+
+// Addresses
+
+address {
+	display: block;
+}
+
+// Misc
+
+small {
+	font-size: 100%;
+}
+
+cite {
+	font-style: normal;
+}

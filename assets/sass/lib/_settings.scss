@@ -1,0 +1,17 @@
+// Grid System inspired by Blankwork (http://www.blankwork.net/)
+
+$columns: 12 !default;
+$column-width: 54px !default;
+$gutter-width: 30px;
+
+$layout-width: $columns * ($column-width + $gutter-width) - $gutter-width;
+
+// Font settings
+$base-font : myriad-pro, "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+$alt-font : "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+$accent-font : Georgia, Times, "Times New Roman", serif;
+
+// Navigation
+@mixin nav-item-width($items,$border-size:0) {
+	width: ($total-width - 2) / $items - ($border-size * 2);
+}
