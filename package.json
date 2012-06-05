@@ -1,0 +1,19 @@
+{
+    "name": "bedrock"
+  , "description": "HTML, CSS, and JS toolkit."
+  , "version": "0.1"
+  , "keywords": ["starter", "css", "sass"]
+  , "homepage": ""
+  , "author": "Benoit Deziel"
+  , "scripts": { "test": "make test" }
+  , "repository": {
+      "type": "git"
+    , "url": ""
+  }
+  , "licenses": [
+    {
+        "type": "Apache-2.0"
+      , "url": "http://www.apache.org/licenses/LICENSE-2.0"
+    }
+  ]
+}
