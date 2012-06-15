@@ -1,27 +1,34 @@
 // Import Compass
 @import "compass";
 
-// Reset
+// CSS Reset
 @import "normalize";
 
-// Import our files
+// Core settings
 @import "settings";
 
+// Typography
 @import "typography/headings";
 @import "typography/text";
 @import "typography/lists";
 
+// Grid & page structure
 @import "layout/grid";
 @import "layout/layout";
 @import "layout/header";
 @import "layout/footer";
 
 @import "helpers/animations";
-@import "helpers/breadcrumbs";
 @import "helpers/buttons";
 @import "helpers/forms";
 @import "helpers/media";
 @import "helpers/tables";
 @import "helpers/misc";
 
-@import "navigation/main-nav"
+// Navigation
+@import "navigation/main-nav";
+@import "navigation/breadcrumbs";
+@import "navigation/pagination";
+
+// Development Stylesheets
+@import "helpers/dev";

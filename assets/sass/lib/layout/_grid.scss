@@ -31,11 +31,11 @@
 }
 
 @mixin first {
-  margin-left:0;
+  margin-left: 0 !important;
 }
 
 @mixin last {
-  margin-right:0;
+  margin-right: 0 !important;
 }
 
 // Getting the data into classes
@@ -43,6 +43,7 @@
 .wrapper {
 	width: $layout-width;
 	margin: 0 auto;
+	@include pie-clearfix;
 }
 
 .row {
@@ -64,6 +65,12 @@
 .grid-12 {
 	@for $i from 1 through 12 {
 	.col-#{$i} { @include column($i); }
+	}
+}
+
+.grid-12 {
+	@for $i from 1 through 12 {
+	.box.col-#{$i} { @include column($i, false, $box-border-width); }
 	}
 }
 

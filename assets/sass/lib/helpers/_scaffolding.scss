@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  font-family: $base-font;
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+  color: $text-color;
+  background-color: $body-color;
+}
+
+a {
+  color: $link-color;
+  text-decoration: none;
+}
+a:hover {
+  color: $link-hover-color;
+  text-decoration: underline;
+}

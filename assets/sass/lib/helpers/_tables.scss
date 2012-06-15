@@ -1,14 +1,19 @@
-table {}
-
-th {}
-
-td {}
+table {
+	caption {}
+	thead {}
+	th {}
+	tbody {}
+	tr {}
+	td {}
+}
 
 table.striped {
   tbody {
+  	tr {}
     tr:nth-child(odd) td,
     tr:nth-child(odd) th {
       background-color: #CCC;
     }
+    td {}
   }
 }

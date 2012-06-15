@@ -1,0 +1,19 @@
+.breadcrumbs {
+	padding: 0;
+	margin: 0;
+	li {
+		float: left;
+		padding: 0;
+		margin: 0;
+	}
+	a {
+		display: inline-block;
+	}
+	.divider {
+		padding: 0 5px;
+		color: #999;
+	}
+}
+
+// TODO: Change the name of that style;
+.breadcrumbs.style2 {}

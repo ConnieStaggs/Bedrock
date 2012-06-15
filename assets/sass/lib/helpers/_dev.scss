@@ -1,0 +1,11 @@
+.wireframe {
+	.box {
+		outline: 1px solid red;
+	}
+}
+
+.show-elements {
+	* {
+		outline: red solid 1px;
+	}
+}

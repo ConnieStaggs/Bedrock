@@ -1,5 +1,5 @@
 body {
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: $base-font;
 }
 
 div {}
@@ -10,6 +10,30 @@ article {}
 
 aside {}
 
-.box {}
+.row {
+
+}
+
+.row-highlight {
+	
+}
+
+.box {
+	border: solid #AAA;
+	border-width: $box-border-width;
+}
+
+.box > header {
+	padding: 10px;
+	border-bottom: 1px solid #AAA;
+}
+
+.box .box-container {
+	padding: 10px;
+}
 
 aside .box {}
+
+.box-highlight {
+
+}

@@ -1,1 +1,12 @@
-nav.main-nav {}
+nav .primary-nav {
+	padding: 0;
+	margin: 0;
+	&.nav-horizontal li {
+		float: left;
+		padding: 0;
+		margin: 0;
+	}
+	a {
+		padding: 5px 10px;
+	}
+}

@@ -1,1 +1,25 @@
-.btn {}
+.btn {
+	padding: 5px 10px;
+	display: inline-block;
+	background-color: #CCC;
+	border: #999 solid 1px;
+	color: #333;
+	text-decoration: none;
+	&:hover{
+		background-color: #999;
+		border-color: #333;
+		color: #333;
+	}
+	&.btn-primary {
+		background-color: blue;
+		border-color: darkblue;
+		color: #FFF;
+		&:hover{
+			background-color: royalblue;
+			border-color: darkblue;
+		}
+	}
+	&.btn-secondary {}
+	&.btn-alt {}
+	&.btn-highlight {}
+}

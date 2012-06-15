@@ -1,3 +1,4 @@
+// TODO: Maybe separate Variables and Mixins;
 // Grid System inspired by Blankwork (http://www.blankwork.net/)
 
 $columns: 12 !default;
@@ -6,12 +7,24 @@ $gutter-width: 30px;
 
 $layout-width: $columns * ($column-width + $gutter-width) - $gutter-width;
 
+$body-color: #FFF;
+
 // Font settings
-$base-font : myriad-pro, "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
-$alt-font : "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
-$accent-font : Georgia, Times, "Times New Roman", serif;
+$base-font: "Open Sans", sans-serif;
+$alt-font: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+$accent-font: Georgia, Times, "Times New Roman", serif;
+
+$base-font-size: 14px;
+$base-line-height: 26px;
+
+$text-color: #333;
+
+$link-color: #999;
+$link-hover-color: #666;
+
+$box-border-width: 1px;
 
 // Navigation
 @mixin nav-item-width($items,$border-size:0) {
-	width: ($total-width - 2) / $items - ($border-size * 2);
+	width: ($layout-width - 2) / $items - ($border-size * 2);
 }
