@@ -1,28 +1,42 @@
 // TODO: Maybe separate Variables and Mixins;
 // Grid System inspired by Blankwork (http://www.blankwork.net/)
 
-$columns: 12 !default;
-$column-width: 54px !default;
-$gutter-width: 30px;
-
-$layout-width: $columns * ($column-width + $gutter-width) - $gutter-width;
-
 $body-color: #FFF;
 
 // Font settings
-$base-font: "Open Sans", sans-serif;
+$base-font: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $alt-font: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
 $accent-font: Georgia, Times, "Times New Roman", serif;
 
 $base-font-size: 14px;
 $base-line-height: 26px;
 
-$text-color: #333;
+$text-color-primary: #333;
+$text-color-secondary: #999;
+$text-color-highlight: #000;
+$text-color-reverse: #F0F0F0;
 
 $link-color: #999;
 $link-hover-color: #666;
 
+$border-color: #333;
+$border-color-reverse: #F0F0F0;
+
+// Grid & Layout Settings
+$columns: 12 !default;
+$column-width: 54px !default;
+$gutter-width: 30px;
+
+$layout-width: $columns * ($column-width + $gutter-width) - $gutter-width;
+
+// Layout Elements Settings
 $box-border-width: 1px;
+
+// Button Settings
+$btn-radius: 5px;
+
+// Colors
+$light-gray: #DDD;
 
 // Navigation
 @mixin nav-item-width($items,$border-size:0) {

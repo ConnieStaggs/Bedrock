@@ -20,6 +20,7 @@ em {
 }
 
 .muted {
+
 }
 
 // Abbreviations and acronyms
@@ -41,8 +42,7 @@ blockquote:after {
 
 
 q:before,
-q:after,
- {
+q:after {
 	content: "";
 }
 

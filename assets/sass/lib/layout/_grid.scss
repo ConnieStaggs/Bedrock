@@ -11,13 +11,6 @@
 	@include pie-clearfix;
 }
 
-@mixin row($_layout-width: $layout-width) {
-	margin-left: auto;
-	margin-right: auto;
-	width: $_layout-width;
-	@include pie-clearfix;
-}
-
 @mixin column($_col, $_first: false, $_border-size: 0, $_column-width: $column-width, $_gutter-width: $gutter-width) {
 	width: ( $_col * $_column-width ) + ( ($_col - 1) * $_gutter-width ) - ($_border-size * 2);
 	display: inline;
@@ -41,13 +34,7 @@
 // Getting the data into classes
 
 .wrapper {
-	width: $layout-width;
-	margin: 0 auto;
-	@include pie-clearfix;
-}
-
-.row {
-	@include row;
+	@include wrapper;
 }
 
 .first, .alpha {

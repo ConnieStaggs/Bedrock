@@ -7,7 +7,16 @@ table {
 	td {}
 }
 
-table.striped {
+table.table-default {
+  tbody {
+    tr {
+    }
+  }
+}
+
+table.table-condensed {}
+
+table.table-striped {
   tbody {
   	tr {}
     tr:nth-child(odd) td,

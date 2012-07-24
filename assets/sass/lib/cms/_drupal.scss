@@ -1,0 +1,50 @@
+body.logged-in {
+    margin-bottom: 35px;
+}
+
+// Tabs
+.admin-tabs {
+    .tabs-container {
+        @include background-image(linear-gradient(#E8E9F4, #C2CDD1));
+        border-top: 1px solid rgba(109, 114, 118, 0.5);
+        position: fixed;
+        display: block;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        z-index: 100;
+        padding: 5px 0;
+    }
+
+    .tabs-container ul.tabs {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        height: 25px;
+        background: none;
+        border: none;
+    }
+
+    .tabs-container .tabs li {
+        float: left;
+        padding: 0 10px;
+        line-height: 25px;
+        background: none;
+    }
+
+    .tabs-container .tabs li.active {
+        @include background-image(linear-gradient(#C2CDD1, #E8E9F4));
+        @include border-radius(20px);
+        border: 1px solid #BBB;
+    }
+
+    .tabs-container .tabs li a {
+        color: #333;
+        line-height: 25px;
+        text-decoration: none;
+    }
+
+    .tabs-container ul.primary li.active a {
+        font-weight: 600;
+    }
+}

@@ -1,6 +1,4 @@
-body {
-	font-family: $base-font;
-}
+// Globals
 
 div {}
 
@@ -10,30 +8,57 @@ article {}
 
 aside {}
 
+// Sections
+
+.site-layout {}
+
+.site-header {}
+
+.site-content {}
+
+.site-footer {}
+
+.page-header {}
+
+.page-content {}
+
+.section {}
+
+.section-default {}
+
+.section-highlight {}
+
+.section-header {}
+
 .row {
-
+    @include pie-clearfix;
 }
 
-.row-highlight {
-	
+.row-separator {
+    border-top: $light-gray;
 }
+
+// Boxes
 
 .box {
-	border: solid #AAA;
+	border: solid $light-gray;
 	border-width: $box-border-width;
-}
-
-.box > header {
-	padding: 10px;
-	border-bottom: 1px solid #AAA;
-}
-
-.box .box-container {
-	padding: 10px;
+    .box-header {
+        padding: 10px;
+        border-bottom: 1px solid $light-gray;
+    }
+    .box-container {
+        padding: 10px;
+        ul {
+            padding: 0;
+        }
+    }
+    .actions-container {
+        padding: 0 10px 10px 10px;
+    }
+    .box-highlight {
+        background-color: $light-gray;
+    }
 }
 
 aside .box {}
-
-.box-highlight {
-
-}

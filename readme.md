@@ -7,6 +7,10 @@ It includes a basic set of files, a styleguide and an example directory.
 
 Enjoy.
 
+### Coding Standards
+
+Idiomatic by Necolashttps://github.com/necolas/idiomatic-css
+
 ### Credits
 
 * Blankwork ([http://www.blankwork.net/](http://www.blankwork.net/))

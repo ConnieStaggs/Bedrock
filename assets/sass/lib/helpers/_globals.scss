@@ -1,0 +1,17 @@
+// Globals settings
+
+* { @include box-sizing(border-box); }
+
+body {
+    font-family: $base-font;
+    -webkit-font-smoothing: antialiased;
+}
+
+// Alignment
+
+.left        { float: left; }
+.right       { float: right; }
+.text-left   { text-align: left; }
+.text-right  { text-align: right; }
+.text-center { text-align: center; }
+.hidden      { display: none; }

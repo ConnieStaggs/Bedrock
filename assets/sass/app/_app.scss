@@ -1,1 +1,11 @@
 // Your custom code here
+
+// Headings
+
+h1 {
+    @extend .text-center;
+}
+
+h2 {
+    @extend .text-center;
+}
