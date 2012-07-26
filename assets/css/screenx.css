@@ -5,7 +5,7 @@
 /*
  * Corrects block display not defined in IE6/7/8/9 & FF3
  */
-/* line 21, ../sass/lib/_normalize.scss */
+/* line 21, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/_normalize.scss */
 article,
 aside,
 details,
@@ -23,7 +23,7 @@ summary {
 /*
  * Corrects inline-block display not defined in IE6/7/8/9 & FF3
  */
-/* line 31, ../sass/lib/_normalize.scss */
+/* line 31, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/_normalize.scss */
 audio,
 canvas,
 video {
@@ -35,7 +35,7 @@ video {
 /*
  * Prevents modern browsers from displaying 'audio' without controls
  */
-/* line 41, ../sass/lib/_normalize.scss */
+/* line 41, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/_normalize.scss */
 audio:not([controls]) {
   display: none;
 }
@@ -44,7 +44,7 @@ audio:not([controls]) {
  * Addresses styling for 'hidden' attribute not present in IE7/8/9, FF3, S4
  * Known issue: no IE6 support
  */
-/* line 50, ../sass/lib/_normalize.scss */
+/* line 50, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/_normalize.scss */
 [hidden] {
   display: none;
 }
@@ -58,7 +58,7 @@ audio:not([controls]) {
  * 2. Prevents iOS text size adjust after orientation change, without disabling user zoom
  *    www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/
  */
-/* line 66, ../sass/lib/_normalize.scss */
+/* line 66, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/_normalize.scss */
 html {
   font-size: 100%;
   /* 1 */
@@ -74,7 +74,7 @@ html {
 /*
  * Addresses margins handled incorrectly in IE6/7
  */
-/* line 88, ../sass/lib/_normalize.scss */
+/* line 88, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/_normalize.scss */
 body {
   margin: 0;
 }
@@ -85,7 +85,7 @@ body {
 /*
  * Addresses outline displayed oddly in Chrome
  */
-/* line 101, ../sass/lib/_normalize.scss */
+/* line 101, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/_normalize.scss */
 a:focus {
   outline: thin dotted;
 }
@@ -94,7 +94,7 @@ a:focus {
  * Improves readability when focused and also mouse hovered in all browsers
  * people.opera.com/patrickl/experiments/keyboard/test
  */
-/* line 111, ../sass/lib/_normalize.scss */
+/* line 111, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/_normalize.scss */
 a:hover,
 a:active {
   outline: 0;
@@ -107,37 +107,37 @@ a:active {
  * Addresses font sizes and margins set differently in IE6/7
  * Addresses font sizes within 'section' and 'article' in FF4+, Chrome, S5
  */
-/* line 125, ../sass/lib/_normalize.scss */
+/* line 125, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/_normalize.scss */
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
 }
 
-/* line 130, ../sass/lib/_normalize.scss */
+/* line 130, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/_normalize.scss */
 h2 {
   font-size: 1.5em;
   margin: 0.83em 0;
 }
 
-/* line 135, ../sass/lib/_normalize.scss */
+/* line 135, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/_normalize.scss */
 h3 {
   font-size: 1.17em;
   margin: 1em 0;
 }
 
-/* line 140, ../sass/lib/_normalize.scss */
+/* line 140, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/_normalize.scss */
 h4 {
   font-size: 1em;
   margin: 1.33em 0;
 }
 
-/* line 145, ../sass/lib/_normalize.scss */
+/* line 145, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/_normalize.scss */
 h5 {
   font-size: 0.83em;
   margin: 1.67em 0;
 }
 
-/* line 150, ../sass/lib/_normalize.scss */
+/* line 150, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/_normalize.scss */
 h6 {
   font-size: 0.75em;
   margin: 2.33em 0;
@@ -146,7 +146,7 @@ h6 {
 /*
  * Addresses styling not present in IE7/8/9, S5, Chrome
  */
-/* line 159, ../sass/lib/_normalize.scss */
+/* line 159, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/_normalize.scss */
 abbr[title] {
   border-bottom: 1px dotted;
 }
@@ -154,13 +154,13 @@ abbr[title] {
 /*
  * Addresses style set to 'bolder' in FF3+, S4/5, Chrome
 */
-/* line 168, ../sass/lib/_normalize.scss */
+/* line 168, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/_normalize.scss */
 b,
 strong {
   font-weight: bold;
 }
 
-/* line 172, ../sass/lib/_normalize.scss */
+/* line 172, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/_normalize.scss */
 blockquote {
   margin: 1em 40px;
 }
@@ -168,7 +168,7 @@ blockquote {
 /*
  * Addresses styling not present in S5, Chrome
  */
-/* line 180, ../sass/lib/_normalize.scss */
+/* line 180, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/_normalize.scss */
 dfn {
   font-style: italic;
 }
@@ -176,7 +176,7 @@ dfn {
 /*
  * Addresses styling not present in IE6/7/8/9
  */
-/* line 188, ../sass/lib/_normalize.scss */
+/* line 188, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/_normalize.scss */
 mark {
   background: #ff0;
   color: #000;
@@ -185,7 +185,7 @@ mark {
 /*
  * Addresses margins set differently in IE6/7
  */
-/* line 198, ../sass/lib/_normalize.scss */
+/* line 198, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/_normalize.scss */
 p,
 pre {
   margin: 1em 0;
@@ -195,7 +195,7 @@ pre {
  * Corrects font family set oddly in IE6, S4/5, Chrome
  * en.wikipedia.org/wiki/User:Davidgothberg/Test59
  */
-/* line 210, ../sass/lib/_normalize.scss */
+/* line 210, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/_normalize.scss */
 pre,
 code,
 kbd,
@@ -208,7 +208,7 @@ samp {
 /*
  * Improves readability of pre-formatted text in all browsers
  */
-/* line 220, ../sass/lib/_normalize.scss */
+/* line 220, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/_normalize.scss */
 pre {
   white-space: pre;
   white-space: pre-wrap;
@@ -220,20 +220,20 @@ pre {
  * 2. Addresses quote property not supported in S4
  */
 /* 1 */
-/* line 233, ../sass/lib/_normalize.scss */
+/* line 233, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/_normalize.scss */
 q {
   quotes: none;
 }
 
 /* 2 */
-/* line 240, ../sass/lib/_normalize.scss */
+/* line 240, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/_normalize.scss */
 q:before,
 q:after {
   content: '';
   content: none;
 }
 
-/* line 245, ../sass/lib/_normalize.scss */
+/* line 245, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/_normalize.scss */
 small {
   font-size: 75%;
 }
@@ -242,7 +242,7 @@ small {
  * Prevents sub and sup affecting line-height in all browsers
  * gist.github.com/413930
  */
-/* line 255, ../sass/lib/_normalize.scss */
+/* line 255, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/_normalize.scss */
 sub,
 sup {
   font-size: 75%;
@@ -251,12 +251,12 @@ sup {
   vertical-align: baseline;
 }
 
-/* line 262, ../sass/lib/_normalize.scss */
+/* line 262, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/_normalize.scss */
 sup {
   top: -0.5em;
 }
 
-/* line 266, ../sass/lib/_normalize.scss */
+/* line 266, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/_normalize.scss */
 sub {
   bottom: -0.25em;
 }
@@ -267,7 +267,7 @@ sub {
 /*
  * Addresses margins set differently in IE6/7
  */
-/* line 282, ../sass/lib/_normalize.scss */
+/* line 282, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/_normalize.scss */
 dl,
 menu,
 ol,
@@ -275,7 +275,7 @@ ul {
   margin: 1em 0;
 }
 
-/* line 286, ../sass/lib/_normalize.scss */
+/* line 286, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/_normalize.scss */
 dd {
   margin: 0 0 0 40px;
 }
@@ -283,7 +283,7 @@ dd {
 /*
  * Addresses paddings set differently in IE6/7
  */
-/* line 296, ../sass/lib/_normalize.scss */
+/* line 296, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/_normalize.scss */
 menu,
 ol,
 ul {
@@ -293,7 +293,7 @@ ul {
 /*
  * Corrects list images handled incorrectly in IE7
  */
-/* line 305, ../sass/lib/_normalize.scss */
+/* line 305, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/_normalize.scss */
 nav ul,
 nav ol {
   list-style: none;
@@ -308,7 +308,7 @@ nav ol {
  * 2. Improves image quality when scaled in IE7
  *    code.flickr.com/blog/2008/11/12/on-ui-quality-the-little-things-client-side-image-resizing/
  */
-/* line 321, ../sass/lib/_normalize.scss */
+/* line 321, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/_normalize.scss */
 img {
   border: 0;
   /* 1 */
@@ -319,7 +319,7 @@ img {
 /*
  * Corrects overflow displayed oddly in IE9
  */
-/* line 330, ../sass/lib/_normalize.scss */
+/* line 330, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/_normalize.scss */
 svg:not(:root) {
   overflow: hidden;
 }
@@ -330,7 +330,7 @@ svg:not(:root) {
 /*
  * Addresses margin not present in IE6/7/8/9, S5, O11
  */
-/* line 343, ../sass/lib/_normalize.scss */
+/* line 343, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/_normalize.scss */
 figure {
   margin: 0;
 }
@@ -341,7 +341,7 @@ figure {
 /*
  * Corrects margin displayed oddly in IE6/7
  */
-/* line 356, ../sass/lib/_normalize.scss */
+/* line 356, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/_normalize.scss */
 form {
   margin: 0;
 }
@@ -349,7 +349,7 @@ form {
 /*
  * Define consistent border, margin, and padding
  */
-/* line 364, ../sass/lib/_normalize.scss */
+/* line 364, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/_normalize.scss */
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
@@ -361,7 +361,7 @@ fieldset {
  * 2. Corrects text not wrapping in FF3 
  * 3. Corrects alignment displayed oddly in IE6/7
  */
-/* line 376, ../sass/lib/_normalize.scss */
+/* line 376, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/_normalize.scss */
 legend {
   border: 0;
   /* 1 */
@@ -377,7 +377,7 @@ legend {
  * 2. Addresses margins set differently in IE6/7, FF3+, S5, Chrome
  * 3. Improves appearance and consistency in all browsers
  */
-/* line 392, ../sass/lib/_normalize.scss */
+/* line 392, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/_normalize.scss */
 button,
 input,
 select,
@@ -395,7 +395,7 @@ textarea {
 /*
  * Addresses FF3/4 setting line-height on 'input' using !important in the UA stylesheet
  */
-/* line 404, ../sass/lib/_normalize.scss */
+/* line 404, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/_normalize.scss */
 button,
 input {
   line-height: normal;
@@ -408,7 +408,7 @@ input {
  * 3. Removes inner spacing in IE7 without affecting normal text inputs
  *    Known issue: inner spacing remains in IE6
  */
-/* line 418, ../sass/lib/_normalize.scss */
+/* line 418, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/_normalize.scss */
 button,
 input[type="button"],
 input[type="reset"],
@@ -424,7 +424,7 @@ input[type="submit"] {
 /*
  * Re-set default cursor for disabled elements
  */
-/* line 429, ../sass/lib/_normalize.scss */
+/* line 429, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/_normalize.scss */
 button[disabled],
 input[disabled] {
   cursor: default;
@@ -436,7 +436,7 @@ input[disabled] {
  * 3. Removes excess padding in IE7
       Known issue: excess padding remains in IE6
  */
-/* line 441, ../sass/lib/_normalize.scss */
+/* line 441, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/_normalize.scss */
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
@@ -453,7 +453,7 @@ input[type="radio"] {
  * 1. Addresses appearance set to searchfield in S5, Chrome
  * 2. Addresses box-sizing set to border-box in S5, Chrome (include -moz to future-proof)
  */
-/* line 453, ../sass/lib/_normalize.scss */
+/* line 453, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/_normalize.scss */
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -466,7 +466,7 @@ input[type="search"] {
 /*
  * Removes inner padding and search cancel button in S5, Chrome on OS X
  */
-/* line 465, ../sass/lib/_normalize.scss */
+/* line 465, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/_normalize.scss */
 input[type="search"]::-webkit-search-decoration,
 input[type="search"]::-webkit-search-cancel-button {
   -webkit-appearance: none;
@@ -476,7 +476,7 @@ input[type="search"]::-webkit-search-cancel-button {
  * Removes inner padding and border in FF3+
  * www.sitepen.com/blog/2008/05/14/the-devils-in-the-details-fixing-dojos-toolbar-buttons/
  */
-/* line 475, ../sass/lib/_normalize.scss */
+/* line 475, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/_normalize.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
@@ -487,7 +487,7 @@ input::-moz-focus-inner {
  * 1. Removes default vertical scrollbar in IE6/7/8/9
  * 2. Improves readability and alignment in all browsers
  */
-/* line 485, ../sass/lib/_normalize.scss */
+/* line 485, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/_normalize.scss */
 textarea {
   overflow: auto;
   /* 1 */
@@ -501,181 +501,180 @@ textarea {
 /*
  * Remove most spacing between table cells
  */
-/* line 499, ../sass/lib/_normalize.scss */
+/* line 499, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/_normalize.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 3, ../sass/lib/helpers/_globals.scss */
+/* line 3, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/helpers/_globals.scss */
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-/* line 6, ../sass/lib/helpers/_globals.scss */
+/* line 5, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/helpers/_globals.scss */
 body {
-  font-size: 62.5%;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 
-/* line 14, ../sass/lib/helpers/_globals.scss */
+/* line 12, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/helpers/_globals.scss */
 .left {
   float: left;
 }
 
-/* line 15, ../sass/lib/helpers/_globals.scss */
+/* line 13, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/helpers/_globals.scss */
 .right {
   float: right;
 }
 
-/* line 16, ../sass/lib/helpers/_globals.scss */
+/* line 14, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/helpers/_globals.scss */
 .text-left {
   text-align: left;
 }
 
-/* line 17, ../sass/lib/helpers/_globals.scss */
+/* line 15, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/helpers/_globals.scss */
 .text-right {
   text-align: right;
 }
 
-/* line 18, ../sass/lib/helpers/_globals.scss */
+/* line 16, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/helpers/_globals.scss */
 .text-center, h1, h2 {
   text-align: center;
 }
 
-/* line 19, ../sass/lib/helpers/_globals.scss */
+/* line 17, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/helpers/_globals.scss */
 .hidden {
   display: none;
 }
 
-/* line 3, ../sass/lib/typography/_headings.scss */
+/* line 3, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/typography/_headings.scss */
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
-/* line 5, ../sass/lib/typography/_headings.scss */
+/* line 5, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/typography/_headings.scss */
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
   font-weight: normal;
   color: #999;
   font-size: 0.8em;
 }
 
-/* line 12, ../sass/lib/typography/_headings.scss */
+/* line 12, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/typography/_headings.scss */
 h1 {
-  font-size: 3.6em;
+  font-size: 36px;
   line-height: 52px;
 }
 
-/* line 17, ../sass/lib/typography/_headings.scss */
+/* line 17, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/typography/_headings.scss */
 h2 {
-  font-size: 3em;
+  font-size: 30px;
   line-height: 52px;
 }
 
-/* line 22, ../sass/lib/typography/_headings.scss */
+/* line 22, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/typography/_headings.scss */
 h3 {
-  font-size: 2.4em;
+  font-size: 24px;
   line-height: 26px;
 }
 
-/* line 27, ../sass/lib/typography/_headings.scss */
+/* line 27, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/typography/_headings.scss */
 h4 {
-  font-size: 2em;
+  font-size: 20px;
   line-height: 26px;
 }
 
-/* line 32, ../sass/lib/typography/_headings.scss */
+/* line 32, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/typography/_headings.scss */
 h5 {
-  font-size: 1.8em;
+  font-size: 18px;
   line-height: 26px;
 }
 
-/* line 37, ../sass/lib/typography/_headings.scss */
+/* line 37, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/typography/_headings.scss */
 h6 {
-  font-size: 1.6em;
+  font-size: 16px;
   line-height: 26px;
 }
 
-/* line 1, ../sass/lib/typography/_text.scss */
+/* line 1, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/typography/_text.scss */
 p {
-  font-size: 1em;
-  line-height: 1.5;
+  font-size: 14px;
+  line-height: 26px;
 }
 
-/* line 14, ../sass/lib/typography/_text.scss */
+/* line 14, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/typography/_text.scss */
 strong {
   font-weight: 600;
 }
 
-/* line 18, ../sass/lib/typography/_text.scss */
+/* line 18, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/typography/_text.scss */
 em {
   font-style: italic;
 }
 
-/* line 28, ../sass/lib/typography/_text.scss */
+/* line 28, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/typography/_text.scss */
 abbr[title] {
   cursor: help;
 }
 
-/* line 39, ../sass/lib/typography/_text.scss */
+/* line 39, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/typography/_text.scss */
 blockquote:before,
 blockquote:after {
   content: "";
 }
 
-/* line 45, ../sass/lib/typography/_text.scss */
+/* line 45, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/typography/_text.scss */
 q:before,
 q:after {
   content: "";
 }
 
-/* line 51, ../sass/lib/typography/_text.scss */
+/* line 51, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/typography/_text.scss */
 address {
   display: block;
 }
 
-/* line 57, ../sass/lib/typography/_text.scss */
+/* line 57, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/typography/_text.scss */
 small {
   font-size: 100%;
 }
 
-/* line 61, ../sass/lib/typography/_text.scss */
+/* line 61, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/typography/_text.scss */
 cite {
   font-style: normal;
 }
 
-/* line 3, ../sass/lib/typography/_lists.scss */
+/* line 3, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/typography/_lists.scss */
 li {
   list-style-position: inside;
 }
 
-/* line 36, ../sass/lib/layout/_grid.scss */
+/* line 36, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/layout/_grid.scss */
 .wrapper {
   width: 978px;
   margin-left: auto;
   margin-right: auto;
   *zoom: 1;
 }
-/* line 38, ../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 38, /Users/benoitdeziel/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 .wrapper:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* line 40, ../sass/lib/layout/_grid.scss */
+/* line 40, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/layout/_grid.scss */
 .first, .alpha {
   margin-left: 0 !important;
 }
 
-/* line 44, ../sass/lib/layout/_grid.scss */
+/* line 44, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/layout/_grid.scss */
 .last, .omega {
   margin-right: 0 !important;
 }
 
-/* line 54, ../sass/lib/layout/_grid.scss */
+/* line 54, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/layout/_grid.scss */
 .grid-12 .col-1 {
   width: 54px;
   display: inline;
@@ -683,7 +682,7 @@ li {
   position: relative;
   margin-right: 30px;
 }
-/* line 54, ../sass/lib/layout/_grid.scss */
+/* line 54, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/layout/_grid.scss */
 .grid-12 .col-2 {
   width: 138px;
   display: inline;
@@ -691,7 +690,7 @@ li {
   position: relative;
   margin-right: 30px;
 }
-/* line 54, ../sass/lib/layout/_grid.scss */
+/* line 54, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/layout/_grid.scss */
 .grid-12 .col-3 {
   width: 222px;
   display: inline;
@@ -699,7 +698,7 @@ li {
   position: relative;
   margin-right: 30px;
 }
-/* line 54, ../sass/lib/layout/_grid.scss */
+/* line 54, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/layout/_grid.scss */
 .grid-12 .col-4 {
   width: 306px;
   display: inline;
@@ -707,7 +706,7 @@ li {
   position: relative;
   margin-right: 30px;
 }
-/* line 54, ../sass/lib/layout/_grid.scss */
+/* line 54, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/layout/_grid.scss */
 .grid-12 .col-5 {
   width: 390px;
   display: inline;
@@ -715,7 +714,7 @@ li {
   position: relative;
   margin-right: 30px;
 }
-/* line 54, ../sass/lib/layout/_grid.scss */
+/* line 54, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/layout/_grid.scss */
 .grid-12 .col-6 {
   width: 474px;
   display: inline;
@@ -723,7 +722,7 @@ li {
   position: relative;
   margin-right: 30px;
 }
-/* line 54, ../sass/lib/layout/_grid.scss */
+/* line 54, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/layout/_grid.scss */
 .grid-12 .col-7 {
   width: 558px;
   display: inline;
@@ -731,7 +730,7 @@ li {
   position: relative;
   margin-right: 30px;
 }
-/* line 54, ../sass/lib/layout/_grid.scss */
+/* line 54, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/layout/_grid.scss */
 .grid-12 .col-8 {
   width: 642px;
   display: inline;
@@ -739,7 +738,7 @@ li {
   position: relative;
   margin-right: 30px;
 }
-/* line 54, ../sass/lib/layout/_grid.scss */
+/* line 54, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/layout/_grid.scss */
 .grid-12 .col-9 {
   width: 726px;
   display: inline;
@@ -747,7 +746,7 @@ li {
   position: relative;
   margin-right: 30px;
 }
-/* line 54, ../sass/lib/layout/_grid.scss */
+/* line 54, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/layout/_grid.scss */
 .grid-12 .col-10 {
   width: 810px;
   display: inline;
@@ -755,7 +754,7 @@ li {
   position: relative;
   margin-right: 30px;
 }
-/* line 54, ../sass/lib/layout/_grid.scss */
+/* line 54, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/layout/_grid.scss */
 .grid-12 .col-11 {
   width: 894px;
   display: inline;
@@ -763,7 +762,7 @@ li {
   position: relative;
   margin-right: 30px;
 }
-/* line 54, ../sass/lib/layout/_grid.scss */
+/* line 54, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/layout/_grid.scss */
 .grid-12 .col-12 {
   width: 978px;
   display: inline;
@@ -772,7 +771,7 @@ li {
   margin-right: 30px;
 }
 
-/* line 60, ../sass/lib/layout/_grid.scss */
+/* line 60, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/layout/_grid.scss */
 .grid-12 .box.col-1 {
   width: 52px;
   display: inline;
@@ -780,7 +779,7 @@ li {
   position: relative;
   margin-right: 30px;
 }
-/* line 60, ../sass/lib/layout/_grid.scss */
+/* line 60, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/layout/_grid.scss */
 .grid-12 .box.col-2 {
   width: 136px;
   display: inline;
@@ -788,7 +787,7 @@ li {
   position: relative;
   margin-right: 30px;
 }
-/* line 60, ../sass/lib/layout/_grid.scss */
+/* line 60, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/layout/_grid.scss */
 .grid-12 .box.col-3 {
   width: 220px;
   display: inline;
@@ -796,7 +795,7 @@ li {
   position: relative;
   margin-right: 30px;
 }
-/* line 60, ../sass/lib/layout/_grid.scss */
+/* line 60, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/layout/_grid.scss */
 .grid-12 .box.col-4 {
   width: 304px;
   display: inline;
@@ -804,7 +803,7 @@ li {
   position: relative;
   margin-right: 30px;
 }
-/* line 60, ../sass/lib/layout/_grid.scss */
+/* line 60, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/layout/_grid.scss */
 .grid-12 .box.col-5 {
   width: 388px;
   display: inline;
@@ -812,7 +811,7 @@ li {
   position: relative;
   margin-right: 30px;
 }
-/* line 60, ../sass/lib/layout/_grid.scss */
+/* line 60, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/layout/_grid.scss */
 .grid-12 .box.col-6 {
   width: 472px;
   display: inline;
@@ -820,7 +819,7 @@ li {
   position: relative;
   margin-right: 30px;
 }
-/* line 60, ../sass/lib/layout/_grid.scss */
+/* line 60, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/layout/_grid.scss */
 .grid-12 .box.col-7 {
   width: 556px;
   display: inline;
@@ -828,7 +827,7 @@ li {
   position: relative;
   margin-right: 30px;
 }
-/* line 60, ../sass/lib/layout/_grid.scss */
+/* line 60, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/layout/_grid.scss */
 .grid-12 .box.col-8 {
   width: 640px;
   display: inline;
@@ -836,7 +835,7 @@ li {
   position: relative;
   margin-right: 30px;
 }
-/* line 60, ../sass/lib/layout/_grid.scss */
+/* line 60, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/layout/_grid.scss */
 .grid-12 .box.col-9 {
   width: 724px;
   display: inline;
@@ -844,7 +843,7 @@ li {
   position: relative;
   margin-right: 30px;
 }
-/* line 60, ../sass/lib/layout/_grid.scss */
+/* line 60, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/layout/_grid.scss */
 .grid-12 .box.col-10 {
   width: 808px;
   display: inline;
@@ -852,7 +851,7 @@ li {
   position: relative;
   margin-right: 30px;
 }
-/* line 60, ../sass/lib/layout/_grid.scss */
+/* line 60, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/layout/_grid.scss */
 .grid-12 .box.col-11 {
   width: 892px;
   display: inline;
@@ -860,7 +859,7 @@ li {
   position: relative;
   margin-right: 30px;
 }
-/* line 60, ../sass/lib/layout/_grid.scss */
+/* line 60, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/layout/_grid.scss */
 .grid-12 .box.col-12 {
   width: 976px;
   display: inline;
@@ -869,7 +868,7 @@ li {
   margin-right: 30px;
 }
 
-/* line 67, ../sass/lib/layout/_grid.scss */
+/* line 67, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/layout/_grid.scss */
 .grid-10 .col-1 {
   width: 78px;
   display: inline;
@@ -877,7 +876,7 @@ li {
   position: relative;
   margin-right: 22px;
 }
-/* line 67, ../sass/lib/layout/_grid.scss */
+/* line 67, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/layout/_grid.scss */
 .grid-10 .col-2 {
   width: 178px;
   display: inline;
@@ -885,7 +884,7 @@ li {
   position: relative;
   margin-right: 22px;
 }
-/* line 67, ../sass/lib/layout/_grid.scss */
+/* line 67, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/layout/_grid.scss */
 .grid-10 .col-3 {
   width: 278px;
   display: inline;
@@ -893,7 +892,7 @@ li {
   position: relative;
   margin-right: 22px;
 }
-/* line 67, ../sass/lib/layout/_grid.scss */
+/* line 67, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/layout/_grid.scss */
 .grid-10 .col-4 {
   width: 378px;
   display: inline;
@@ -901,7 +900,7 @@ li {
   position: relative;
   margin-right: 22px;
 }
-/* line 67, ../sass/lib/layout/_grid.scss */
+/* line 67, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/layout/_grid.scss */
 .grid-10 .col-5 {
   width: 478px;
   display: inline;
@@ -909,7 +908,7 @@ li {
   position: relative;
   margin-right: 22px;
 }
-/* line 67, ../sass/lib/layout/_grid.scss */
+/* line 67, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/layout/_grid.scss */
 .grid-10 .col-6 {
   width: 578px;
   display: inline;
@@ -917,7 +916,7 @@ li {
   position: relative;
   margin-right: 22px;
 }
-/* line 67, ../sass/lib/layout/_grid.scss */
+/* line 67, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/layout/_grid.scss */
 .grid-10 .col-7 {
   width: 678px;
   display: inline;
@@ -925,7 +924,7 @@ li {
   position: relative;
   margin-right: 22px;
 }
-/* line 67, ../sass/lib/layout/_grid.scss */
+/* line 67, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/layout/_grid.scss */
 .grid-10 .col-8 {
   width: 778px;
   display: inline;
@@ -933,7 +932,7 @@ li {
   position: relative;
   margin-right: 22px;
 }
-/* line 67, ../sass/lib/layout/_grid.scss */
+/* line 67, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/layout/_grid.scss */
 .grid-10 .col-9 {
   width: 878px;
   display: inline;
@@ -941,7 +940,7 @@ li {
   position: relative;
   margin-right: 22px;
 }
-/* line 67, ../sass/lib/layout/_grid.scss */
+/* line 67, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/layout/_grid.scss */
 .grid-10 .col-10 {
   width: 978px;
   display: inline;
@@ -950,50 +949,50 @@ li {
   margin-right: 22px;
 }
 
-/* line 33, ../sass/lib/layout/_layout.scss */
+/* line 33, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/layout/_layout.scss */
 .row {
   *zoom: 1;
 }
-/* line 38, ../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 38, /Users/benoitdeziel/.rvm/gems/ruby-1.9.3-p125/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* line 37, ../sass/lib/layout/_layout.scss */
+/* line 37, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/layout/_layout.scss */
 .row-separator {
   border-top: #dddddd;
 }
 
-/* line 43, ../sass/lib/layout/_layout.scss */
+/* line 43, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/layout/_layout.scss */
 .box {
   border: solid #dddddd;
   border-width: 1px;
 }
-/* line 46, ../sass/lib/layout/_layout.scss */
+/* line 46, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/layout/_layout.scss */
 .box .box-header {
   padding: 10px;
   border-bottom: 1px solid #dddddd;
 }
-/* line 50, ../sass/lib/layout/_layout.scss */
+/* line 50, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/layout/_layout.scss */
 .box .box-container {
   padding: 10px;
 }
-/* line 52, ../sass/lib/layout/_layout.scss */
+/* line 52, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/layout/_layout.scss */
 .box .box-container ul {
   padding: 0;
 }
-/* line 56, ../sass/lib/layout/_layout.scss */
+/* line 56, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/layout/_layout.scss */
 .box .actions-container {
   padding: 0 10px 10px 10px;
 }
-/* line 59, ../sass/lib/layout/_layout.scss */
+/* line 59, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/layout/_layout.scss */
 .box .box-highlight {
   background-color: #dddddd;
 }
 
-/* line 1, ../sass/lib/helpers/_alerts.scss */
+/* line 1, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/helpers/_alerts.scss */
 .message {
   padding: 8px 35px 8px 14px;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
@@ -1007,7 +1006,7 @@ li {
   color: #333;
 }
 
-/* line 1, ../sass/lib/helpers/_buttons.scss */
+/* line 1, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/helpers/_buttons.scss */
 .btn, input[type=submit], button {
   padding: 5px 10px;
   display: inline-block;
@@ -1016,50 +1015,50 @@ li {
   color: #333;
   text-decoration: none;
 }
-/* line 8, ../sass/lib/helpers/_buttons.scss */
+/* line 8, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/helpers/_buttons.scss */
 .btn:hover, input[type=submit]:hover, button:hover {
   background-color: #999;
   border-color: #333;
   color: #333;
 }
-/* line 13, ../sass/lib/helpers/_buttons.scss */
+/* line 13, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/helpers/_buttons.scss */
 .btn.btn-primary, input[type=submit], button {
   background-color: blue;
   border-color: darkblue;
   color: #FFF;
 }
-/* line 17, ../sass/lib/helpers/_buttons.scss */
+/* line 17, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/helpers/_buttons.scss */
 .btn.btn-primary:hover, input[type=submit]:hover, button:hover {
   background-color: royalblue;
   border-color: darkblue;
 }
 
-/* line 5, ../sass/lib/helpers/_forms.scss */
+/* line 5, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/helpers/_forms.scss */
 legend {
   margin-bottom: 10px;
 }
 
-/* line 9, ../sass/lib/helpers/_forms.scss */
+/* line 9, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/helpers/_forms.scss */
 label {
   font-weight: 600;
 }
 
-/* line 13, ../sass/lib/helpers/_forms.scss */
+/* line 13, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/helpers/_forms.scss */
 input {
   padding: 5px;
   border: #999 1px solid;
 }
-/* line 16, ../sass/lib/helpers/_forms.scss */
+/* line 16, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/helpers/_forms.scss */
 input:focus {
   border-color: darkblue;
 }
 
-/* line 21, ../sass/lib/helpers/_forms.scss */
+/* line 21, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/helpers/_forms.scss */
 input[type=submit], button {
   margin: 0;
 }
 
-/* line 27, ../sass/lib/helpers/_forms.scss */
+/* line 27, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/helpers/_forms.scss */
 input[type=text], input[type=email], input[type=password], .content input[type=search], textarea, select {
   color: #333333;
   font-size: 14px;
@@ -1076,7 +1075,7 @@ input[type=text], input[type=email], input[type=password], .content input[type=s
   margin-bottom: 10px;
 }
 
-/* line 37, ../sass/lib/helpers/_forms.scss */
+/* line 37, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/helpers/_forms.scss */
 input[type=text]:focus, input[type=email]:focus, input[type=password]:focus, .content input[type=search]:focus, textarea:focus, select:focus {
   border: 1px solid #0099ff;
   -webkit-box-shadow: 0 0 4px #1737e0;
@@ -1085,101 +1084,101 @@ input[type=text]:focus, input[type=email]:focus, input[type=password]:focus, .co
   outline: none;
 }
 
-/* line 23, ../sass/lib/helpers/_tables.scss */
+/* line 23, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/helpers/_tables.scss */
 table.table-striped tbody tr:nth-child(odd) td,
 table.table-striped tbody tr:nth-child(odd) th {
   background-color: #CCC;
 }
 
-/* line 3, ../sass/lib/helpers/_misc.scss */
+/* line 3, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/helpers/_misc.scss */
 hr {
   margin: 0;
   border: 0;
 }
 
-/* line 8, ../sass/lib/helpers/_misc.scss */
+/* line 8, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/helpers/_misc.scss */
 #googlemap img, object, embed {
   max-width: none;
 }
 
-/* line 10, ../sass/lib/helpers/_misc.scss */
+/* line 10, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/helpers/_misc.scss */
 #map_canvas embed {
   max-width: none;
 }
 
-/* line 11, ../sass/lib/helpers/_misc.scss */
+/* line 11, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/helpers/_misc.scss */
 #map_canvas img {
   max-width: none;
 }
 
-/* line 12, ../sass/lib/helpers/_misc.scss */
+/* line 12, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/helpers/_misc.scss */
 #map_canvas object {
   max-width: none;
 }
 
-/* line 1, ../sass/lib/navigation/_nav-bar.scss */
+/* line 1, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/navigation/_nav-bar.scss */
 .navbar {
   *position: relative;
   *z-index: 2;
   overflow: visible;
 }
 
-/* line 1, ../sass/lib/navigation/_main-nav.scss */
+/* line 1, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/navigation/_main-nav.scss */
 nav .primary-nav {
   padding: 0;
   margin: 0;
 }
-/* line 4, ../sass/lib/navigation/_main-nav.scss */
+/* line 4, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/navigation/_main-nav.scss */
 nav .primary-nav.nav-horizontal li {
   float: left;
   padding: 0;
   margin: 0;
 }
-/* line 9, ../sass/lib/navigation/_main-nav.scss */
+/* line 9, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/navigation/_main-nav.scss */
 nav .primary-nav a {
   padding: 5px 10px;
 }
 
-/* line 1, ../sass/lib/navigation/_breadcrumbs.scss */
+/* line 1, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/navigation/_breadcrumbs.scss */
 .breadcrumbs {
   padding: 0;
   margin: 0;
 }
-/* line 4, ../sass/lib/navigation/_breadcrumbs.scss */
+/* line 4, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/navigation/_breadcrumbs.scss */
 .breadcrumbs li {
   float: left;
   padding: 0;
   margin: 0;
 }
-/* line 9, ../sass/lib/navigation/_breadcrumbs.scss */
+/* line 9, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/navigation/_breadcrumbs.scss */
 .breadcrumbs a {
   display: inline-block;
 }
-/* line 12, ../sass/lib/navigation/_breadcrumbs.scss */
+/* line 12, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/navigation/_breadcrumbs.scss */
 .breadcrumbs .divider {
   padding: 0 5px;
   color: #999;
 }
 
-/* line 2, ../sass/lib/navigation/_pagination.scss */
+/* line 2, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/navigation/_pagination.scss */
 .pagination ul {
   list-style: none;
 }
-/* line 5, ../sass/lib/navigation/_pagination.scss */
+/* line 5, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/navigation/_pagination.scss */
 .pagination li {
   display: inline;
 }
-/* line 8, ../sass/lib/navigation/_pagination.scss */
+/* line 8, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/navigation/_pagination.scss */
 .pagination a {
   padding: 0 10px;
 }
 
-/* line 1, ../sass/lib/cms/_drupal.scss */
+/* line 1, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/cms/_drupal.scss */
 body.logged-in {
   margin-bottom: 35px;
 }
 
-/* line 7, ../sass/lib/cms/_drupal.scss */
+/* line 7, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/cms/_drupal.scss */
 .admin-tabs .tabs-container {
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #e8e9f4), color-stop(100%, #c2cdd1));
   background-image: -webkit-linear-gradient(#e8e9f4, #c2cdd1);
@@ -1196,7 +1195,7 @@ body.logged-in {
   z-index: 100;
   padding: 5px 0;
 }
-/* line 19, ../sass/lib/cms/_drupal.scss */
+/* line 19, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/cms/_drupal.scss */
 .admin-tabs .tabs-container ul.tabs {
   margin: 0;
   padding: 0;
@@ -1205,14 +1204,14 @@ body.logged-in {
   background: none;
   border: none;
 }
-/* line 28, ../sass/lib/cms/_drupal.scss */
+/* line 28, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/cms/_drupal.scss */
 .admin-tabs .tabs-container .tabs li {
   float: left;
   padding: 0 10px;
   line-height: 25px;
   background: none;
 }
-/* line 35, ../sass/lib/cms/_drupal.scss */
+/* line 35, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/cms/_drupal.scss */
 .admin-tabs .tabs-container .tabs li.active {
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #c2cdd1), color-stop(100%, #e8e9f4));
   background-image: -webkit-linear-gradient(#c2cdd1, #e8e9f4);
@@ -1227,23 +1226,23 @@ body.logged-in {
   border-radius: 20px;
   border: 1px solid #BBB;
 }
-/* line 41, ../sass/lib/cms/_drupal.scss */
+/* line 41, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/cms/_drupal.scss */
 .admin-tabs .tabs-container .tabs li a {
   color: #333;
   line-height: 25px;
   text-decoration: none;
 }
-/* line 47, ../sass/lib/cms/_drupal.scss */
+/* line 47, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/cms/_drupal.scss */
 .admin-tabs .tabs-container ul.primary li.active a {
   font-weight: 600;
 }
 
-/* line 2, ../sass/lib/helpers/_dev.scss */
+/* line 2, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/helpers/_dev.scss */
 .wireframe .box {
   outline: 1px solid red;
 }
 
-/* line 8, ../sass/lib/helpers/_dev.scss */
+/* line 8, /Users/benoitdeziel/UX/Bedrock/assets/sass/lib/helpers/_dev.scss */
 .show-elements * {
   outline: red solid 1px;
 }
