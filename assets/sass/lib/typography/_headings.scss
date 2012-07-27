@@ -2,51 +2,29 @@
 
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
+  line-height: 1.5;
   small {
     font-weight: normal;
     color: #999;
-    font-size: 0.8em;
+    font-size: 0.5em;
   }
 }
 
 h1 {
-	font-size: 3.6em;
-	line-height: 52px;
+	font-size: 3.25em;
+	+ h2 {
+		margin-bottom: 10px;
+	}
 }
 
 h2 {
-	font-size: 3em;
-	line-height: 52px;
+	font-size: 2.5em;
 }
 
 h3 {
-	font-size: 2.4em;
-	line-height: 26px;
+	font-size: 2.125em;
 }
 
 h4 {
-	font-size: 2em;
-	line-height: 26px;
+	font-size: 1.875em;
 }
-
-h5 {
-	font-size: 1.8em;
-	line-height: 26px;
-}
-
-h6 {
-	font-size: 1.6em;
-	line-height: 26px;
-}
-
-// Headings combinations
-
-h1 + h2 {}
-
-h1 + h3 {}
-
-h1 + p {}
-
-h2 + h3 {}
-
-h2 + p {}

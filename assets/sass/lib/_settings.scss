@@ -4,7 +4,7 @@
 $body-color: #FFF;
 
 // Font settings
-$base-font: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $alt-font: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
 $accent-font: Georgia, Times, "Times New Roman", serif;
 
@@ -27,10 +27,13 @@ $columns: 12 !default;
 $column-width: 54px !default;
 $gutter-width: 30px;
 
-$layout-width: $columns * ($column-width + $gutter-width) - $gutter-width;
+// $layout-width: $columns * ($column-width + $gutter-width) - $gutter-width;
 
 // Layout Elements Settings
 $box-border-width: 1px;
+
+// Forms
+$field-padding: 8px 14px;
 
 // Button Settings
 $btn-radius: 5px;
