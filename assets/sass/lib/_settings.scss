@@ -1,6 +1,8 @@
 // TODO: Maybe separate Variables and Mixins;
 // Grid System inspired by Blankwork (http://www.blankwork.net/)
 
+@include establish-baseline;
+
 $body-color: #FFF;
 
 // Font settings
@@ -8,8 +10,8 @@ $base-font: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $alt-font: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
 $accent-font: Georgia, Times, "Times New Roman", serif;
 
-$base-font-size: 1em;
-$base-line-height: 1.5;
+$base-font-size: 16px;
+$base-line-height: 24px;
 
 $text-color-primary: #333;
 $text-color-secondary: #999;
@@ -23,11 +25,23 @@ $border-color: #333;
 $border-color-reverse: #F0F0F0;
 
 // Grid & Layout Settings
-$columns: 12 !default;
-$column-width: 54px !default;
+$total-columns: 12;
+$column-width: 54px;
 $gutter-width: 30px;
 
-// $layout-width: $columns * ($column-width + $gutter-width) - $gutter-width;
+$mobile-total-columns: 8;
+$mobile-column-width: 27px;
+$mobile-gutter-width: 12px;
+
+$layout-width: $total-columns * ($column-width + $gutter-width) - $gutter-width;
+$mobile-layout-width: $mobile-total-columns * ($mobile-column-width + $mobile-gutter-width) - $gutter-width;
+
+// Media Queries
+$screen-xsmall: 320px !default;
+$screen-small: 768px !default;
+$screen-medium: 1024px !default;
+$screen-large: 1280px !default;
+$screen-xlarge: 1440px !default;
 
 // Layout Elements Settings
 $box-border-width: 1px;
@@ -37,6 +51,12 @@ $field-padding: 8px 14px;
 
 // Button Settings
 $btn-radius: 5px;
+
+$btn-color: #dfe0e5;
+$btn-color-primary: #3382dc;
+$btn-color-secondary: #90cb4f;
+$btn-color-alt: #b5001b;
+$btn-color-highlight: #ebb32c;
 
 // Colors
 $light-gray: #DDD;

@@ -1,6 +1,8 @@
 figure {}
 
-figcaption {}
+figcaption {
+	@include adjust-font-size-to(12px);
+}
 
 img {}
 

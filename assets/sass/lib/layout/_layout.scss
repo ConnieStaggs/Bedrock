@@ -24,11 +24,14 @@ aside {}
 
 .section {
     clear: both;
+    padding: 1em 0;
 }
 
 .section-default {}
 
-.section-highlight {}
+.section-highlight {
+    background: #DDD;
+}
 
 .section-header {}
 
@@ -36,8 +39,16 @@ aside {}
     @include pie-clearfix;
 }
 
-.row-separator {
-    border-top: $light-gray;
+.row-divider-top {
+    border-top: 1px solid $light-gray;
+}
+
+.row-divider-bottom {
+    border-bottom: 1px solid $light-gray;
+}
+
+.row-highlight {
+    background: #DDD;
 }
 
 // Boxes

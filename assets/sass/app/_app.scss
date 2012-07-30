@@ -1,5 +1,11 @@
 // Your custom code here
 
+@import "settings";
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
 // Headings
 
 h1 {
@@ -8,4 +14,10 @@ h1 {
 
 h2 {
     @extend .text-center;
+}
+
+.btn {
+    font-weight: bold;
+    @include border-radius($btn-radius);
+    @include text-shadow(0 1px 0 rgba(0, 0, 0, 0.5));
 }

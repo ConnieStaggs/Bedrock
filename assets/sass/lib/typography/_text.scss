@@ -1,6 +1,5 @@
 p {
-	font-size: $base-font-size;
-	line-height: $base-line-height;
+	@include adjust-font-size-to(16px);
 }
 
 p.notes {}
@@ -33,6 +32,13 @@ abbr[title] {
 
 blockquote {
 	p {}
+	cite {
+        font-style: italic;
+        display: block;
+        &:before {
+            content: "— 014 \0020";
+        }
+    }
 }
 
 blockquote:before,

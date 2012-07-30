@@ -5,6 +5,16 @@ hr {
   border: 0;
 }
 
+.keystroke, kbd {
+    font-family: "Consolas", "Menlo", "Courier", monospace;
+    @include adjust-font-size-to(14px);
+    padding: 2px 4px 0px;
+    margin: 0;
+    background: #DDD;
+    border: solid 1px #333;
+    @include border-radius($btn-radius);
+}
+
 #googlemap img, object, embed { max-width: none; }
 
 #map_canvas embed { max-width: none; }

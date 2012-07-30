@@ -1,25 +1,87 @@
 .btn {
-	padding: 5px 10px;
-	display: inline-block;
-	background-color: #CCC;
-	border: #999 solid 1px;
-	color: #333;
-	text-decoration: none;
-	&:hover{
-		background-color: #999;
-		border-color: #333;
-		color: #333;
-	}
-	&.btn-primary {
-		background-color: blue;
-		border-color: darkblue;
-		color: #FFF;
-		&:hover{
-			background-color: royalblue;
-			border-color: darkblue;
-		}
-	}
-	&.btn-secondary {}
-	&.btn-alt {}
-	&.btn-highlight {}
+    padding: 5px 10px;
+    margin-right: 0;
+    display: inline-block;
+    position: relative;
+    background-color: $btn-color;
+    border: 1px solid darken($btn-color, 15%);
+    color: #333;
+    text-decoration: none;
+    // States
+    &:hover {
+        background-color: darken($btn-color, 5%);
+        color: #333;
+    }
+    // Colors
+    &.btn-primary {
+        background-color: $btn-color-primary;
+        border-color: darken($btn-color-primary, 15%);
+        color: #FFF;
+        &:hover {
+            background-color: darken($btn-color-primary, 10%);
+        }
+    }
+    &.btn-secondary {
+        color: #FFF;
+        background-color: $btn-color-secondary;
+        border-color: $btn-color-secondary;
+    }
+    &.btn-alt {
+        color: #FFF;
+        background-color: $btn-color-alt;
+        border-color: $btn-color-alt;
+    }
+    &.btn-highlight {
+        color: #FFF;
+        background-color: $btn-color-highlight;
+        border-color: $btn-color-highlight;
+    }
+    &.btn-disabled {
+        background-color: $btn-color;
+        border-color: darken($btn-color, 15%);
+        cursor: default;
+        opacity: 0.5;
+        &:hover {
+            background-color: $btn-color;
+            border-color: darken($btn-color, 15%);
+        }
+    }
+    // Sizes
+    &.btn-xsmall {}
+    &.btn-small {}
+    &.btn-medium {}
+    &.btn-large {}
+    &.btn-xlarge {}
+    &.btn-full {
+        float: left;
+        width: 100%;
+        clear: both;
+        text-align: center;
+    }
+}
+
+.btn-group {
+    list-style: none;
+    padding: 0;
+    @include pie-clearfix;
+    li {
+        float: left;
+        padding: 0;
+        margin: 0 0 0 -1px;
+        &:first-child {
+            margin-left: 0;
+        }
+        // This prevent from rounding the middle buttons
+        &:not(:first-child) .btn {
+            @include border-top-left-radius(0);
+            @include border-bottom-left-radius(0);
+        }
+        &:not(:last-child) .btn {
+            @include border-top-right-radius(0);
+            @include border-bottom-right-radius(0);
+        }
+    }
+    .btn {
+        margin-right: 0;
+    }
 }

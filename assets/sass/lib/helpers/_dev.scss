@@ -1,11 +1,17 @@
-.wireframe {
-	.box {
-		outline: 1px solid red;
-	}
-}
+.dev {
+    &.grid .wrapper {
+        @include susy-grid-background;
+    }
 
-.show-elements {
-	* {
-		outline: red solid 1px;
-	}
+    &.wireframe {
+        .box {
+            outline: 1px solid red;
+        }
+    }
+
+    &.show-elements {
+        * {
+            outline: red solid 1px;
+        }
+    }
 }

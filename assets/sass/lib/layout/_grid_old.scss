@@ -1,0 +1,69 @@
+@mixin wrapper($center: true) {
+
+	width: $layout-width;
+
+	@if $center == true
+  {
+    margin-left:auto;
+    margin-right:auto;
+  }
+
+	@include pie-clearfix;
+}
+
+@mixin column($_col, $_first: false, $_border-size: 0, $_column-width: $column-width, $_gutter-width: $gutter-width) {
+	width: ( $_col * $_column-width ) + ( ($_col - 1) * $_gutter-width ) - ($_border-size * 2);
+	display: inline;
+	float: left;
+	position: relative;
+	@if $_first == true {
+	margin-right: 0 ;
+	} @else {
+	margin-right: $_gutter-width;
+	}
+}
+
+@mixin first {
+  margin-left: 0 !important;
+}
+
+@mixin last {
+  margin-right: 0 !important;
+}
+
+// Getting the data into classes
+
+.wrapper {
+	@include wrapper;
+}
+
+.first, .alpha {
+	@include first;
+}
+
+.last, .omega {
+	@include last;
+}
+
+// The next section will create classes depending on how many columns you need
+
+// 12 Cols Layout
+
+.grid-12 {
+	@for $i from 1 through 12 {
+	.col-#{$i} { @include column($i); }
+	}
+}
+
+.grid-12 {
+	@for $i from 1 through 12 {
+	.box.col-#{$i} { @include column($i, false, $box-border-width); }
+	}
+}
+
+// 10 Cols Layout
+.grid-10 {
+	@for $i from 1 through 10 {
+	.col-#{$i} { @include column($i, false, 0, 78px, 22px);}
+	}
+}
