@@ -100,6 +100,52 @@
               <p>This column is 4 col wide</p>
             </div>
           </div>
+          <h2>Nested columns</h2>
+          <div class='row grid-12'>
+            <div class='col-8'>
+              <div class='row'>
+                <div class='col-4'>
+                  <p>Works not, screamin', pop-top humongous takes have stimulates incredible affordable. High keeps extra want gigantic, reduced, bold amazing hit triple. Outstanding mothers our ultimate as can picky wealth.</p>
+                </div>
+                <div class='col-4'>
+                  <p>To too made pleasure don't satisfied, superior class a generous warranty traditional, many vast.</p>
+                </div>
+              </div>
+            </div>
+            <div class='col-4'>
+              <div class='col-2'>
+                <p>Tasty energy commercial dry hurry absorbent want luxury. Real you invigorate full-bodied whopping, kids thank-you incredible luxury duty original. Exclusive smile and tropical, plus spring magically market satisfied distinct.</p>
+              </div>
+              <div class='col-2'>
+                <p>Prevents, mouthwatering listen mild dazzling burst grown vinyl. Dazzling less invigorate absolutely credit-card elegent luxury sporty by anything we compare.</p>
+              </div>
+            </div>
+          </div>
+          <h2>Fractionnal Columns</h2>
+          <div class='row'>
+            <div class='col-1of2'>
+              One Half
+            </div>
+            <div class='col-1of2'>
+              One Half
+            </div>
+          </div>
+          <div class='row'>
+            <div class='col-1of3'>
+              One Third
+            </div>
+            <div class='col-2of3'>
+              Two Third
+            </div>
+          </div>
+          <div class='row'>
+            <div class='col-1of4'>
+              One Fourth
+            </div>
+            <div class='col-3of4'>
+              Three Fourth
+            </div>
+          </div>
           <h2>Boxes</h2>
           <div class='row grid-12'>
             <div class='col-3 first box'>
@@ -221,8 +267,27 @@
       </div>
       <div class='section'>
         <article class='wrapper'>
-          <h1>Quotes</h1>
-          <h2>People say things!</h2>
+          <h1>Typographic elements</h1>
+          <h2>Lists</h2>
+          <h3>Vertical List</h3>
+          <ul>
+            <li>Hello</li>
+            <li>I'm list</li>
+            <li>
+              you can go
+              <a href='#'>here</a>
+            </li>
+          </ul>
+          <h3>Horizontal List</h3>
+          <ul class='list-horizontal'>
+            <li>Hello</li>
+            <li>I'm <strong>horizontal</strong> list</li>
+            <li>
+              you can go
+              <a href='#'>here</a>
+            </li>
+          </ul>
+          <h2>Quotes</h2>
           <blockquote>
             There is a fine line between smooth driving & reckless driving.
             <cite>The Dez</cite>
@@ -285,7 +350,6 @@
           </table>
         </article>
       </div>
-      <!-- ./section -->
       <div class='section'>
         <article class='wrapper'>
           <h1>Forms</h1>
@@ -345,21 +409,58 @@
       <div class='section'>
         <article class='wrapper'>
           <h1>Alerts</h1>
+          <!-- Alert -->
+          <div class='alert'>
+            <div class='alert-title'>
+              Attention
+            </div>
+            <p>This is an important message</p>
+          </div>
+          <!-- Alert Error -->
+          <div class='alert alert-error'>
+            <div class='alert-title'>
+              Attention
+            </div>
+            <p>This is an important message</p>
+            <a class='close' href=''>&times;</a>
+          </div>
+          <!-- Alert Info -->
+          <div class='alert alert-info'>
+            <div class='alert-title'>
+              Attention
+            </div>
+            <p>This is an important message</p>
+            <a class='close' href=''>&times;</a>
+          </div>
         </article>
       </div>
       <div class='section'>
         <article class='wrapper'>
           <h1>Buttons</h1>
           <div class='row'>
-            <h2>Normal Buttons</h2>
+            <h2>Buttons style</h2>
             <a class='btn' href='#'>Standard Button</a>
             <a class='btn btn-primary' href='#'>Primary Button</a>
             <a class='btn btn-secondary' href='#'>Secondary Button</a>
             <a class='btn btn-alt' href='#'>Alternative Button</a>
             <a class='btn btn-highlight' href='#'>Highlighted Button</a>
             <a class='btn btn-disabled'>Disabled Button</a>
+            <h2>Buttons size</h2>
+            <a class='btn btn-xsmall' href='#'>XSmall Button</a>
+            <a class='btn btn-primary btn-small' href='#'>Small Button</a>
+            <a class='btn btn-secondary btn-medium' href='#'>Medium Button</a>
+            <a class='btn btn-alt btn-large' href='#'>Large Button</a>
+            <a class='btn btn-highlight btn-xlarge' href='#'>Xlarge Button</a>
+            <h2>Button Arrow</h2>
+            <a class='btn btn-up' href='#'>Button up</a>
+            <a class='btn btn-primary btn-down' href='#'>Button Down</a>
+            <a class='btn btn-secondary btn-right' href='#'>Button Right</a>
             <br>
-            <br>
+            <a class='btn btn-alt btn-xsmall btn-right' href='#'>X-Small Button Right</a>
+            <a class='btn btn-highlight btn-small btn-right' href='#'>Small Button Right</a>
+            <a class='btn btn-alt btn-large btn-right' href='#'>Large Button Right</a>
+            <a class='btn btn-highlight btn-xlarge btn-right' href='#'>Xlarge Button Right</a>
+            <h2>Special Buttons</h2>
             <a class='btn btn-primary btn-full' href='#'>A Full Width Button</a>
             <h2>Buttons Group</h2>
             <ul class='btn-group'>
@@ -379,6 +480,20 @@
       <div class='section'>
         <article class='wrapper'>
           <h1>Tabs</h1>
+        </article>
+      </div>
+      <div class='section'>
+        <article class='wrapper'>
+          <h1>Accordion</h1>
+        </article>
+      </div>
+      <div class='section'>
+        <article class='wrapper'>
+          <h1>Tooltips</h1>
+          <span class='has-tip' data-width='210' title="I'm on bottom and the default position.">"tip-bottom"</span>
+          <span class='has-tip tip-top noradius' data-width='210' title="I'm on the top and I'm not rounded!">"tip-top"</span>
+          <span class='has-tip tip-left' data-width='90' title="I'm on the left!">"tip-left"</span>
+          <span class='has-tip tip-right' data-width='90' title="I'm on the right!">"tip-right"</span>
         </article>
       </div>
     </section>

@@ -508,7 +508,7 @@ table {
   border-spacing: 0;
 }
 
-/* line 66, ../../../../../../Users/benoitdeziel/.rvm/gems/ruby-1.9.3-p194@global/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+/* line 66, ../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
 html {
   font-size: 100%;
   line-height: 1.5em;
@@ -658,9 +658,23 @@ cite {
   font-style: normal;
 }
 
-/* line 3, ../sass/lib/typography/_lists.scss */
+/* line 1, ../sass/lib/typography/_lists.scss */
+ul {
+  display: inline-block;
+}
+
+/* line 5, ../sass/lib/typography/_lists.scss */
 li {
   list-style-position: inside;
+}
+/* line 7, ../sass/lib/typography/_lists.scss */
+.list-horizontal li {
+  float: left;
+  margin-right: 20px;
+}
+/* line 10, ../sass/lib/typography/_lists.scss */
+.list-horizontal li:last-child {
+  margin-right: 0;
 }
 
 /* line 19, ../sass/print.scss */

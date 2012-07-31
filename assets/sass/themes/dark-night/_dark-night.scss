@@ -47,3 +47,44 @@ body {
         border-top: 1px solid rgba(255, 255, 255, 0.08);
     }
 }
+
+.btn {
+    font-weight: bold;
+    background-color: #f3f3f3;
+    @include background-image(linear-gradient(top, rgb(243, 243, 243), rgb(223, 223, 223)));
+    @include filter-gradient(rgb(243, 243, 243), rgb(223, 223, 223), vertical);
+
+    border-color: #333;
+
+    @include border-radius(4px);
+    &.btn-primary {
+        background-color: #8bd2ed;
+        color: darken(#8bd2ed, 50%);
+        @include text-shadow(0 1px 0 rgba(255, 255, 255, 0.2));
+        @include background-image(linear-gradient(top, rgb(139, 210, 237), rgb(60, 155, 203)));
+        @include filter-gradient(rgb(139, 210, 237), rgb(60, 155, 203), vertical);
+
+    }
+    &.btn-secondary {
+        background-color: #bff481;
+        color: darken(#bff481, 50%);
+        @include text-shadow(0 1px 0 rgba(255, 255, 255, 0.2));
+        @include background-image(linear-gradient(top, rgb(191, 244, 129), rgb(133, 210, 0)));
+        @include filter-gradient(rgb(191, 244, 129), rgb(133, 210, 0), vertical);
+    }
+    &.btn-alt {
+        background-color: #e06151;
+        color: darken(#e06151, 50%);
+        @include text-shadow(0 1px 0 rgba(255, 255, 255, 0.2));
+        @include background-image(linear-gradient(top, rgb(224, 97, 81), rgb(184, 27, 15)));
+        @include filter-gradient(rgb(224, 97, 81), rgb(184, 27, 15), vertical);
+    }
+    &.btn-highlight {
+        background-color: #e69e23;
+        color: darken(#e69e23, 50%);
+        @include text-shadow(0 1px 0 rgba(255, 255, 255, 0.2));
+        @include background-image(linear-gradient(top, rgb(230, 158, 35), rgb(225, 82, 24)));
+        @include filter-gradient(rgb(230, 158, 35), rgb(225, 82, 24), vertical);
+        border-color: #7C4100;
+    }
+}

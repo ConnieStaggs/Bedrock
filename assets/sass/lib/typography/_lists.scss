@@ -1,10 +1,19 @@
-ul {}
+ul {
+    display: inline-block;
+}
 
 li {
 	list-style-position: inside;
+    .list-horizontal & {
+        float: left;
+        margin-right: 20px;
+        &:last-child { margin-right: 0; }
+    }
 }
 
-ol {}
+ol {
+    li {}
+}
 
 dl {
 	dt {}

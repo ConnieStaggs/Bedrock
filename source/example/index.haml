@@ -1,272 +1,373 @@
 !!! 5
 %html
-  %head
-    %meta{:content => "width=device-width; initial-scale=1.0", :name => "viewport"}
+    %head
+        %meta{:content => "width=device-width; initial-scale=1.0", :name => "viewport"}
 
-    %link{:href => "http://fonts.googleapis.com/css?family=Open Sans&subset=latin", :rel => "stylesheet", :type => "text/css"}/
-    %link{:href => "../assets/css/screen.css", :media => "screen", :rel => "stylesheet", :type => "text/css"}/
-    %link{:href => "../assets/css/print.css", :media => "print", :rel => "stylesheet", :type => "text/css"}/
-    /[if IE]
-      %link{:href => "../assets/css/ie.css", :media => "screen", :rel => "stylesheet", :type => "text/css"}/
-    %title Bedrock - Example
-  %body
-    %header.grid-12
-      .wrapper
-        %hgroup.col-8.first
-          %h1 Welcome to Bedrock
-          %h2 This is the style example
-        .col-4.last
-          %form.form-search
-            %input.search-query{:placeholder => "Search the site", :type => "text"}
-              %button.btn{:type => "submit"} Search
-    %nav
-      .wrapper
-        %ul.primary-nav.nav-horizontal
-          %li
-            %a{:href => "#"} List Item
-          %li.active
-            %a{:href => "#"} List Item
-          %li
-            %a{:href => "#"} List Item
-    %nav.breadcrumbs
-      .wrapper
-        %ul.breadcrumbs
-          %li
-            %a{:href => "#"} Home
-            %span.divider /
-          %li.active
-            %a{:href => "#"} This page
-    %section.main-content
-      .section
-        %article.wrapper
-          %h1 Layout
-          %h2 Simple Columns
-          %p
-            Energy smells ever compare awesome lather thought chunky fights whenever permanent secret settle. Relaxing formula offer pleasing included golden aroma really to much settle parents. Spacious while can't blast shopping powerful much soothing purchase powerful velvety monster by. More listen, juicy locked-in families brings well crunchy juicy outlasts comes hot, deeply. Accomodations, exclusive, like quite waxy win warm, easily tropical, accomodations keeps youthful. Comfort than whenever, burst takes worthwhile genuine. Quite all proven sweet duty all. Revolutionary delicious settle be most dual outside delivers, advertising much money never double drink.
-          .row.grid-12
-            .col-4.first
-              %h3 Column 1
-              %p
-                Distinct our tough mega tropical smile going full-bodied. Picky bigger inside confident senses unlimited valuable, limited more takes cholesterol. Golden, confident zesty yourself humongous be tasting. Like go locked-in peppy spacious sparkling that pennies golden monster, go brings limited. Great dry included by talking market.
-            .col-4
-              %h3 Column 2
-              %p
-                Announcing touch, thirsty sure aromatic deluxe warranty perfect. Longer tasty will our, peppy, delicious flexible announcing and far classic. Power ocean brings $19.95 secure, brighter removable. Finest just keeps postage smile product newer secret pleasure sweet families.
-            .col-4.last
-              %h3 Column 3
-              %p
-                Luxury super ever, disposable that way sale escape take aroma lost. Free delicious clean fresh far, appreciate. Crunchy, all, senses, only thought reputation leading permanent, polished choosy spring bigger, huggable convenient. Introducing offer, by chance effective money-back polished care settle tempt.
-          .row.row-divider-top.grid-12
-            .col-4.prefix-8
-              %p This column is 4 col wide and push 8 col
-          .row.row-highlight.grid-12
-            .col-4.suffix-8
-              %p This column is 4 col wide and pull 8 col
-          .row.row-divider-bottom.grid-12
-            .col-4.prefix-4
-              %p This column is 4 col wide and push 2 col
-            .col-4
-              %p This column is 4 col wide
-          %h2 Boxes
-          .row.grid-12
-            .col-3.first.box
-              %header.box-header
-                %h3 Single heading
-              .box-container
-                %p
-                  I'm a single div container. Quickly wave, dual brighter wealth yet. Simply, picky boast, save splash ocean trust sensible, aromatic find our will improved valuable chocolatey. Superior bold as guaranteed pure, works improved.
-            .col-3.box
-              %header.box-header
-                %h3 Primary Heading
-                %h4 Subheading
-              .box-container
-                %ul
-                  %li I'm a unordered list
-                  %li acting as the container
-                  %li Pulse generator led backbone element proxy
-                  %li Controller patch processor
-                  %li Floating-point broadband
-            .col-3.box
-              %header.box-header
-                %h3
-                  Single Heading
-                  %small With a small copy
-                %p
-                  With a description, tropical healthy handling appreciate credit-card.
-              .box-container
-                %p
-                  I'm a single div container. Disk internet analog, harmonic boolean anomoly. Silicon normalizing recursive pc dithering patch reflective.
-            .col-3.last.box
-              .box-container
-                %dl
-                  %dt I'm a definition list
-                  %dd acting as the container
-              .box-container
-                %a.btn.btn-primary{:href => "#"} Action
-                %a.btn{:href => "#"} Action
-      .section.section-highlight
-        %article.wrapper
-          %h1 Post & articles
-          .row
-            .col-8.first
-              %article
-                %figure.left
-                  %img{:src => "http://placehold.it/200x200"}
-                    %figcaption
-                      %p Hello caption
-                %p
-                  Power artificial jumbo, drink millions are, sure, disposable challenge. Wave delivers grand know recommended rare awesome ever, care polished newer. Industry smart secure effervescent fat-free settle, lifetime made fat-free, chance, brighter light extra bold. Yourself burst to deeply remarkable kids unlimited jiffy sharpest anything flexible bold.
-                  %p
-                    Monster what easy, classic anti lather. Effective brighter outstanding, excellent fun sold advantage, tired, premium style drink sold a. High-tech talking picky credit-card world's fat-free, smells have lifetime crispy can't.
-              .comments
-                %p Yes
-              .pagination
-                %ul
-                  %li
-                    %a{:href => "#"} &laquo;
-                  %li
-                    %a.active{:href => "#"} 1
-                  %li
-                    %a{:href => "#"} 2
-                  %li
-                    %a{:href => "#"} 3
-                  %li
-                    %a{:href => "#"} 4
-                  %li
-                    %a{:href => "#"} &raquo;
-            %aside.col-4.last
-              %nav
-                %ul.secondary-nav.nav-vertical
-                  %li
-                    %a{:href => "#"} Secondary page
-                  %li
-                    %a{:href => "#"} Secondary page
-      .section
-        %article.wrapper
-          %h1 Quotes
-          %h2 People say things!
-          %blockquote
-            There is a fine line between smooth driving & reckless driving.
-            %cite The Dez
-      .section
-        %article.wrapper
-          %header.section-header
-            %hgroup
-              %h1 Tables!
-              %h2 'Cause we love data right?
-          %h3
-            Standard Table
-            %small We gotta start somewhere...
-          %table.table-data.table-default
-            %thead
-              %tr
-                %th First Col
-                %th Second Col
-                %th Third Col
-            %tbody
-              %tr
-                %td Col content
-                %td Col content
-                %td Col content
-            %tfoot
-              %tr
-                %td.text-center{:colspan => "3"} Col content
-          %h3
-            Standard Table
-            %small with a caption
-          %table.table-data.table-default
-            %caption This is my table
-            %thead
-              %tr
-                %th First Col
-                %th Second Col
-                %th Third Col
-            %tbody
-              %tr
-                %td Col content
-                %td Col content
-                %td Col content
-      / ./section
-      .section
-        %article.wrapper
-          %h1 Forms
-          %form{:action => ""}
-            %fieldset
-              %legend Basic Informations
-              %label Just a normal field
-              %input{:placeholder => "Normal Field", :type => "text"}/
-            %label Username
-            %input{:type => "text"}
-              .row
-                .col-6
-                  %label Password
-                  %input{:type => "password"}/
-                .col-6
-                  %label Password Again
-                  %input{:type => "password"}/
-              .row
-                %label Checkboxes
-                %input{:type => "checkbox", :name => "checkboxes"} Checkbox 1
-                %input{:type => "checkbox", :name => "checkboxes"} Checkbox 2
-                %input{:type => "checkbox", :name => "checkboxes"} Checkbox 3
-              .row
-                %label Radio
-                %input{:type => "radio", :name => "radio"} Radio 1
-                %input{:type => "radio", :name => "radio"} Radio 2
-                %input{:type => "radio", :name => "radio"} Radio 3
-              .row
-                %label Textarea
-                %textarea{:cols => "30", :id => "", :name => "", :rows => "10"}
-              .row
-                %label A marvelous dropdown
-                %select#dropdown
-                  %optgroup{:label => "Group of Options"}
-                    %option Option 1
-                    %option Option 2
-                    %option Option 3
-              .actions-container
-                %input.btn{:type => "submit", :value => "Cancel"}
-                  %button.btn.btn-primary Go
-      .section
-        %article.wrapper
-          %h1 Alerts
-      .section
-        %article.wrapper
-          %h1 Buttons
-          .row
-            %h2 Normal Buttons
-            %a.btn{:href => "#"} Standard Button
-            %a.btn.btn-primary{:href => "#"} Primary Button
-            %a.btn.btn-secondary{:href => "#"} Secondary Button
-            %a.btn.btn-alt{:href => "#"} Alternative Button
-            %a.btn.btn-highlight{:href => "#"} Highlighted Button
-            %a.btn.btn-disabled Disabled Button
-            %br
-            %br
-            %a.btn.btn-primary.btn-full{:href => "#"} A Full Width Button
-            %h2 Buttons Group
-            %ul.btn-group
-              %li
-                %a.btn{:href => "#"} Standard Button
-              %li
-                %a.btn{:href => "#"} Standard Button
-              %li
-                %a.btn{:href => "#"} Standard Button
+        %link{:href => "http://fonts.googleapis.com/css?family=Open Sans&subset=latin", :rel => "stylesheet", :type => "text/css"}/
+        %link{:href => "../assets/css/screen.css", :media => "screen", :rel => "stylesheet", :type => "text/css"}/
+        %link{:href => "../assets/css/print.css", :media => "print", :rel => "stylesheet", :type => "text/css"}/
+        /[if IE]
+            %link{:href => "../assets/css/ie.css", :media => "screen", :rel => "stylesheet", :type => "text/css"}/
+        %title Bedrock - Example
+    %body
+        %header.grid-12
+            .wrapper
+                %hgroup.col-8.first
+                    %h1 Welcome to Bedrock
+                    %h2 This is the style example
+                .col-4.last
+                    %form.form-search
+                        %input.search-query{:placeholder => "Search the site", :type => "text"}
+                            %button.btn{:type => "submit"} Search
+        %nav
+            .wrapper
+                %ul.primary-nav.nav-horizontal
+                    %li
+                        %a{:href => "#"} List Item
+                    %li.active
+                        %a{:href => "#"} List Item
+                    %li
+                        %a{:href => "#"} List Item
+        %nav.breadcrumbs
+            .wrapper
+                %ul.breadcrumbs
+                    %li
+                        %a{:href => "#"} Home
+                        %span.divider /
+                    %li.active
+                        %a{:href => "#"} This page
 
-      .section
-        %article.wrapper
-          %h1 Tabs
-    / /.main-content
-    %footer.grid-12
-      .wrapper
-        .col-4.first
-          %p Hello footer
-        %nav.col-8.last
-          %h3 Footer nav
-          %ul.footer-nav.nav-columns
-            %li
-              %a{:href => "#"} List Item
-            %li.active
-              %a{:href => "#"} List Item
-            %li
-              %a{:href => "#"} List Item
+        %section.main-content
+            .section
+                %article.wrapper
+                    %h1 Layout
+                    %h2 Simple Columns
+                    %p
+                        Energy smells ever compare awesome lather thought chunky fights whenever permanent secret settle. Relaxing formula offer pleasing included golden aroma really to much settle parents. Spacious while can't blast shopping powerful much soothing purchase powerful velvety monster by. More listen, juicy locked-in families brings well crunchy juicy outlasts comes hot, deeply. Accomodations, exclusive, like quite waxy win warm, easily tropical, accomodations keeps youthful. Comfort than whenever, burst takes worthwhile genuine. Quite all proven sweet duty all. Revolutionary delicious settle be most dual outside delivers, advertising much money never double drink.
+                    .row.grid-12
+                        .col-4.first
+                            %h3 Column 1
+                            %p
+                                Distinct our tough mega tropical smile going full-bodied. Picky bigger inside confident senses unlimited valuable, limited more takes cholesterol. Golden, confident zesty yourself humongous be tasting. Like go locked-in peppy spacious sparkling that pennies golden monster, go brings limited. Great dry included by talking market.
+                        .col-4
+                            %h3 Column 2
+                            %p
+                                Announcing touch, thirsty sure aromatic deluxe warranty perfect. Longer tasty will our, peppy, delicious flexible announcing and far classic. Power ocean brings $19.95 secure, brighter removable. Finest just keeps postage smile product newer secret pleasure sweet families.
+                        .col-4.last
+                            %h3 Column 3
+                            %p
+                                Luxury super ever, disposable that way sale escape take aroma lost. Free delicious clean fresh far, appreciate. Crunchy, all, senses, only thought reputation leading permanent, polished choosy spring bigger, huggable convenient. Introducing offer, by chance effective money-back polished care settle tempt.
+                    .row.row-divider-top.grid-12
+                        .col-4.prefix-8
+                            %p This column is 4 col wide and push 8 col
+                    .row.row-highlight.grid-12
+                        .col-4.suffix-8
+                            %p This column is 4 col wide and pull 8 col
+                    .row.row-divider-bottom.grid-12
+                        .col-4.prefix-4
+                            %p This column is 4 col wide and push 2 col
+                        .col-4
+                            %p This column is 4 col wide
+
+                    %h2 Nested columns
+                    .row.grid-12
+                        .col-8
+                            .row
+                                .col-4
+                                    %p Works not, screamin', pop-top humongous takes have stimulates incredible affordable. High keeps extra want gigantic, reduced, bold amazing hit triple. Outstanding mothers our ultimate as can picky wealth.
+                                .col-4
+                                    %p To too made pleasure don't satisfied, superior class a generous warranty traditional, many vast.
+                        .col-4
+                            .col-2
+                                %p Tasty energy commercial dry hurry absorbent want luxury. Real you invigorate full-bodied whopping, kids thank-you incredible luxury duty original. Exclusive smile and tropical, plus spring magically market satisfied distinct.
+                            .col-2
+                                %p Prevents, mouthwatering listen mild dazzling burst grown vinyl. Dazzling less invigorate absolutely credit-card elegent luxury sporty by anything we compare.
+
+                    %h2 Fractionnal Columns
+                    .row
+                        .col-1of2
+                            One Half
+                        .col-1of2
+                            One Half
+                    .row
+                        .col-1of3
+                            One Third
+                        .col-2of3
+                            Two Third
+                    .row
+                        .col-1of4
+                            One Fourth
+                        .col-3of4
+                            Three Fourth
+
+                    %h2 Boxes
+                    .row.grid-12
+                        .col-3.first.box
+                            %header.box-header
+                                %h3 Single heading
+                            .box-container
+                                %p
+                                    I'm a single div container. Quickly wave, dual brighter wealth yet. Simply, picky boast, save splash ocean trust sensible, aromatic find our will improved valuable chocolatey. Superior bold as guaranteed pure, works improved.
+                        .col-3.box
+                            %header.box-header
+                                %h3 Primary Heading
+                                %h4 Subheading
+                            .box-container
+                                %ul
+                                    %li I'm a unordered list
+                                    %li acting as the container
+                                    %li Pulse generator led backbone element proxy
+                                    %li Controller patch processor
+                                    %li Floating-point broadband
+                        .col-3.box
+                            %header.box-header
+                                %h3
+                                    Single Heading
+                                    %small With a small copy
+                                %p
+                                    With a description, tropical healthy handling appreciate credit-card.
+                            .box-container
+                                %p
+                                    I'm a single div container. Disk internet analog, harmonic boolean anomoly. Silicon normalizing recursive pc dithering patch reflective.
+                        .col-3.last.box
+                            .box-container
+                                %dl
+                                    %dt I'm a definition list
+                                    %dd acting as the container
+                            .box-container
+                                %a.btn.btn-primary{:href => "#"} Action
+                                %a.btn{:href => "#"} Action
+
+            .section.section-highlight
+                %article.wrapper
+                    %h1 Post & articles
+                    .row
+                        .col-8.first
+                            %article
+                                %figure.left
+                                    %img{:src => "http://placehold.it/200x200"}
+                                        %figcaption
+                                            %p Hello caption
+                                %p
+                                    Power artificial jumbo, drink millions are, sure, disposable challenge. Wave delivers grand know recommended rare awesome ever, care polished newer. Industry smart secure effervescent fat-free settle, lifetime made fat-free, chance, brighter light extra bold. Yourself burst to deeply remarkable kids unlimited jiffy sharpest anything flexible bold.
+                                    %p
+                                        Monster what easy, classic anti lather. Effective brighter outstanding, excellent fun sold advantage, tired, premium style drink sold a. High-tech talking picky credit-card world's fat-free, smells have lifetime crispy can't.
+                            .comments
+                                %p Yes
+                            .pagination
+                                %ul
+                                    %li
+                                        %a{:href => "#"} &laquo;
+                                    %li
+                                        %a.active{:href => "#"} 1
+                                    %li
+                                        %a{:href => "#"} 2
+                                    %li
+                                        %a{:href => "#"} 3
+                                    %li
+                                        %a{:href => "#"} 4
+                                    %li
+                                        %a{:href => "#"} &raquo;
+                        %aside.col-4.last
+                            %nav
+                                %ul.secondary-nav.nav-vertical
+                                    %li
+                                        %a{:href => "#"} Secondary page
+                                    %li
+                                        %a{:href => "#"} Secondary page
+
+            .section
+                %article.wrapper
+                    %h1 Typographic elements
+                    %h2 Lists
+                    %h3 Vertical List
+                    %ul
+                        %li Hello
+                        %li I'm list
+                        %li
+                            you can go
+                            %a{ :href => "#" } here
+                    %h3 Horizontal List
+                    %ul.list-horizontal
+                        %li Hello
+                        %li I'm <strong>horizontal</strong> list
+                        %li
+                            you can go
+                            %a{ :href => "#" } here
+                    %h2 Quotes
+                    %blockquote
+                        There is a fine line between smooth driving & reckless driving.
+                        %cite The Dez
+
+            .section
+                %article.wrapper
+                    %header.section-header
+                        %hgroup
+                            %h1 Tables!
+                            %h2 'Cause we love data right?
+                    %h3
+                        Standard Table
+                        %small We gotta start somewhere...
+                    %table.table-data.table-default
+                        %thead
+                            %tr
+                                %th First Col
+                                %th Second Col
+                                %th Third Col
+                        %tbody
+                            %tr
+                                %td Col content
+                                %td Col content
+                                %td Col content
+                        %tfoot
+                            %tr
+                                %td.text-center{:colspan => "3"} Col content
+                    %h3
+                        Standard Table
+                        %small with a caption
+                    %table.table-data.table-default
+                        %caption This is my table
+                        %thead
+                            %tr
+                                %th First Col
+                                %th Second Col
+                                %th Third Col
+                        %tbody
+                            %tr
+                                %td Col content
+                                %td Col content
+                                %td Col content
+
+            .section
+                %article.wrapper
+                    %h1 Forms
+                    %form{:action => ""}
+                        %fieldset
+                            %legend Basic Informations
+                            %label Just a normal field
+                            %input{:placeholder => "Normal Field", :type => "text"}/
+                        %label Username
+                        %input{:type => "text"}
+                            .row
+                                .col-6
+                                    %label Password
+                                    %input{:type => "password"}/
+                                .col-6
+                                    %label Password Again
+                                    %input{:type => "password"}/
+                            .row
+                                %label Checkboxes
+                                %input{:type => "checkbox", :name => "checkboxes"} Checkbox 1
+                                %input{:type => "checkbox", :name => "checkboxes"} Checkbox 2
+                                %input{:type => "checkbox", :name => "checkboxes"} Checkbox 3
+                            .row
+                                %label Radio
+                                %input{:type => "radio", :name => "radio"} Radio 1
+                                %input{:type => "radio", :name => "radio"} Radio 2
+                                %input{:type => "radio", :name => "radio"} Radio 3
+                            .row
+                                %label Textarea
+                                %textarea{:cols => "30", :id => "", :name => "", :rows => "10"}
+                            .row
+                                %label A marvelous dropdown
+                                %select#dropdown
+                                    %optgroup{:label => "Group of Options"}
+                                        %option Option 1
+                                        %option Option 2
+                                        %option Option 3
+                            .actions-container
+                                %input.btn{:type => "submit", :value => "Cancel"}
+                                    %button.btn.btn-primary Go
+
+            .section
+                %article.wrapper
+                    %h1 Alerts
+                    / Alert
+                    %div.alert
+                        %div.alert-title
+                            Attention
+                        %p This is an important message
+                    / Alert Error
+                    %div.alert.alert-error
+                        %div.alert-title
+                            Attention
+                        %p This is an important message
+                        %a.close{:href => ""} &times;
+                    / Alert Info
+                    %div.alert.alert-info
+                        %div.alert-title
+                            Attention
+                        %p This is an important message
+                        %a.close{:href => ""} &times;
+
+            .section
+                %article.wrapper
+                    %h1 Buttons
+                    .row
+                        %h2 Buttons style
+                        %a.btn{:href => "#"} Standard Button
+                        %a.btn.btn-primary{:href => "#"} Primary Button
+                        %a.btn.btn-secondary{:href => "#"} Secondary Button
+                        %a.btn.btn-alt{:href => "#"} Alternative Button
+                        %a.btn.btn-highlight{:href => "#"} Highlighted Button
+                        %a.btn.btn-disabled Disabled Button
+
+                        %h2 Buttons size
+                        %a.btn.btn-xsmall{:href => "#"} XSmall Button
+                        %a.btn.btn-primary.btn-small{:href => "#"} Small Button
+                        %a.btn.btn-secondary.btn-medium{:href => "#"} Medium Button
+                        %a.btn.btn-alt.btn-large{:href => "#"} Large Button
+                        %a.btn.btn-highlight.btn-xlarge{:href => "#"} Xlarge Button
+
+                        %h2 Button Arrow
+                        %a.btn.btn-up{:href => "#"} Button up
+                        %a.btn.btn-primary.btn-down{:href => "#"} Button Down
+                        %a.btn.btn-secondary.btn-right{:href => "#"} Button Right
+                        %br
+                        %a.btn.btn-alt.btn-xsmall.btn-right{:href => "#"} X-Small Button Right
+                        %a.btn.btn-highlight.btn-small.btn-right{:href => "#"} Small Button Right
+                        %a.btn.btn-alt.btn-large.btn-right{:href => "#"} Large Button Right
+                        %a.btn.btn-highlight.btn-xlarge.btn-right{:href => "#"} Xlarge Button Right
+
+                        %h2 Special Buttons
+                        %a.btn.btn-primary.btn-full{:href => "#"} A Full Width Button
+
+                        %h2 Buttons Group
+                        %ul.btn-group
+                            %li
+                                %a.btn{:href => "#"} Standard Button
+                            %li
+                                %a.btn{:href => "#"} Standard Button
+                            %li
+                                %a.btn{:href => "#"} Standard Button
+
+            .section
+                %article.wrapper
+                    %h1 Tabs
+
+            .section
+                %article.wrapper
+                    %h1 Accordion
+
+            .section
+                %article.wrapper
+                    %h1 Tooltips
+                    %span.has-tip{"data-width" => "210", :title => "I'm on bottom and the default position."} "tip-bottom"
+                    %span.has-tip.tip-top.noradius{"data-width" => "210", :title => "I'm on the top and I'm not rounded!"} "tip-top"
+                    %span.has-tip.tip-left{"data-width" => "90", :title => "I'm on the left!"} "tip-left"
+                    %span.has-tip.tip-right{"data-width" => "90", :title => "I'm on the right!"} "tip-right"
+
+        / /.main-content
+        %footer.grid-12
+            .wrapper
+                .col-4.first
+                    %p Hello footer
+                %nav.col-8.last
+                    %h3 Footer nav
+                    %ul.footer-nav.nav-columns
+                        %li
+                            %a{:href => "#"} List Item
+                        %li.active
+                            %a{:href => "#"} List Item
+                        %li
+                            %a{:href => "#"} List Item

@@ -5,6 +5,12 @@ hr {
   border: 0;
 }
 
+// Tooltips
+
+.tooltip {}
+
+//
+
 .keystroke, kbd {
     font-family: "Consolas", "Menlo", "Courier", monospace;
     @include adjust-font-size-to(14px);

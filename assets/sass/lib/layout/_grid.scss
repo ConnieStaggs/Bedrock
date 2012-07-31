@@ -8,7 +8,7 @@
 
 // Getting the data into classes
 
-.wrapper {
+.wrapper, .container {
     @include container;
 }
 
@@ -20,8 +20,13 @@
     @include last;
 }
 
-.full-width {
+.full-width, .col-full {
     width: $layout-width;
+}
+
+[class*=col] {
+    float: left;
+    display: inline;
 }
 
 [class*=col]:last-child {
@@ -30,37 +35,102 @@
 
 // The next section will create classes depending on how many columns you need
 
-// 12 Cols Layout
+// Default - 12 Cols Layout
 
 @for $i from 1 through $total-columns {
-    .col-#{$i} { @include span-columns($i, $total-columns); }
-    .box.col-#{$i} { @include span-columns($i, $total-columns);}
+    .col-#{$i} {
+        @include span-columns($i, $total-columns);
+        @for $x from 1 through $total-columns {
+            .col-#{$x} {
+                @include span-columns($x, $i);
+            }
+        }
+    }
+    .prefix-#{$i} {
+        @include pre($i, $total-columns);
+    }
+    .suffix-#{$i} {
+        @include post($i, $total-columns);
+    }
 }
 
-.grid-12 {
-	@for $i from 1 through 12 {
-    	.col-#{$i} {
-            @include span-columns($i, 12);
-        }
-    	.box.col-#{$i} {
-            @include span-columns($i, 12);
-        }
-        .prefix-#{$i} {
-            @include pre($i, 12);
-        }
-        .suffix-#{$i} {
-            @include post($i, 12);
-        }
-	}
-}
+// 12 Cols Layout
+// .grid-12 {
+// 	@for $i from 1 through 12 {
+//     	.col-#{$i} {
+//             @include span-columns($i, 12);
+//             @for $x from 1 through 12 {
+//                 .col-#{$x} {
+//                     @include span-columns($x, $i);
+//                 }
+//             }
+//         }
+//         .prefix-#{$i} {
+//             @include pre($i, 12);
+//         }
+//         .suffix-#{$i} {
+//             @include post($i, 12);
+//         }
+// 	}
+// }
 
 // 10 Cols Layout
 
 .grid-10 {
-	@for $i from 1 through 10 {
-	.col-#{$i} { @include span-columns($i, 10); }
-	.box.col-#{$i} { @include span-columns($i, 10); }
-	}
+    @for $i from 1 through 10 {
+        .col-#{$i} {
+            @include span-columns($i, 10);
+            @for $x from 1 through 10 {
+                .col-#{$x} {
+                    @include span-columns($x, $i);
+                }
+            }
+        }
+        .prefix-#{$i} {
+            @include pre($i, 10);
+        }
+        .suffix-#{$i} {
+            @include post($i, 10);
+        }
+    }
+}
+
+// Fractionnal col
+
+.col-1of2 {
+    width: 50%;
+}
+
+.col-1of3 {
+    width: 33.333333333%;
+}
+
+.col-2of3 {
+    width: 66.666666667%;
+}
+
+.col-1of4 {
+    width: 25%;
+}
+
+.col-3of4 {
+    width: 75%;
+}
+
+.col-1of5 {
+    width: 20%;
+}
+
+.col-2of5 {
+    width: 40%;
+}
+
+.col-3of5 {
+    width: 60%;
+}
+
+.col-4of5 {
+    width: 80%;
 }
 
 // Media Queries
