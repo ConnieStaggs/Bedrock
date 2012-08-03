@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".tabs-nav").tabs("div.tabs-content > div.tab-pane");$(".accordion").tabs(".accordion div.accordion-pane",{tabs:".accordion-tab"});$(".has-tip[title]").tooltip()});

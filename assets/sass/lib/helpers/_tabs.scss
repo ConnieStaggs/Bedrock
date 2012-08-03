@@ -1,3 +1,117 @@
-.tabs {}
+.tabs {
+    .tabs-nav {
+        margin: 0;
+        padding: 0;
+        border-bottom: 1px solid $light-gray;
+        display: block;
+        height: 40px;
+        li {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            float: left;
+        }
+        a {
+            display: inline-block;
+            padding: 0 15px;
+            margin: 0;
 
-.tabs.vertical {}
+            line-height: 40px;
+        }
+        a.current {
+            margin-top: -1px;
+            background-color: white;
+            border: 1px solid $light-gray;
+            border-bottom: none;
+        }
+    }
+    .tabs-content {
+        border: 1px solid $light-gray;
+        border-top: none;
+        & > .tab-pane {
+            display: none;
+            min-height: 150px;
+            padding: 15px 20px;
+        }
+    }
+    // Tabs Vertical
+    &.tabs-vertical {
+        .tabs-nav {
+            border-bottom: none;
+            width: 20%;
+            li {
+                float: none;
+            }
+        }
+        .tabs-content {
+            float: left;
+            width: 80%;
+        }
+    }
+    // Tabs Left
+    &.tabs-left {
+        .tabs-nav {
+            float: left;
+            border-right: 1px solid $light-gray;
+            a.current {
+                border: 1px solid $light-gray;
+                border-right: none;
+                margin-top: 0;
+            }
+        }
+        .tabs-content {
+            border: 1px solid $light-gray;
+            border-left: none;
+        }
+    }
+    // Tabs Right
+    &.tabs-right {
+        .tabs-nav {
+            float: right;
+            a.current {
+                border: 1px solid $light-gray;
+                border-left: none;
+                margin-top: 0;
+            }
+        }
+        .tabs-content {
+            border: 1px solid $light-gray;
+            border-right: none;
+        }
+    }
+}
+
+.accordion {
+    border-bottom: 1px solid $light-gray;
+    .accordion-tab {
+        position: relative;
+        padding: 15px;
+        border-width: 1px 1px 0px 1px;
+        border-style: solid;
+        border-color: $light-gray;
+        background-color: #E3E3E3;
+        cursor: pointer;
+        font-weight: bold;
+    }
+    .accordion-tab:after {
+        content: " ";
+        position: absolute;
+        right: 20px;
+        top: 40%;
+        @include css-arrow(down);
+    }
+    .accordion-tab.current:after {
+        content: " ";
+        position: absolute;
+        right: 20px;
+        top: 20%;
+        @include css-arrow(up);
+    }
+    .accordion-pane {
+        display: none;
+        padding: 15px;
+        border-width: 1px 1px 0px 1px;
+        border-style: solid;
+        border-color: $light-gray;
+    }
+}

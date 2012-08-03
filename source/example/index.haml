@@ -3,11 +3,19 @@
     %head
         %meta{:content => "width=device-width; initial-scale=1.0", :name => "viewport"}
 
+        / Stylesheets
         %link{:href => "http://fonts.googleapis.com/css?family=Open Sans&subset=latin", :rel => "stylesheet", :type => "text/css"}/
         %link{:href => "../assets/css/screen.css", :media => "screen", :rel => "stylesheet", :type => "text/css"}/
         %link{:href => "../assets/css/print.css", :media => "print", :rel => "stylesheet", :type => "text/css"}/
         /[if IE]
             %link{:href => "../assets/css/ie.css", :media => "screen", :rel => "stylesheet", :type => "text/css"}/
+
+        / Scripts
+        %script{:src => "https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"}
+        %script{:src => "http://cdn.jquerytools.org/1.2.7/full/jquery.tools.min.js"}
+        %script{:src => "../assets/js/script.js"}
+
+        / Page Data
         %title Bedrock - Example
     %body
         %header.grid-12
@@ -344,18 +352,109 @@
             .section
                 %article.wrapper
                     %h1 Tabs
+                    %h2 Tabs Horizontal
+                    %div.tabs.tabs-horizontal
+                        %ul.tabs-nav
+                            %li
+                                %a{:href => "#tab-1", :data => {:toggle => "tab"}} Tab 1
+                            %li
+                                %a{:href => "#tab-2", :data => {:toggle => "tab"}} Tab 2
+                            %li
+                                %a{:href => "#tab-3", :data => {:toggle => "tab"}} Tab 3
+                        %div.tabs-content
+                            %div.tab-pane#tab-1
+                                %h2 This is tab 1
+                                %p Tab 1
+                            %div.tab-pane#tab-2
+                                %h2 This is tab 2
+                                %p Tab 2
+                            %div.tab-pane#tab-3
+                                %h2 This is tab 3
+                                %p Tab 3
+
+                    %h2 Tabs Vertical
+                    %h3 Left
+                    %div.tabs.tabs-vertical.tabs-left
+                        %ul.tabs-nav
+                            %li
+                                %a{:href => "#tab-1", :data => {:toggle => "tab"}} Tab 1
+                            %li
+                                %a{:href => "#tab-2", :data => {:toggle => "tab"}} Tab 2
+                            %li
+                                %a{:href => "#tab-3", :data => {:toggle => "tab"}} Tab 3
+                        %div.tabs-content
+                            %div.tab-pane#tab-1
+                                %h2 This is tab 1
+                                %p Tab 1
+                            %div.tab-pane#tab-2
+                                %h2 This is tab 2
+                                %p Tab 2
+                            %div.tab-pane#tab-3
+                                %h2 This is tab 3
+                                %p Tab 3
+                    %h3 Right
+                    %div.tabs.tabs-vertical.tabs-right
+                        %ul.tabs-nav
+                            %li
+                                %a{:href => "#tab-1", :data => {:toggle => "tab"}} Tab 1
+                            %li
+                                %a{:href => "#tab-2", :data => {:toggle => "tab"}} Tab 2
+                            %li
+                                %a{:href => "#tab-3", :data => {:toggle => "tab"}} Tab 3
+                        %div.tabs-content
+                            %div.tab-pane#tab-1
+                                %h2 This is tab 1
+                                %p Tab 1
+                            %div.tab-pane#tab-2
+                                %h2 This is tab 2
+                                %p Tab 2
+                            %div.tab-pane#tab-3
+                                %h2 This is tab 3
+                                %p Tab 3
 
             .section
                 %article.wrapper
                     %h1 Accordion
+                    %div.accordion
+                        %div.accordion-tab
+                            Accordion 1
+                        %div.accordion-pane
+                            Accordion content
+                        %div.accordion-tab
+                            Accordion 2
+                        %div.accordion-pane
+                            Accordion content
+                        %div.accordion-tab
+                            Accordion 3
+                        %div.accordion-pane
+                            Accordion content
 
             .section
                 %article.wrapper
                     %h1 Tooltips
-                    %span.has-tip{"data-width" => "210", :title => "I'm on bottom and the default position."} "tip-bottom"
-                    %span.has-tip.tip-top.noradius{"data-width" => "210", :title => "I'm on the top and I'm not rounded!"} "tip-top"
-                    %span.has-tip.tip-left{"data-width" => "90", :title => "I'm on the left!"} "tip-left"
-                    %span.has-tip.tip-right{"data-width" => "90", :title => "I'm on the right!"} "tip-right"
+                    %span.has-tip{:title => "I'm on bottom and the default position."} "tip-bottom"
+                    %span.has-tip{:title => "I'm on the top and I'm not rounded!"} "tip-top"
+                    %span.has-tip{:title => "I'm on the left!"} "tip-left"
+                    %span.has-tip{:title => "I'm on the right!"} "tip-right"
+
+            .section
+                %article.wrapper
+                    %h1 Misc
+                    %h2 Corner tag
+                    .row.grid-12
+                        .col-3
+                            %span.corner-top-right &nbsp;
+                            A Corner
+                        .col-3
+                            %span.corner-top-left &nbsp;
+                            A Corner
+                        .col-3
+                            %span.corner-bottom-right &nbsp;
+                            A Corner
+                        .col-3
+                            %span.corner-bottom-left &nbsp;
+                            A Corner
+
 
         / /.main-content
         %footer.grid-12

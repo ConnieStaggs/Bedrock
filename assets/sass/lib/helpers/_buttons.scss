@@ -26,17 +26,26 @@
     &.btn-secondary {
         color: #FFF;
         background-color: $btn-color-secondary;
-        border-color: $btn-color-secondary;
+        border-color: darken($btn-color-secondary, 15%);
+        &:hover {
+            background-color: darken($btn-color-secondary, 10%);
+        }
     }
     &.btn-alt {
         color: #FFF;
         background-color: $btn-color-alt;
-        border-color: $btn-color-alt;
+        border-color: darken($btn-color-alt, 15%);
+        &:hover {
+            background-color: darken($btn-color-alt, 10%);
+        }
     }
     &.btn-highlight {
         color: #FFF;
         background-color: $btn-color-highlight;
-        border-color: $btn-color-highlight;
+        border-color: darken($btn-color-highlight, 15%);
+        &:hover {
+            background-color: darken($btn-color-highlight, 10%);
+        }
     }
     &.btn-disabled {
         background-color: $btn-color;
@@ -82,15 +91,12 @@
         &:after {
             content: "";
             display: block;
-            width: 0;
-            height: 0;
-            border: solid 6px;
             position: absolute;
         }
     }
     &.btn-up {
         &:after {
-            border-color: transparent transparent rgba(0, 0, 0, .5) transparent;
+            @include css-arrow(up, rgba(0, 0, 0, 0.5), 6px);
             top: 35%;
             right: 10px;
             margin-top: -2px;
@@ -98,7 +104,7 @@
     }
     &.btn-down {
         &:after {
-            border-color: rgba(0, 0, 0, .5) transparent transparent transparent;
+            @include css-arrow(down, rgba(0, 0, 0, 0.5), 6px);
             top: 50%;
             right: 10px;
             margin-top: -2px;
@@ -107,7 +113,7 @@
 
     &.btn-right {
         &:after {
-            border-color: transparent transparent transparent rgba(0, 0, 0, .5);
+            @include css-arrow(right, rgba(0, 0, 0, 0.5), 6px);
             top: 35%;
             right: 10px;
         }

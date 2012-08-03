@@ -22,9 +22,7 @@ h1 {
 
 h2 {
     @include adjust-font-size-to(28px);
-    &.subheader {
-        
-    }
+    &.subheader {}
     + .row {
         margin-top: 20px;
     }

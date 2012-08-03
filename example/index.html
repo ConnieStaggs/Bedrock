@@ -2,12 +2,18 @@
 <html>
   <head>
     <meta content='width=device-width; initial-scale=1.0' name='viewport'>
+    <!-- Stylesheets -->
     <link href='http://fonts.googleapis.com/css?family=Open Sans&amp;subset=latin' rel='stylesheet' type='text/css'>
     <link href='../assets/css/screen.css' media='screen' rel='stylesheet' type='text/css'>
     <link href='../assets/css/print.css' media='print' rel='stylesheet' type='text/css'>
     <!--[if IE]>
       <link href='../assets/css/ie.css' media='screen' rel='stylesheet' type='text/css'>
     <![endif]-->
+    <!-- Scripts -->
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'></script>
+    <script src='http://cdn.jquerytools.org/1.2.7/full/jquery.tools.min.js'></script>
+    <script src='../assets/js/script.js'></script>
+    <!-- Page Data -->
     <title>Bedrock - Example</title>
   </head>
   <body>
@@ -480,20 +486,149 @@
       <div class='section'>
         <article class='wrapper'>
           <h1>Tabs</h1>
+          <h2>Tabs Horizontal</h2>
+          <div class='tabs tabs-horizontal'>
+            <ul class='tabs-nav'>
+              <li>
+                <a data-toggle='tab' href='#tab-1'>Tab 1</a>
+              </li>
+              <li>
+                <a data-toggle='tab' href='#tab-2'>Tab 2</a>
+              </li>
+              <li>
+                <a data-toggle='tab' href='#tab-3'>Tab 3</a>
+              </li>
+            </ul>
+            <div class='tabs-content'>
+              <div class='tab-pane' id='tab-1'>
+                <h2>This is tab 1</h2>
+                <p>Tab 1</p>
+              </div>
+              <div class='tab-pane' id='tab-2'>
+                <h2>This is tab 2</h2>
+                <p>Tab 2</p>
+              </div>
+              <div class='tab-pane' id='tab-3'>
+                <h2>This is tab 3</h2>
+                <p>Tab 3</p>
+              </div>
+            </div>
+          </div>
+          <h2>Tabs Vertical</h2>
+          <h3>Left</h3>
+          <div class='tabs tabs-vertical tabs-left'>
+            <ul class='tabs-nav'>
+              <li>
+                <a data-toggle='tab' href='#tab-1'>Tab 1</a>
+              </li>
+              <li>
+                <a data-toggle='tab' href='#tab-2'>Tab 2</a>
+              </li>
+              <li>
+                <a data-toggle='tab' href='#tab-3'>Tab 3</a>
+              </li>
+            </ul>
+            <div class='tabs-content'>
+              <div class='tab-pane' id='tab-1'>
+                <h2>This is tab 1</h2>
+                <p>Tab 1</p>
+              </div>
+              <div class='tab-pane' id='tab-2'>
+                <h2>This is tab 2</h2>
+                <p>Tab 2</p>
+              </div>
+              <div class='tab-pane' id='tab-3'>
+                <h2>This is tab 3</h2>
+                <p>Tab 3</p>
+              </div>
+            </div>
+          </div>
+          <h3>Right</h3>
+          <div class='tabs tabs-vertical tabs-right'>
+            <ul class='tabs-nav'>
+              <li>
+                <a data-toggle='tab' href='#tab-1'>Tab 1</a>
+              </li>
+              <li>
+                <a data-toggle='tab' href='#tab-2'>Tab 2</a>
+              </li>
+              <li>
+                <a data-toggle='tab' href='#tab-3'>Tab 3</a>
+              </li>
+            </ul>
+            <div class='tabs-content'>
+              <div class='tab-pane' id='tab-1'>
+                <h2>This is tab 1</h2>
+                <p>Tab 1</p>
+              </div>
+              <div class='tab-pane' id='tab-2'>
+                <h2>This is tab 2</h2>
+                <p>Tab 2</p>
+              </div>
+              <div class='tab-pane' id='tab-3'>
+                <h2>This is tab 3</h2>
+                <p>Tab 3</p>
+              </div>
+            </div>
+          </div>
         </article>
       </div>
       <div class='section'>
         <article class='wrapper'>
           <h1>Accordion</h1>
+          <div class='accordion'>
+            <div class='accordion-tab'>
+              Accordion 1
+            </div>
+            <div class='accordion-pane'>
+              Accordion content
+            </div>
+            <div class='accordion-tab'>
+              Accordion 2
+            </div>
+            <div class='accordion-pane'>
+              Accordion content
+            </div>
+            <div class='accordion-tab'>
+              Accordion 3
+            </div>
+            <div class='accordion-pane'>
+              Accordion content
+            </div>
+          </div>
         </article>
       </div>
       <div class='section'>
         <article class='wrapper'>
           <h1>Tooltips</h1>
-          <span class='has-tip' data-width='210' title="I'm on bottom and the default position.">"tip-bottom"</span>
-          <span class='has-tip tip-top noradius' data-width='210' title="I'm on the top and I'm not rounded!">"tip-top"</span>
-          <span class='has-tip tip-left' data-width='90' title="I'm on the left!">"tip-left"</span>
-          <span class='has-tip tip-right' data-width='90' title="I'm on the right!">"tip-right"</span>
+          <span class='has-tip' title="I'm on bottom and the default position.">"tip-bottom"</span>
+          <span class='has-tip' title="I'm on the top and I'm not rounded!">"tip-top"</span>
+          <span class='has-tip' title="I'm on the left!">"tip-left"</span>
+          <span class='has-tip' title="I'm on the right!">"tip-right"</span>
+        </article>
+      </div>
+      <div class='section'>
+        <article class='wrapper'>
+          <h1>Misc</h1>
+          <h2>Corner tag</h2>
+          <div class='row grid-12'>
+            <div class='col-3'>
+              <span class='corner-top-right'>&nbsp;</span>
+              A Corner
+            </div>
+            <div class='col-3'>
+              <span class='corner-top-left'>&nbsp;</span>
+              A Corner
+            </div>
+            <div class='col-3'>
+              <span class='corner-bottom-right'>&nbsp;</span>
+              A Corner
+            </div>
+            <div class='col-3'>
+              <span class='corner-bottom-left'>&nbsp;</span>
+              A Corner
+            </div>
+          </div>
         </article>
       </div>
     </section>

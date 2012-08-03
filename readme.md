@@ -42,10 +42,10 @@ Idiomatic by Necolas ([https://github.com/necolas/idiomatic-css](https://github.
     /* ==========================================================================
        Section comment block
        ========================================================================== */
-    
+
     /* Sub-section comment block
        ========================================================================== */
-    
+
     /**
      * Short description using Doxygen-style comment format
      *
@@ -62,7 +62,7 @@ Idiomatic by Necolas ([https://github.com/necolas/idiomatic-css](https://github.
      *   at a later date. It wraps after 80 characters and following lines are
      *   indented by 2 spaces.
      */
-    
+
     /* Basic comment */
 
 ### Credits

@@ -1,15 +1,10 @@
-// Import Compass
-@import "compass";
-@import "susy";
-
 // CSS Reset
 @import "normalize";
 
-// Core settings
-@import "settings";
-
 // Globals
 @import "helpers/globals";
+
+@import "helpers/mixins";
 
 // Typography
 @import "typography/headings";
@@ -28,6 +23,7 @@
 @import "helpers/buttons";
 @import "helpers/forms";
 @import "helpers/media";
+@import "helpers/tabs";
 @import "helpers/tables";
 @import "helpers/misc";
 

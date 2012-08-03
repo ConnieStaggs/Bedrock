@@ -1,0 +1,47 @@
+@mixin css-arrow($orientation: "up", $arrow-color: #ccc, $arrow-width: 10px) {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: $arrow-width;
+
+    @if $orientation == "up" {
+        border-color: transparent transparent $arrow-color transparent;
+    }
+
+    @if $orientation == "down" {
+        border-color: $arrow-color transparent transparent transparent;
+    }
+
+    @if $orientation == "left" {
+        border-color: transparent $arrow-color transparent transparent;
+    }
+
+    @if $orientation == "right" {
+        border-color: transparent transparent transparent $arrow-color;
+    }
+}
+
+@mixin css-triangle-corner($v-position: "top", $h-position: "left", $triangle-color: #ccc, $triangle-width: 50px) {
+    width: 0;
+    height: 0;
+
+    @if ($v-position == "top", $h-position == "left") {
+        border-top: $triangle-width solid $triangle-color;
+        border-right: $triangle-width solid transparent;
+    }
+
+    @if ($v-position == "top", $h-position == "right") {
+        border-top: $triangle-width solid $triangle-color;
+        border-left: $triangle-width solid transparent;
+    }
+
+    @if ($v-position == "bottom", $h-position == "left") {
+        border-bottom: $triangle-width solid $triangle-color;
+        border-right: $triangle-width solid transparent;
+    }
+
+    @if ($v-position == "bottom", $h-position == "right") {
+        border-bottom: $triangle-width solid $triangle-color;
+        border-left: $triangle-width solid transparent;
+    }
+}

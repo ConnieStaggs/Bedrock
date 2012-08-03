@@ -1,7 +1,28 @@
-// The magic happens here
+/**
+ * BEDROCK!
+ * ====================================================
+ * The magic happens here
+ *
+ * Use your own scss in the /app folder or use a theme
+ *
+ */
 
+// Import Compass - very important
+@import "compass";
+@import "susy";
+
+// Default settings - Copy this file & comment this line to use your own
+@import "lib/settings";
+
+// Bedrock's core
 @import "lib/core";
 
+/* Your App
+   ========================================================================== */
+
 // @import "app/app";
+
+/* Themes
+   ========================================================================== */
 
 // @import "themes/dark-night/dark-night";

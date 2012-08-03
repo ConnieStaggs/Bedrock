@@ -21,7 +21,8 @@
 }
 
 .full-width, .col-full {
-    width: $layout-width;
+    width: 100%;
+    @include pie-clearfix;
 }
 
 [class*=col] {

@@ -1,0 +1,52 @@
+!!! 5
+%html
+    %head
+        %meta{:content => "width=device-width; initial-scale=1.0", :name => "viewport"}
+
+        / Stylesheets
+        %link{:href => "http://fonts.googleapis.com/css?family=Open Sans&subset=latin", :rel => "stylesheet", :type => "text/css"}/
+        %link{:href => "../assets/css/screen.css", :media => "screen", :rel => "stylesheet", :type => "text/css"}/
+        %link{:href => "../assets/css/print.css", :media => "print", :rel => "stylesheet", :type => "text/css"}/
+        /[if IE]
+            %link{:href => "../assets/css/ie.css", :media => "screen", :rel => "stylesheet", :type => "text/css"}/
+
+        / Scripts
+        %script{:src => "https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"}
+        %script{:src => "http://cdn.jquerytools.org/1.2.7/full/jquery.tools.min.js"}
+        %script{:src => "../assets/js/script.js"}
+
+        / Page Data
+        %title Bedrock - Example
+    %body
+        %div.full-width
+            %div.left
+                Example App
+            %div.right
+                %nav
+                    %ul
+                        %li
+                            %a{ :href => "#" } Link 1
+                        %li
+                            %a{ :href => "#" } Link 1
+                        %li
+                            %a{ :href => "#" } Link 1
+        %div.full-width
+            %div.col-1of5
+                This is the side
+            %div.col-4of5
+                %div.full-width
+                    All the things
+                This is the main section
+                %div.section
+                    %div.col-6
+                        %div.box
+                            %div.box-header
+                                Box Header
+                            %div.box-container
+                                %p Box Content
+                    %div.col-6
+                        %div.box
+                            %div.box-header
+                                Box Header
+                            %div.box-container
+                                %p Box Content
