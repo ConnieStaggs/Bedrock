@@ -48,3 +48,9 @@ body.logged-in {
         font-weight: 600;
     }
 }
+
+// Messages
+
+.messages .messages {
+    @extend .message;
+}

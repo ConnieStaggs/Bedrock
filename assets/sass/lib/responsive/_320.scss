@@ -1,0 +1,49 @@
+// Desktop Large
+@media screen and (min-width: 1400px) {
+    .wrapper, .container {
+        width: 1200px;
+    }
+
+}
+
+// Desktop Default
+@media screen and (min-width: 1024px) {
+    .wrapper, .container {
+        width: $layout-width;
+    }
+
+}
+
+// Desktop Small
+@media screen and (max-width: 768px) {
+
+}
+
+// Iphone - Portrait
+@media screen and (max-width: 320px) {
+    $layout-width: 300px;
+
+    .wrapper, .container {
+        width: $layout-width;
+        padding: 0;
+    }
+
+    [class^="col-"], .grid-10 [class^="col-"] {
+        width: $layout-width;
+        margin-right: 0;
+    }
+}
+// Iphone - Landscape
+@media screen and (max-width: 480px) {
+    $layout-width: 420px;
+
+    .wrapper, .container {
+        width: $layout-width;
+        padding: 0;
+    }
+
+    [class^="col-"], .grid-10 [class^="col-"] {
+        width: $layout-width;
+        margin-right: 0;
+    }
+}

@@ -7,13 +7,17 @@
         %link{:href => "http://fonts.googleapis.com/css?family=Open Sans&subset=latin", :rel => "stylesheet", :type => "text/css"}/
         %link{:href => "../assets/css/screen.css", :media => "screen", :rel => "stylesheet", :type => "text/css"}/
         %link{:href => "../assets/css/print.css", :media => "print", :rel => "stylesheet", :type => "text/css"}/
+
         /[if IE]
             %link{:href => "../assets/css/ie.css", :media => "screen", :rel => "stylesheet", :type => "text/css"}/
 
         / Scripts
         %script{:src => "https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"}
         %script{:src => "http://cdn.jquerytools.org/1.2.7/full/jquery.tools.min.js"}
+        %script{:src => "https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.21/jquery-ui.min.js"}
         %script{:src => "../assets/js/script.js"}
+
+        / TODO: Decide Javascript UI Library for: Modal, Tabs, Tooltip, Dropdown, Content Slider, ScrollSpy
 
         / Page Data
         %title Bedrock - Example
@@ -121,7 +125,7 @@
                                 %h3 Primary Heading
                                 %h4 Subheading
                             .box-container
-                                %ul
+                                %ul.list-bullet
                                     %li I'm a unordered list
                                     %li acting as the container
                                     %li Pulse generator led backbone element proxy
@@ -419,15 +423,15 @@
                         %div.accordion-tab
                             Accordion 1
                         %div.accordion-pane
-                            Accordion content
+                            %p ll-over zesty waxy light touch, and. Product ocean seeing takes cheap our cause can't racy quenches why oily, fast. Tired our keeps like available power, citrus spacious drink light thick smooth. Agree perfect thirsty chosen, simulated opportunity delivers, screamin' seeing deserve advertising, than successful. Fun mega mega need bigger shopping warranty pure first newest powerful lather monster shine.
                         %div.accordion-tab
                             Accordion 2
                         %div.accordion-pane
-                            Accordion content
+                            %p Effervescent to commercial happy peppy exotic full-bodied lasting remarkable racy will handling burst. Blend desire proven low-cost, the golden tasty delivers unique colossal. By less jiffy velvety never admire fresh 100% relaxing spend confident secure hit.
                         %div.accordion-tab
                             Accordion 3
                         %div.accordion-pane
-                            Accordion content
+                            %p Cheap choice only pleasure full-bodied smooth elegent adore herbal, shine. Special bigger why mouthwatering, wave industry oily. Industry deal yourself hit devour sale agree chocolatey choice accomodations appreciate.
 
             .section
                 %article.wrapper
@@ -455,8 +459,7 @@
                             %span.corner-bottom-left &nbsp;
                             A Corner
 
-
-        / /.main-content
+        /.main-content
         %footer.grid-12
             .wrapper
                 .col-4.first

@@ -524,35 +524,36 @@ html {
 /* line 5, ../sass/lib/helpers/_globals.scss */
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 20px;
   -webkit-font-smoothing: antialiased;
 }
 
-/* line 12, ../sass/lib/helpers/_globals.scss */
+/* line 13, ../sass/lib/helpers/_globals.scss */
 .left {
   float: left;
 }
 
-/* line 13, ../sass/lib/helpers/_globals.scss */
+/* line 14, ../sass/lib/helpers/_globals.scss */
 .right {
   float: right;
 }
 
-/* line 14, ../sass/lib/helpers/_globals.scss */
+/* line 15, ../sass/lib/helpers/_globals.scss */
 .text-left {
   text-align: left;
 }
 
-/* line 15, ../sass/lib/helpers/_globals.scss */
+/* line 16, ../sass/lib/helpers/_globals.scss */
 .text-right {
   text-align: right;
 }
 
-/* line 16, ../sass/lib/helpers/_globals.scss */
+/* line 17, ../sass/lib/helpers/_globals.scss */
 .text-center {
   text-align: center;
 }
 
-/* line 17, ../sass/lib/helpers/_globals.scss */
+/* line 18, ../sass/lib/helpers/_globals.scss */
 .hidden {
   display: none;
 }
@@ -571,7 +572,7 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
 /* line 12, ../sass/lib/typography/_headings.scss */
 h1 {
   font-size: 2.25em;
-  line-height: 1.33333em;
+  line-height: 1.11111em;
 }
 /* line 18, ../sass/lib/typography/_headings.scss */
 h1 + .row {
@@ -581,7 +582,7 @@ h1 + .row {
 /* line 23, ../sass/lib/typography/_headings.scss */
 h2 {
   font-size: 1.75em;
-  line-height: 1.71429em;
+  line-height: 1.42857em;
 }
 /* line 26, ../sass/lib/typography/_headings.scss */
 h2 + .row {
@@ -591,19 +592,19 @@ h2 + .row {
 /* line 31, ../sass/lib/typography/_headings.scss */
 h3 {
   font-size: 1.375em;
-  line-height: 2.18182em;
+  line-height: 1.81818em;
 }
 
 /* line 35, ../sass/lib/typography/_headings.scss */
 h4 {
   font-size: 1.125em;
-  line-height: 1.33333em;
+  line-height: 2.22222em;
 }
 
 /* line 1, ../sass/lib/typography/_text.scss */
 p {
   font-size: 1em;
-  line-height: 1.5em;
+  line-height: 1.25em;
 }
 
 /* line 13, ../sass/lib/typography/_text.scss */
@@ -663,18 +664,22 @@ ul {
   display: inline-block;
 }
 
-/* line 5, ../sass/lib/typography/_lists.scss */
+/* line 6, ../sass/lib/typography/_lists.scss */
 li {
-  list-style-position: inside;
+  list-style: none;
 }
-/* line 7, ../sass/lib/typography/_lists.scss */
+/* line 8, ../sass/lib/typography/_lists.scss */
 .list-horizontal li {
   float: left;
   margin-right: 20px;
 }
-/* line 10, ../sass/lib/typography/_lists.scss */
+/* line 11, ../sass/lib/typography/_lists.scss */
 .list-horizontal li:last-child {
   margin-right: 0;
+}
+/* line 13, ../sass/lib/typography/_lists.scss */
+.list-bullet li {
+  list-style: disc inside none;
 }
 
 /* line 19, ../sass/print.scss */

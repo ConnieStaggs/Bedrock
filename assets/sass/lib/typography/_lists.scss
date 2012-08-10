@@ -1,13 +1,17 @@
 ul {
     display: inline-block;
+
 }
 
 li {
-	list-style-position: inside;
+    list-style: none;
     .list-horizontal & {
         float: left;
         margin-right: 20px;
         &:last-child { margin-right: 0; }
+    }
+    .list-bullet & {
+        list-style: disc inside none;
     }
 }
 

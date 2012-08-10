@@ -36,6 +36,8 @@ aside {}
 .section-header {}
 
 .row {
+    margin: 0;
+    padding: 0;
     @include pie-clearfix;
 }
 
@@ -56,6 +58,7 @@ aside {}
 .box {
 	border: solid $light-gray;
 	border-width: $box-border-width;
+    margin-bottom: 20px;
     .box-header {
         padding: 10px;
         border-bottom: 1px solid $light-gray;

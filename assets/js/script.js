@@ -23,7 +23,9 @@ $(document).ready(function() {
 
     $(".tabs-nav").tabs("div.tabs-content > div.tab-pane");
 
-    $(".accordion").tabs(".accordion div.accordion-pane", {tabs: '.accordion-tab'});
+    // $(".accordion").tabs(".accordion div.accordion-pane", {tabs: '.accordion-tab', effect: 'slide'});
+
+    $( ".accordion" ).accordion({ header: '.accordion-tab' });
 
     $(".has-tip[title]").tooltip();
 
