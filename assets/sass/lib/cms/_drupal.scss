@@ -54,3 +54,9 @@ body.logged-in {
 .messages .messages {
     @extend .message;
 }
+
+// Admin Menu
+
+.admin-menu ul {
+    display: inline;
+}

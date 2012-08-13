@@ -1,1 +1,1 @@
-$(document).ready(function(){$(".tabs-nav").tabs("div.tabs-content > div.tab-pane");$(".accordion").accordion({header:".accordion-tab"});$(".has-tip[title]").tooltip()});
+$(document).ready(function(){$(".tabs-nav").tabs("div.tabs-content > div.tab-pane");$(".accordion").accordion({header:".accordion-tab"});$(".has-tip[title]").tooltip();$(".lang-dropdown-select-element").ddslick()});

@@ -15,6 +15,7 @@
         %script{:src => "https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"}
         %script{:src => "http://cdn.jquerytools.org/1.2.7/full/jquery.tools.min.js"}
         %script{:src => "https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.21/jquery-ui.min.js"}
+        %script{:src => "../assets/js/jquery.ddslick.min.js"}
         %script{:src => "../assets/js/script.js"}
 
         / TODO: Decide Javascript UI Library for: Modal, Tabs, Tooltip, Dropdown, Content Slider, ScrollSpy
@@ -287,6 +288,13 @@
                                         %option Option 1
                                         %option Option 2
                                         %option Option 3
+                            .row
+                                %label A converted dropdown
+                                %select#edit-lang-dropdown-select.lang-dropdown-select-element{:name => "lang_dropdown_select", :style => "width:140px"}
+                                    %option{:selected => "selected", :value => "en"} English
+                                    %option{:value => "fr"} Français
+                                    %option{:value => "es"} Español
+
                             .actions-container
                                 %input.btn{:type => "submit", :value => "Cancel"}
                                     %button.btn.btn-primary Go

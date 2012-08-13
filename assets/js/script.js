@@ -65,4 +65,6 @@ $(document).ready(function() {
     //         event.preventDefault();
     //     });
     // });
+
+    $('.lang-dropdown-select-element').ddslick();
 });
