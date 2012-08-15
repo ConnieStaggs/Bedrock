@@ -21,12 +21,13 @@ $(document).ready(function() {
     //     });
     // });
 
+    // Tabs
     $(".tabs-nav").tabs("div.tabs-content > div.tab-pane");
 
-    // $(".accordion").tabs(".accordion div.accordion-pane", {tabs: '.accordion-tab', effect: 'slide'});
+    // Accordion
+    $(".accordion").tabs(".accordion div.accordion-pane", {tabs: '.accordion-tab', effect: 'slide'});
 
-    $( ".accordion" ).accordion({ header: '.accordion-tab' });
-
+    // Tooltips
     $(".has-tip[title]").tooltip();
 
     // // Sticky support bar

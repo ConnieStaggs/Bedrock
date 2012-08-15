@@ -109,9 +109,14 @@
     }
     .accordion-pane {
         display: none;
-        padding: 15px;
+        padding: 0;
         border-width: 1px 1px 0px 1px;
         border-style: solid;
         border-color: $light-gray;
+    }
+
+    .accordion-content {
+        display: block;
+        padding: 15px;
     }
 }

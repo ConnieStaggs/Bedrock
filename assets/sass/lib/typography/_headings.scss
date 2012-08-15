@@ -9,10 +9,15 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+.subheader {
+    font-weight: normal;
+    color: #999;
+}
+
 h1 {
 	@include adjust-font-size-to(36px);
 	+ h2 {
-
+        margin-top: .5em;
 	}
 
     + .row {
@@ -22,7 +27,10 @@ h1 {
 
 h2 {
     @include adjust-font-size-to(28px);
-    &.subheader {}
+    margin-top: .8em;
+    &.subheader {
+        margin-top: 0;
+    }
     + .row {
         margin-top: 20px;
     }

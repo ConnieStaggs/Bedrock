@@ -12,7 +12,7 @@
     <!-- Scripts -->
     <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'></script>
     <script src='http://cdn.jquerytools.org/1.2.7/full/jquery.tools.min.js'></script>
-    <script src='https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.21/jquery-ui.min.js'></script>
+    <!-- %script{:src => "https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.21/jquery-ui.min.js"} -->
     <script src='../assets/js/jquery.ddslick.min.js'></script>
     <script src='../assets/js/script.js'></script>
     <!-- TODO: Decide Javascript UI Library for: Modal, Tabs, Tooltip, Dropdown, Content Slider, ScrollSpy -->
@@ -24,7 +24,7 @@
       <div class='wrapper'>
         <hgroup class='col-8 first'>
           <h1>Welcome to Bedrock</h1>
-          <h2>This is the style example</h2>
+          <h2 class='subheader'>This is the style example</h2>
         </hgroup>
         <div class='col-4 last'>
           <form class='form-search'>
@@ -592,19 +592,25 @@
               Accordion 1
             </div>
             <div class='accordion-pane'>
-              <p>ll-over zesty waxy light touch, and. Product ocean seeing takes cheap our cause can't racy quenches why oily, fast. Tired our keeps like available power, citrus spacious drink light thick smooth. Agree perfect thirsty chosen, simulated opportunity delivers, screamin' seeing deserve advertising, than successful. Fun mega mega need bigger shopping warranty pure first newest powerful lather monster shine.</p>
+              <div class='accordion-content'>
+                <p>ll-over zesty waxy light touch, and. Product ocean seeing takes cheap our cause can't racy quenches why oily, fast. Tired our keeps like available power, citrus spacious drink light thick smooth. Agree perfect thirsty chosen, simulated opportunity delivers, screamin' seeing deserve advertising, than successful. Fun mega mega need bigger shopping warranty pure first newest powerful lather monster shine.</p>
+              </div>
             </div>
             <div class='accordion-tab'>
               Accordion 2
             </div>
             <div class='accordion-pane'>
-              <p>Effervescent to commercial happy peppy exotic full-bodied lasting remarkable racy will handling burst. Blend desire proven low-cost, the golden tasty delivers unique colossal. By less jiffy velvety never admire fresh 100% relaxing spend confident secure hit.</p>
+              <div class='accordion-content'>
+                <p>Effervescent to commercial happy peppy exotic full-bodied lasting remarkable racy will handling burst. Blend desire proven low-cost, the golden tasty delivers unique colossal. By less jiffy velvety never admire fresh 100% relaxing spend confident secure hit.</p>
+              </div>
             </div>
             <div class='accordion-tab'>
               Accordion 3
             </div>
             <div class='accordion-pane'>
-              <p>Cheap choice only pleasure full-bodied smooth elegent adore herbal, shine. Special bigger why mouthwatering, wave industry oily. Industry deal yourself hit devour sale agree chocolatey choice accomodations appreciate.</p>
+              <div class='accordion-content'>
+                <p>Cheap choice only pleasure full-bodied smooth elegent adore herbal, shine. Special bigger why mouthwatering, wave industry oily. Industry deal yourself hit devour sale agree chocolatey choice accomodations appreciate.</p>
+              </div>
             </div>
           </div>
         </article>

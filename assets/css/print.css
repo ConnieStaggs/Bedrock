@@ -508,7 +508,7 @@ table {
   border-spacing: 0;
 }
 
-/* line 66, ../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+/* line 66, ../../../../../../Users/benoitdeziel/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
 html {
   font-size: 100%;
   line-height: 1.5em;
@@ -524,7 +524,7 @@ html {
 /* line 5, ../sass/lib/helpers/_globals.scss */
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  line-height: 20px;
+  line-height: 24px;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -570,41 +570,56 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
 }
 
 /* line 12, ../sass/lib/typography/_headings.scss */
+.subheader {
+  font-weight: normal;
+  color: #999;
+}
+
+/* line 17, ../sass/lib/typography/_headings.scss */
 h1 {
   font-size: 2.25em;
-  line-height: 1.11111em;
+  line-height: 1.33333em;
 }
-/* line 18, ../sass/lib/typography/_headings.scss */
+/* line 19, ../sass/lib/typography/_headings.scss */
+h1 + h2 {
+  margin-top: .5em;
+}
+/* line 23, ../sass/lib/typography/_headings.scss */
 h1 + .row {
   margin-top: 40px;
 }
 
-/* line 23, ../sass/lib/typography/_headings.scss */
+/* line 28, ../sass/lib/typography/_headings.scss */
 h2 {
   font-size: 1.75em;
-  line-height: 1.42857em;
+  line-height: 1.71429em;
+  margin-top: .8em;
 }
-/* line 26, ../sass/lib/typography/_headings.scss */
+/* line 31, ../sass/lib/typography/_headings.scss */
+h2.subheader {
+  margin-top: 0;
+}
+/* line 34, ../sass/lib/typography/_headings.scss */
 h2 + .row {
   margin-top: 20px;
 }
 
-/* line 31, ../sass/lib/typography/_headings.scss */
+/* line 39, ../sass/lib/typography/_headings.scss */
 h3 {
   font-size: 1.375em;
-  line-height: 1.81818em;
+  line-height: 2.18182em;
 }
 
-/* line 35, ../sass/lib/typography/_headings.scss */
+/* line 43, ../sass/lib/typography/_headings.scss */
 h4 {
   font-size: 1.125em;
-  line-height: 2.22222em;
+  line-height: 1.33333em;
 }
 
 /* line 1, ../sass/lib/typography/_text.scss */
 p {
   font-size: 1em;
-  line-height: 1.25em;
+  line-height: 1.5em;
 }
 
 /* line 13, ../sass/lib/typography/_text.scss */

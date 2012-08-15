@@ -23,6 +23,7 @@ input[type=text], input[type=email], input[type=password] {
     border: 1px solid #aaaaaa;
     padding: $field-padding;
     margin-bottom: 10px;
+    line-height: 1.5;
 }
 
 input[type=text]:focus, input[type=email]:focus, input[type=password]:focus, .content input[type=search]:focus, textarea:focus, select:focus {
@@ -50,10 +51,10 @@ input[type="search"],
 input[type="tel"],
 input[type="color"] {}
 
-input:not([type=submit]) + button {
-    margin: 0;
-    padding: $field-padding !important;
-}
+// input:not([type=submit]) + button {
+//     margin: 0;
+//     padding: $field-padding !important;
+// }
 
 // input[type=submit], button.btn-primary {
 //     @extend .btn;
