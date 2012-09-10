@@ -8,7 +8,7 @@
 
 // Getting the data into classes
 
-.wrapper, .container {
+.wrapper, .container, .layout-container {
     @include container;
 }
 
@@ -25,12 +25,12 @@
     @include pie-clearfix;
 }
 
-[class*=col] {
+[class*=col-] {
     float: left;
     display: inline;
 }
 
-[class*=col]:last-child {
+[class*=col-]:last-child {
     @include last;
 }
 

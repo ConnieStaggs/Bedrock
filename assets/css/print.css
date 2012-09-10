@@ -553,9 +553,19 @@ body {
   text-align: center;
 }
 
-/* line 18, ../sass/lib/helpers/_globals.scss */
-.hidden {
+/* line 20, ../sass/lib/helpers/_globals.scss */
+.hidden, .is-hidden {
   display: none;
+}
+
+/* line 22, ../sass/lib/helpers/_globals.scss */
+.no-padding {
+  padding: 0;
+}
+
+/* line 23, ../sass/lib/helpers/_globals.scss */
+.no-margin {
+  margin: 0;
 }
 
 /* line 3, ../sass/lib/typography/_headings.scss */
