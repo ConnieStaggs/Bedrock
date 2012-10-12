@@ -1,16 +1,16 @@
-.message {
+.#{$message} {
     padding: 8px 35px 8px 14px;
     text-shadow: 0 1px 0 rgba(255,255,255,.5);
     background-color: $light-gray;
     border: 1px solid $light-gray;
     @include border-radius(4px);
     color: #333;
-    .message-status,
-    .message-info {
-        
+    .#{$message-status},
+    .#{$message-info} {
+
     }
-    .message-error,
-    .message-danger {
+    .#{$message-error},
+    .#{$message-danger} {
 
     }
 }

@@ -3,6 +3,8 @@
 # Bedrock
 ## What is it
 
+**Bedrock** : The fundamental principles on which something is based.
+
 **Bedrock** is a themable CSS starter pack written with SASS, Compass & Susy.
 
 It includes a basic set of files, a styleguide and an example directory.

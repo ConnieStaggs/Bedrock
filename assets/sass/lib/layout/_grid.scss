@@ -8,29 +8,29 @@
 
 // Getting the data into classes
 
-.wrapper, .container, .layout-container {
+.#{$wrapper} {
     @include container;
 }
 
-.first, .alpha {
+.#{$first} {
     @include first;
 }
 
-.last, .omega {
+.#{$last} {
     @include last;
 }
 
-.full-width, .col-full {
+.#{$full-width} {
     width: 100%;
     @include pie-clearfix;
 }
 
-[class*=col-] {
+[class*=#{$col}] {
     float: left;
     display: inline;
 }
 
-[class*=col-]:last-child {
+[class*=#{$col}]:last-child {
     @include last;
 }
 
@@ -39,18 +39,18 @@
 // Default - 12 Cols Layout
 
 @for $i from 1 through $total-columns {
-    .col-#{$i} {
+    .#{$col}#{$i} {
         @include span-columns($i, $total-columns);
         @for $x from 1 through $total-columns {
-            .col-#{$x} {
+            .#{$col}#{$x} {
                 @include span-columns($x, $i);
             }
         }
     }
-    .prefix-#{$i} {
+    .#{$prefix}#{$i} {
         @include pre($i, $total-columns);
     }
-    .suffix-#{$i} {
+    .#{$suffix}#{$i} {
         @include post($i, $total-columns);
     }
 }
@@ -77,60 +77,60 @@
 
 // 10 Cols Layout
 
-.grid-10 {
-    @for $i from 1 through 10 {
-        .col-#{$i} {
-            @include span-columns($i, 10);
-            @for $x from 1 through 10 {
-                .col-#{$x} {
-                    @include span-columns($x, $i);
-                }
-            }
-        }
-        .prefix-#{$i} {
-            @include pre($i, 10);
-        }
-        .suffix-#{$i} {
-            @include post($i, 10);
-        }
-    }
-}
+// .grid-10 {
+//     @for $i from 1 through 10 {
+//         .col-#{$i} {
+//             @include span-columns($i, 10);
+//             @for $x from 1 through 10 {
+//                 .col-#{$x} {
+//                     @include span-columns($x, $i);
+//                 }
+//             }
+//         }
+//         .prefix-#{$i} {
+//             @include pre($i, 10);
+//         }
+//         .suffix-#{$i} {
+//             @include post($i, 10);
+//         }
+//     }
+// }
 
 // Fractionnal col
 
-.col-1of2 {
+.#{$col-1of2} {
     width: 50%;
 }
 
-.col-1of3 {
+.#{$col-1of3} {
     width: 33.333333333%;
 }
 
-.col-2of3 {
+.#{$col-2of3} {
     width: 66.666666667%;
 }
 
-.col-1of4 {
+.#{$col-1of4} {
     width: 25%;
 }
 
-.col-3of4 {
+.#{$col-3of4} {
     width: 75%;
 }
 
-.col-1of5 {
+.#{$col-1of5} {
     width: 20%;
 }
 
-.col-2of5 {
+.#{$col-2of5} {
     width: 40%;
 }
 
-.col-3of5 {
+.#{$col-3of5} {
     width: 60%;
 }
 
-.col-4of5 {
+.#{$col-4of5} {
     width: 80%;
 }
 

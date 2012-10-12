@@ -10,71 +10,69 @@ aside {}
 
 // Sections
 
-.site-layout {}
+.#{$site-layout} {}
 
-.site-header {}
+.#{$site-header} {}
 
-.site-content {}
+.#{$site-content} {}
 
-.site-footer {}
+.#{$site-footer} {}
 
-.page-header {}
+.#{$page-header} {}
 
-.page-content {}
+.#{$page-content} {}
 
-.section {
+.#{$section} {
     clear: both;
     padding: 1em 0;
 }
 
-.section-default {}
+.#{$section-default} {}
 
-.section-highlight {
+.#{$section-highlight} {
     background: #DDD;
 }
 
-.section-header {}
+.#{$section-header} {}
 
-.row {
+.#{$row} {
     margin: 0;
     padding: 0;
     @include pie-clearfix;
 }
 
-.row-divider-top {
+.#{$row-highlight} {
+    background: #DDD;
+}
+
+.#{$row-divider-top} {
     border-top: 1px solid $light-gray;
 }
 
-.row-divider-bottom {
+.#{$row-divider-bottom} {
     border-bottom: 1px solid $light-gray;
-}
-
-.row-highlight {
-    background: #DDD;
 }
 
 // Boxes
 
-.box {
+.#{$box} {
 	border: solid $light-gray;
 	border-width: $box-border-width;
     margin-bottom: 20px;
-    .box-header {
+    .#{$box-header} {
         padding: 10px;
         border-bottom: 1px solid $light-gray;
     }
-    .box-container {
+    .#{$box-inner} {
         padding: 10px;
         ul {
             padding: 0;
         }
     }
-    .actions-container {
+    .#{$actions-container} {
         padding: 0 10px 10px 10px;
     }
-    .box-highlight {
+    .#{$box-highlight} {
         background-color: $light-gray;
     }
 }
-
-aside .box {}

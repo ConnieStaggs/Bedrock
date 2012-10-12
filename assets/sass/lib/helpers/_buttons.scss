@@ -1,4 +1,4 @@
-.btn {
+.#{$btn} {
     padding: 5px 10px;
     margin-right: 0;
     display: inline-block;
@@ -15,7 +15,7 @@
         color: #333;
     }
     // Colors
-    &.btn-primary {
+    &.#{$btn-primary} {
         background-color: $btn-color-primary;
         border-color: darken($btn-color-primary, 15%);
         color: #FFF;
@@ -23,7 +23,7 @@
             background-color: darken($btn-color-primary, 10%);
         }
     }
-    &.btn-secondary {
+    &.#{$btn-secondary} {
         color: #FFF;
         background-color: $btn-color-secondary;
         border-color: darken($btn-color-secondary, 15%);
@@ -31,7 +31,7 @@
             background-color: darken($btn-color-secondary, 10%);
         }
     }
-    &.btn-alt {
+    &.#{$btn-alt} {
         color: #FFF;
         background-color: $btn-color-alt;
         border-color: darken($btn-color-alt, 15%);
@@ -39,7 +39,7 @@
             background-color: darken($btn-color-alt, 10%);
         }
     }
-    &.btn-highlight {
+    &.#{$btn-highlight} {
         color: #FFF;
         background-color: $btn-color-highlight;
         border-color: darken($btn-color-highlight, 15%);
@@ -47,7 +47,7 @@
             background-color: darken($btn-color-highlight, 10%);
         }
     }
-    &.btn-disabled {
+    &.#{$btn-disabled} {
         background-color: $btn-color;
         border-color: darken($btn-color, 15%);
         cursor: default;
@@ -58,27 +58,27 @@
         }
     }
     // Sizes
-    &.btn-xsmall {
+    &.#{$btn-xsmall} {
         font-size: 12px;
         line-height: 1;
     }
-    &.btn-small {
+    &.#{$btn-small} {
         font-size: 14px;
         line-height: 1.4;
     }
-    &.btn-medium {
+    &.#{$btn-medium} {
         font-size: 16px;
         line-height: 1.8;
     }
-    &.btn-large {
+    &.#{$btn-large} {
         font-size: 18px;
         line-height: 2;
     }
-    &.btn-xlarge {
+    &.#{$btn-xlarge} {
         font-size: 24px;
         line-height: 2;
     }
-    &.btn-full {
+    &.#{$btn-full} {
         float: left;
         width: 100%;
         clear: both;
@@ -86,7 +86,7 @@
     }
 
     // Decoration
-    &.btn-up, &.btn-down, &.btn-right {
+    &.#{$btn-up}, &.#{$btn-down}, &.#{$btn-right} {
         padding-right: 30px;
         &:after {
             content: "";
@@ -94,7 +94,7 @@
             position: absolute;
         }
     }
-    &.btn-up {
+    &.#{$btn-up} {
         &:after {
             @include css-arrow(up, rgba(0, 0, 0, 0.5), 6px);
             top: 35%;
@@ -102,7 +102,7 @@
             margin-top: -2px;
         }
     }
-    &.btn-down {
+    &.#{$btn-down} {
         &:after {
             @include css-arrow(down, rgba(0, 0, 0, 0.5), 6px);
             top: 50%;
@@ -111,7 +111,7 @@
         }
     }
 
-    &.btn-right {
+    &.#{$btn-right }{
         &:after {
             @include css-arrow(right, rgba(0, 0, 0, 0.5), 6px);
             top: 35%;
@@ -120,7 +120,7 @@
     }
 }
 
-.btn-group {
+.#{$btn-group} {
     list-style: none;
     padding: 0;
     @include pie-clearfix;
@@ -141,7 +141,7 @@
             @include border-bottom-right-radius(0);
         }
     }
-    .btn {
+    .#{$btn} {
         margin-right: 0;
     }
 }

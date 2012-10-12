@@ -13,10 +13,10 @@ GEM
     modular-scale (1.0.2)
       compass (>= 0.11.5)
       sassy-math (>= 1.2)
-    sass (3.2.0)
+    sass (3.2.1)
     sassy-math (1.2)
       compass (~> 0.11)
-    susy (1.0)
+    susy (1.0.1)
       compass (>= 0.12.2)
       sass (>= 3.2.0)
 
@@ -24,8 +24,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  compass (>= 0.13.alpha.0)
-  compass-rails (>= 1.0.2)
+  compass (~> 0.13.alpha.0)
+  compass-rails
   haml
   modular-scale
   susy

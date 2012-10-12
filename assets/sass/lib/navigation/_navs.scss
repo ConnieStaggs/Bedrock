@@ -1,15 +1,25 @@
-.nav-primary {
-	padding: 0;
-	margin: 0;
-	&.nav-horizontal li {
-		display: inline-block;
-		padding: 0;
-		margin: 0;
-	}
-	a {
-		padding: 5px 10px;
-	}
-}
-.nav-secondary {
-    
+.nav {
+    padding: 0;
+    margin: 0;
+    ul { padding: 0; margin: 0; }
+    a {
+        padding: 5px 10px;
+    }
+    &.nav-primary {
+
+    }
+
+    &.nav-secondary {
+
+    }
+
+    &.nav-horizontal li {
+        display: inline-block;
+        padding: 0;
+        margin: 0;
+        ul {
+            padding: 0;
+            margin: 0;
+        }
+    }
 }
