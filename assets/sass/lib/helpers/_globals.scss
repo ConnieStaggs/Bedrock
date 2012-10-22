@@ -6,6 +6,8 @@ body {
     font-family: $base-font;
     line-height: $base-line-height;
     -webkit-font-smoothing: antialiased;
+    background-color: $body-color;
+    color: $text-color-primary;
 }
 
 // Alignment

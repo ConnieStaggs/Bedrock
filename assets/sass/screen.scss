@@ -11,20 +11,29 @@
 @import "compass";
 @import "susy";
 
-// Default settings - Copy this file & comment this line to use your own
-@import "lib/settings";
+/* Bedrock Defaults
+   ========================================================================== */
 
-// Bedrock's core
-@import "lib/core";
+// Default Classes - Copy this file & comment this line to use your own in your app
+@import "lib/class-names";
 
-/* Your App
+// Default settings - Copy this file & comment this line to use your own in your app
+// @import "lib/settings";
+
+/* Your App - Your custom style
    ========================================================================== */
 
 // @import "app/app";
 
-/* Themes
+/* Themes - Use a predefined theme
    ========================================================================== */
 
-// @import "themes/dark-night/dark-night";
+@import "themes/dark-night/dark-night";
 
 // @import "themes/iweb/iweb";
+
+/* Bedrock Core - Do not edit
+   ========================================================================== */
+
+// Bedrock's core
+@import "lib/core";

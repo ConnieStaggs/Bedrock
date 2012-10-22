@@ -5,9 +5,16 @@ p {
 p.notes {}
 
 a {
-	&:hover {}
-	&:active {}
-	&:visited {}
+    color: $link-color;
+	&:hover {
+        color: $link-hover-color;
+    }
+	&:active {
+        color: $link-active-color;
+    }
+	&:visited {
+        color: $link-visited-color;
+    }
 }
 
 strong {

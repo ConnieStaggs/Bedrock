@@ -1,3 +1,9 @@
+// Navigation
+@mixin nav-item-width($items,$border-size:0) {
+    width: ($layout-width - 2) / $items - ($border-size * 2);
+}
+
+// Design Elements
 @mixin css-arrow($orientation: "up", $arrow-color: #ccc, $arrow-width: 10px) {
     width: 0;
     height: 0;

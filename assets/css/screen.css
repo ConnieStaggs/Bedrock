@@ -7,15 +7,170 @@
  * Use your own scss in the /app folder or use a theme
  *
  */
-/* line 66, ../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+/* Bedrock Defaults
+   ========================================================================== */
+/* ==========================================================================
+    Class Names
+========================================================================== */
+/* Your App - Your custom style
+   ========================================================================== */
+/* Themes - Use a predefined theme
+   ========================================================================== */
+/**
+ * Dark Night Theme
+ * ===========================================
+ * Dark theme for Bedrock
+ * Created by : Benoit Deziel (benoitdeziel.com)
+ * Date : 28/07/2012
+ * Version : 0.1
+*/
+/* line 66, /Users/benoitdeziel/.rvm/gems/ruby-1.9.3-p194@global/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
 html {
   font-size: 100%;
   line-height: 1.5em;
 }
 
 /* ==========================================================================
-    Class Names
-========================================================================== */
+   Layout
+   ========================================================================== */
+/* line 16, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/themes/dark-night/_dark-night.scss */
+.box {
+  border-color: #000000;
+  background-color: #2b2b2b;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #383936), color-stop(100%, #313131));
+  background-image: -webkit-linear-gradient(top, #383936, #313131);
+  background-image: -moz-linear-gradient(top, #383936, #313131);
+  background-image: -o-linear-gradient(top, #383936, #313131);
+  background-image: -ms-linear-gradient(top, #383936, #313131);
+  background-image: linear-gradient(top, #383936, #313131);
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF383936', endColorstr='#FF313131');
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+/* line 24, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/themes/dark-night/_dark-night.scss */
+.box .box-header {
+  background-color: #383936;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #2b2b2b), color-stop(100%, #262626));
+  background-image: -webkit-linear-gradient(top, #2b2b2b, #262626);
+  background-image: -moz-linear-gradient(top, #2b2b2b, #262626);
+  background-image: -o-linear-gradient(top, #2b2b2b, #262626);
+  background-image: -ms-linear-gradient(top, #2b2b2b, #262626);
+  background-image: linear-gradient(top, #2b2b2b, #262626);
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF2B2B2B', endColorstr='#FF262626');
+  border-color: #000000;
+  -webkit-border-radius: 5px 5px 0 0;
+  -moz-border-radius: 5px 5px 0 0;
+  -ms-border-radius: 5px 5px 0 0;
+  -o-border-radius: 5px 5px 0 0;
+  border-radius: 5px 5px 0 0;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.08);
+  -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.08);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.08);
+  color: #fff;
+}
+/* line 35, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/themes/dark-night/_dark-night.scss */
+.box .box-container:first-child {
+  -webkit-border-radius: 5px 5px 0 0;
+  -moz-border-radius: 5px 5px 0 0;
+  -ms-border-radius: 5px 5px 0 0;
+  -o-border-radius: 5px 5px 0 0;
+  border-radius: 5px 5px 0 0;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.08);
+  -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.08);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.08);
+}
+/* line 39, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/themes/dark-night/_dark-night.scss */
+.box .box-header + .box-container {
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* line 44, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/themes/dark-night/_dark-night.scss */
+.btn {
+  font-weight: bold;
+  background-color: #f3f3f3;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f3f3f3), color-stop(100%, #dfdfdf));
+  background-image: -webkit-linear-gradient(top, #f3f3f3, #dfdfdf);
+  background-image: -moz-linear-gradient(top, #f3f3f3, #dfdfdf);
+  background-image: -o-linear-gradient(top, #f3f3f3, #dfdfdf);
+  background-image: -ms-linear-gradient(top, #f3f3f3, #dfdfdf);
+  background-image: linear-gradient(top, #f3f3f3, #dfdfdf);
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFF3F3F3', endColorstr='#FFDFDFDF');
+  border-color: #333;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+}
+/* line 53, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/themes/dark-night/_dark-night.scss */
+.btn.btn-primary {
+  background-color: #8bd2ed;
+  color: #105069;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #8bd2ed), color-stop(100%, #3c9bcb));
+  background-image: -webkit-linear-gradient(top, #8bd2ed, #3c9bcb);
+  background-image: -moz-linear-gradient(top, #8bd2ed, #3c9bcb);
+  background-image: -o-linear-gradient(top, #8bd2ed, #3c9bcb);
+  background-image: -ms-linear-gradient(top, #8bd2ed, #3c9bcb);
+  background-image: linear-gradient(top, #8bd2ed, #3c9bcb);
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF8BD2ED', endColorstr='#FF3C9BCB');
+}
+/* line 61, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/themes/dark-night/_dark-night.scss */
+.btn.btn-secondary {
+  background-color: #bff481;
+  color: #3f6d09;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #bff481), color-stop(100%, #85d200));
+  background-image: -webkit-linear-gradient(top, #bff481, #85d200);
+  background-image: -moz-linear-gradient(top, #bff481, #85d200);
+  background-image: -o-linear-gradient(top, #bff481, #85d200);
+  background-image: -ms-linear-gradient(top, #bff481, #85d200);
+  background-image: linear-gradient(top, #bff481, #85d200);
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFBFF481', endColorstr='#FF85D200');
+}
+/* line 68, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/themes/dark-night/_dark-night.scss */
+.btn.btn-alt {
+  background-color: #e06151;
+  color: #2a0b08;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #e06151), color-stop(100%, #b81b0f));
+  background-image: -webkit-linear-gradient(top, #e06151, #b81b0f);
+  background-image: -moz-linear-gradient(top, #e06151, #b81b0f);
+  background-image: -o-linear-gradient(top, #e06151, #b81b0f);
+  background-image: -ms-linear-gradient(top, #e06151, #b81b0f);
+  background-image: linear-gradient(top, #e06151, #b81b0f);
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFE06151', endColorstr='#FFB81B0F');
+}
+/* line 75, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/themes/dark-night/_dark-night.scss */
+.btn.btn-highlight {
+  background-color: #e69e23;
+  color: #090601;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #e69e23), color-stop(100%, #e15218));
+  background-image: -webkit-linear-gradient(top, #e69e23, #e15218);
+  background-image: -moz-linear-gradient(top, #e69e23, #e15218);
+  background-image: -o-linear-gradient(top, #e69e23, #e15218);
+  background-image: -ms-linear-gradient(top, #e69e23, #e15218);
+  background-image: linear-gradient(top, #e69e23, #e15218);
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFE69E23', endColorstr='#FFE15218');
+  border-color: #7C4100;
+}
+
+/* Bedrock Core - Do not edit
+   ========================================================================== */
 /* normalize.css 2012-02-07T12:37 UTC - http://github.com/necolas/normalize.css */
 /* =============================================================================
    HTML5 display definitions
@@ -23,7 +178,7 @@ html {
 /*
  * Corrects block display not defined in IE6/7/8/9 & FF3
  */
-/* line 21, ../sass/lib/_normalize.scss */
+/* line 21, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/_normalize.scss */
 article,
 aside,
 details,
@@ -41,7 +196,7 @@ summary {
 /*
  * Corrects inline-block display not defined in IE6/7/8/9 & FF3
  */
-/* line 31, ../sass/lib/_normalize.scss */
+/* line 31, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/_normalize.scss */
 audio,
 canvas,
 video {
@@ -53,7 +208,7 @@ video {
 /*
  * Prevents modern browsers from displaying 'audio' without controls
  */
-/* line 41, ../sass/lib/_normalize.scss */
+/* line 41, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/_normalize.scss */
 audio:not([controls]) {
   display: none;
 }
@@ -62,7 +217,7 @@ audio:not([controls]) {
  * Addresses styling for 'hidden' attribute not present in IE7/8/9, FF3, S4
  * Known issue: no IE6 support
  */
-/* line 50, ../sass/lib/_normalize.scss */
+/* line 50, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/_normalize.scss */
 [hidden] {
   display: none;
 }
@@ -76,7 +231,7 @@ audio:not([controls]) {
  * 2. Prevents iOS text size adjust after orientation change, without disabling user zoom
  *    www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/
  */
-/* line 66, ../sass/lib/_normalize.scss */
+/* line 66, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/_normalize.scss */
 html {
   font-size: 100%;
   /* 1 */
@@ -92,7 +247,7 @@ html {
 /*
  * Addresses margins handled incorrectly in IE6/7
  */
-/* line 88, ../sass/lib/_normalize.scss */
+/* line 88, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/_normalize.scss */
 body {
   margin: 0;
 }
@@ -103,7 +258,7 @@ body {
 /*
  * Addresses outline displayed oddly in Chrome
  */
-/* line 101, ../sass/lib/_normalize.scss */
+/* line 101, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/_normalize.scss */
 a:focus {
   outline: thin dotted;
 }
@@ -112,7 +267,7 @@ a:focus {
  * Improves readability when focused and also mouse hovered in all browsers
  * people.opera.com/patrickl/experiments/keyboard/test
  */
-/* line 111, ../sass/lib/_normalize.scss */
+/* line 111, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/_normalize.scss */
 a:hover,
 a:active {
   outline: 0;
@@ -125,37 +280,37 @@ a:active {
  * Addresses font sizes and margins set differently in IE6/7
  * Addresses font sizes within 'section' and 'article' in FF4+, Chrome, S5
  */
-/* line 125, ../sass/lib/_normalize.scss */
+/* line 125, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/_normalize.scss */
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
 }
 
-/* line 130, ../sass/lib/_normalize.scss */
+/* line 130, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/_normalize.scss */
 h2 {
   font-size: 1.5em;
   margin: 0.83em 0;
 }
 
-/* line 135, ../sass/lib/_normalize.scss */
+/* line 135, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/_normalize.scss */
 h3 {
   font-size: 1.17em;
   margin: 1em 0;
 }
 
-/* line 140, ../sass/lib/_normalize.scss */
+/* line 140, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/_normalize.scss */
 h4 {
   font-size: 1em;
   margin: 1.33em 0;
 }
 
-/* line 145, ../sass/lib/_normalize.scss */
+/* line 145, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/_normalize.scss */
 h5 {
   font-size: 0.83em;
   margin: 1.67em 0;
 }
 
-/* line 150, ../sass/lib/_normalize.scss */
+/* line 150, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/_normalize.scss */
 h6 {
   font-size: 0.75em;
   margin: 2.33em 0;
@@ -164,7 +319,7 @@ h6 {
 /*
  * Addresses styling not present in IE7/8/9, S5, Chrome
  */
-/* line 159, ../sass/lib/_normalize.scss */
+/* line 159, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/_normalize.scss */
 abbr[title] {
   border-bottom: 1px dotted;
 }
@@ -172,13 +327,13 @@ abbr[title] {
 /*
  * Addresses style set to 'bolder' in FF3+, S4/5, Chrome
 */
-/* line 168, ../sass/lib/_normalize.scss */
+/* line 168, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/_normalize.scss */
 b,
 strong {
   font-weight: bold;
 }
 
-/* line 172, ../sass/lib/_normalize.scss */
+/* line 172, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/_normalize.scss */
 blockquote {
   margin: 1em 40px;
 }
@@ -186,7 +341,7 @@ blockquote {
 /*
  * Addresses styling not present in S5, Chrome
  */
-/* line 180, ../sass/lib/_normalize.scss */
+/* line 180, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/_normalize.scss */
 dfn {
   font-style: italic;
 }
@@ -194,7 +349,7 @@ dfn {
 /*
  * Addresses styling not present in IE6/7/8/9
  */
-/* line 188, ../sass/lib/_normalize.scss */
+/* line 188, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/_normalize.scss */
 mark {
   background: #ff0;
   color: #000;
@@ -203,7 +358,7 @@ mark {
 /*
  * Addresses margins set differently in IE6/7
  */
-/* line 198, ../sass/lib/_normalize.scss */
+/* line 198, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/_normalize.scss */
 p,
 pre {
   margin: 1em 0;
@@ -213,7 +368,7 @@ pre {
  * Corrects font family set oddly in IE6, S4/5, Chrome
  * en.wikipedia.org/wiki/User:Davidgothberg/Test59
  */
-/* line 210, ../sass/lib/_normalize.scss */
+/* line 210, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/_normalize.scss */
 pre,
 code,
 kbd,
@@ -226,7 +381,7 @@ samp {
 /*
  * Improves readability of pre-formatted text in all browsers
  */
-/* line 220, ../sass/lib/_normalize.scss */
+/* line 220, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/_normalize.scss */
 pre {
   white-space: pre;
   white-space: pre-wrap;
@@ -238,20 +393,20 @@ pre {
  * 2. Addresses quote property not supported in S4
  */
 /* 1 */
-/* line 233, ../sass/lib/_normalize.scss */
+/* line 233, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/_normalize.scss */
 q {
   quotes: none;
 }
 
 /* 2 */
-/* line 240, ../sass/lib/_normalize.scss */
+/* line 240, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/_normalize.scss */
 q:before,
 q:after {
   content: '';
   content: none;
 }
 
-/* line 245, ../sass/lib/_normalize.scss */
+/* line 245, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/_normalize.scss */
 small {
   font-size: 75%;
 }
@@ -260,7 +415,7 @@ small {
  * Prevents sub and sup affecting line-height in all browsers
  * gist.github.com/413930
  */
-/* line 255, ../sass/lib/_normalize.scss */
+/* line 255, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/_normalize.scss */
 sub,
 sup {
   font-size: 75%;
@@ -269,12 +424,12 @@ sup {
   vertical-align: baseline;
 }
 
-/* line 262, ../sass/lib/_normalize.scss */
+/* line 262, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/_normalize.scss */
 sup {
   top: -0.5em;
 }
 
-/* line 266, ../sass/lib/_normalize.scss */
+/* line 266, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/_normalize.scss */
 sub {
   bottom: -0.25em;
 }
@@ -285,7 +440,7 @@ sub {
 /*
  * Addresses margins set differently in IE6/7
  */
-/* line 282, ../sass/lib/_normalize.scss */
+/* line 282, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/_normalize.scss */
 dl,
 menu,
 ol,
@@ -293,7 +448,7 @@ ul {
   margin: 1em 0;
 }
 
-/* line 286, ../sass/lib/_normalize.scss */
+/* line 286, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/_normalize.scss */
 dd {
   margin: 0 0 0 40px;
 }
@@ -301,7 +456,7 @@ dd {
 /*
  * Addresses paddings set differently in IE6/7
  */
-/* line 296, ../sass/lib/_normalize.scss */
+/* line 296, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/_normalize.scss */
 menu,
 ol,
 ul {
@@ -311,7 +466,7 @@ ul {
 /*
  * Corrects list images handled incorrectly in IE7
  */
-/* line 305, ../sass/lib/_normalize.scss */
+/* line 305, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/_normalize.scss */
 nav ul,
 nav ol {
   list-style: none;
@@ -326,7 +481,7 @@ nav ol {
  * 2. Improves image quality when scaled in IE7
  *    code.flickr.com/blog/2008/11/12/on-ui-quality-the-little-things-client-side-image-resizing/
  */
-/* line 321, ../sass/lib/_normalize.scss */
+/* line 321, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/_normalize.scss */
 img {
   border: 0;
   /* 1 */
@@ -337,7 +492,7 @@ img {
 /*
  * Corrects overflow displayed oddly in IE9
  */
-/* line 330, ../sass/lib/_normalize.scss */
+/* line 330, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/_normalize.scss */
 svg:not(:root) {
   overflow: hidden;
 }
@@ -348,7 +503,7 @@ svg:not(:root) {
 /*
  * Addresses margin not present in IE6/7/8/9, S5, O11
  */
-/* line 343, ../sass/lib/_normalize.scss */
+/* line 343, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/_normalize.scss */
 figure {
   margin: 0;
 }
@@ -359,7 +514,7 @@ figure {
 /*
  * Corrects margin displayed oddly in IE6/7
  */
-/* line 356, ../sass/lib/_normalize.scss */
+/* line 356, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/_normalize.scss */
 form {
   margin: 0;
 }
@@ -367,7 +522,7 @@ form {
 /*
  * Define consistent border, margin, and padding
  */
-/* line 364, ../sass/lib/_normalize.scss */
+/* line 364, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/_normalize.scss */
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
@@ -379,7 +534,7 @@ fieldset {
  * 2. Corrects text not wrapping in FF3 
  * 3. Corrects alignment displayed oddly in IE6/7
  */
-/* line 376, ../sass/lib/_normalize.scss */
+/* line 376, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/_normalize.scss */
 legend {
   border: 0;
   /* 1 */
@@ -395,7 +550,7 @@ legend {
  * 2. Addresses margins set differently in IE6/7, FF3+, S5, Chrome
  * 3. Improves appearance and consistency in all browsers
  */
-/* line 392, ../sass/lib/_normalize.scss */
+/* line 392, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/_normalize.scss */
 button,
 input,
 select,
@@ -413,7 +568,7 @@ textarea {
 /*
  * Addresses FF3/4 setting line-height on 'input' using !important in the UA stylesheet
  */
-/* line 404, ../sass/lib/_normalize.scss */
+/* line 404, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/_normalize.scss */
 button,
 input {
   line-height: normal;
@@ -426,7 +581,7 @@ input {
  * 3. Removes inner spacing in IE7 without affecting normal text inputs
  *    Known issue: inner spacing remains in IE6
  */
-/* line 418, ../sass/lib/_normalize.scss */
+/* line 418, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/_normalize.scss */
 button,
 input[type="button"],
 input[type="reset"],
@@ -442,7 +597,7 @@ input[type="submit"] {
 /*
  * Re-set default cursor for disabled elements
  */
-/* line 429, ../sass/lib/_normalize.scss */
+/* line 429, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/_normalize.scss */
 button[disabled],
 input[disabled] {
   cursor: default;
@@ -454,7 +609,7 @@ input[disabled] {
  * 3. Removes excess padding in IE7
       Known issue: excess padding remains in IE6
  */
-/* line 441, ../sass/lib/_normalize.scss */
+/* line 441, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/_normalize.scss */
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
@@ -471,7 +626,7 @@ input[type="radio"] {
  * 1. Addresses appearance set to searchfield in S5, Chrome
  * 2. Addresses box-sizing set to border-box in S5, Chrome (include -moz to future-proof)
  */
-/* line 453, ../sass/lib/_normalize.scss */
+/* line 453, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/_normalize.scss */
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -484,7 +639,7 @@ input[type="search"] {
 /*
  * Removes inner padding and search cancel button in S5, Chrome on OS X
  */
-/* line 465, ../sass/lib/_normalize.scss */
+/* line 465, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/_normalize.scss */
 input[type="search"]::-webkit-search-decoration,
 input[type="search"]::-webkit-search-cancel-button {
   -webkit-appearance: none;
@@ -494,7 +649,7 @@ input[type="search"]::-webkit-search-cancel-button {
  * Removes inner padding and border in FF3+
  * www.sitepen.com/blog/2008/05/14/the-devils-in-the-details-fixing-dojos-toolbar-buttons/
  */
-/* line 475, ../sass/lib/_normalize.scss */
+/* line 475, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/_normalize.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
@@ -505,7 +660,7 @@ input::-moz-focus-inner {
  * 1. Removes default vertical scrollbar in IE6/7/8/9
  * 2. Improves readability and alignment in all browsers
  */
-/* line 485, ../sass/lib/_normalize.scss */
+/* line 485, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/_normalize.scss */
 textarea {
   overflow: auto;
   /* 1 */
@@ -519,212 +674,231 @@ textarea {
 /*
  * Remove most spacing between table cells
  */
-/* line 499, ../sass/lib/_normalize.scss */
+/* line 499, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/_normalize.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 3, ../sass/lib/helpers/_globals.scss */
+/* line 3, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/helpers/_globals.scss */
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-/* line 5, ../sass/lib/helpers/_globals.scss */
+/* line 5, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/helpers/_globals.scss */
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   line-height: 24px;
   -webkit-font-smoothing: antialiased;
+  background-color: #282828;
+  color: #d6d6d6;
 }
 
-/* line 13, ../sass/lib/helpers/_globals.scss */
+/* line 15, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/helpers/_globals.scss */
 .left {
   float: left;
 }
 
-/* line 14, ../sass/lib/helpers/_globals.scss */
+/* line 16, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/helpers/_globals.scss */
 .right {
   float: right;
 }
 
-/* line 15, ../sass/lib/helpers/_globals.scss */
+/* line 17, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/helpers/_globals.scss */
 .center {
   float: none;
   margin: 0 auto;
 }
 
-/* line 16, ../sass/lib/helpers/_globals.scss */
+/* line 18, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/helpers/_globals.scss */
 .text-left {
   text-align: left;
 }
 
-/* line 17, ../sass/lib/helpers/_globals.scss */
+/* line 19, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/helpers/_globals.scss */
 .text-right {
   text-align: right;
 }
 
-/* line 18, ../sass/lib/helpers/_globals.scss */
+/* line 20, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/helpers/_globals.scss */
 .text-center {
   text-align: center;
 }
 
-/* line 21, ../sass/lib/helpers/_globals.scss */
+/* line 23, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/helpers/_globals.scss */
 .hidden {
   display: none;
 }
 
-/* line 23, ../sass/lib/helpers/_globals.scss */
+/* line 25, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/helpers/_globals.scss */
 .no-padding {
   padding: 0;
 }
 
-/* line 24, ../sass/lib/helpers/_globals.scss */
+/* line 26, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/helpers/_globals.scss */
 .no-margin {
   margin: 0;
 }
 
-/* line 3, ../sass/lib/typography/_headings.scss */
+/* line 3, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/typography/_headings.scss */
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
   clear: both;
 }
-/* line 6, ../sass/lib/typography/_headings.scss */
+/* line 6, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/typography/_headings.scss */
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
   font-weight: normal;
   color: #999;
 }
 
-/* line 12, ../sass/lib/typography/_headings.scss */
+/* line 12, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/typography/_headings.scss */
 .subheader {
   font-weight: normal;
   color: #999;
 }
 
-/* line 17, ../sass/lib/typography/_headings.scss */
+/* line 17, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/typography/_headings.scss */
 h1 {
   font-size: 2.25em;
   line-height: 1.33333em;
 }
-/* line 19, ../sass/lib/typography/_headings.scss */
+/* line 19, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/typography/_headings.scss */
 h1 + h2 {
   margin-top: .5em;
 }
-/* line 23, ../sass/lib/typography/_headings.scss */
+/* line 23, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/typography/_headings.scss */
 h1 + .row {
   margin-top: 40px;
 }
 
-/* line 28, ../sass/lib/typography/_headings.scss */
+/* line 28, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/typography/_headings.scss */
 h2 {
   font-size: 1.75em;
   line-height: 1.71429em;
   margin-top: .8em;
 }
-/* line 31, ../sass/lib/typography/_headings.scss */
+/* line 31, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/typography/_headings.scss */
 h2.subheader {
   margin-top: 0;
 }
-/* line 34, ../sass/lib/typography/_headings.scss */
+/* line 34, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/typography/_headings.scss */
 h2 + .row {
   margin-top: 20px;
 }
 
-/* line 39, ../sass/lib/typography/_headings.scss */
+/* line 39, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/typography/_headings.scss */
 h3 {
   font-size: 1.375em;
   line-height: 2.18182em;
 }
 
-/* line 43, ../sass/lib/typography/_headings.scss */
+/* line 43, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/typography/_headings.scss */
 h4 {
   font-size: 1.125em;
   line-height: 1.33333em;
 }
 
-/* line 1, ../sass/lib/typography/_text.scss */
+/* line 1, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/typography/_text.scss */
 p {
   font-size: 1em;
   line-height: 1.5em;
 }
 
-/* line 13, ../sass/lib/typography/_text.scss */
+/* line 7, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/typography/_text.scss */
+a {
+  color: #999999;
+}
+/* line 9, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/typography/_text.scss */
+a:hover {
+  color: #666666;
+}
+/* line 12, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/typography/_text.scss */
+a:active {
+  color: #666666;
+}
+/* line 15, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/typography/_text.scss */
+a:visited {
+  color: white;
+}
+
+/* line 20, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/typography/_text.scss */
 strong {
   font-weight: 600;
 }
 
-/* line 17, ../sass/lib/typography/_text.scss */
+/* line 24, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/typography/_text.scss */
 em {
   font-style: italic;
 }
 
-/* line 27, ../sass/lib/typography/_text.scss */
+/* line 34, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/typography/_text.scss */
 abbr[title] {
   cursor: help;
 }
 
-/* line 35, ../sass/lib/typography/_text.scss */
+/* line 42, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/typography/_text.scss */
 blockquote cite {
   font-style: italic;
   display: block;
 }
-/* line 38, ../sass/lib/typography/_text.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/typography/_text.scss */
 blockquote cite:before {
   content: "— 014 \0020";
 }
 
-/* line 45, ../sass/lib/typography/_text.scss */
+/* line 52, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/typography/_text.scss */
 blockquote:before,
 blockquote:after {
   content: "";
 }
 
-/* line 51, ../sass/lib/typography/_text.scss */
+/* line 58, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/typography/_text.scss */
 q:before,
 q:after {
   content: "";
 }
 
-/* line 57, ../sass/lib/typography/_text.scss */
+/* line 64, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/typography/_text.scss */
 address {
   display: block;
 }
 
-/* line 63, ../sass/lib/typography/_text.scss */
+/* line 70, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/typography/_text.scss */
 small {
   font-size: 100%;
 }
 
-/* line 67, ../sass/lib/typography/_text.scss */
+/* line 74, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/typography/_text.scss */
 cite {
   font-style: normal;
 }
 
-/* line 1, ../sass/lib/typography/_lists.scss */
+/* line 1, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/typography/_lists.scss */
 ul {
   display: inline-block;
 }
 
-/* line 6, ../sass/lib/typography/_lists.scss */
+/* line 6, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/typography/_lists.scss */
 li {
   list-style: none;
 }
-/* line 8, ../sass/lib/typography/_lists.scss */
+/* line 8, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/typography/_lists.scss */
 .list-horizontal li {
   float: left;
   margin-right: 20px;
 }
-/* line 11, ../sass/lib/typography/_lists.scss */
+/* line 11, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/typography/_lists.scss */
 .list-horizontal li:last-child {
   margin-right: 0;
 }
-/* line 13, ../sass/lib/typography/_lists.scss */
+/* line 13, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/typography/_lists.scss */
 .list-bullet li {
   list-style: disc inside none;
 }
 
-/* line 11, ../sass/lib/layout/_grid.scss */
+/* line 11, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .wrapper {
   *zoom: 1;
   max-width: 978px;
@@ -734,131 +908,131 @@ li {
   padding-left: 1em;
   padding-right: 1em;
 }
-/* line 38, ../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 38, /Users/benoitdeziel/.rvm/gems/ruby-1.9.3-p194@global/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 .wrapper:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* line 15, ../sass/lib/layout/_grid.scss */
+/* line 15, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .first {
   margin-left: 0 !important;
 }
 
-/* line 19, ../sass/lib/layout/_grid.scss */
+/* line 19, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .last {
   margin-right: 0 !important;
 }
 
-/* line 23, ../sass/lib/layout/_grid.scss */
+/* line 23, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .full-width, .pagination {
   width: 100%;
   *zoom: 1;
 }
-/* line 38, ../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 38, /Users/benoitdeziel/.rvm/gems/ruby-1.9.3-p194@global/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 .full-width:after, .pagination:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* line 28, ../sass/lib/layout/_grid.scss */
+/* line 28, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 [class*=col-] {
   float: left;
   display: inline;
 }
 
-/* line 33, ../sass/lib/layout/_grid.scss */
+/* line 33, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 [class*=col-]:last-child {
   margin-right: 0 !important;
 }
 
-/* line 42, ../sass/lib/layout/_grid.scss */
+/* line 42, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-1 {
   width: 5.52147%;
   float: left;
   margin-right: 3.06748%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-1 .col-1 {
   width: 100%;
   float: left;
   margin-right: 55.55556%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-1 .col-2 {
   width: 255.55556%;
   float: left;
   margin-right: 55.55556%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-1 .col-3 {
   width: 411.11111%;
   float: left;
   margin-right: 55.55556%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-1 .col-4 {
   width: 566.66667%;
   float: left;
   margin-right: 55.55556%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-1 .col-5 {
   width: 722.22222%;
   float: left;
   margin-right: 55.55556%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-1 .col-6 {
   width: 877.77778%;
   float: left;
   margin-right: 55.55556%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-1 .col-7 {
   width: 1033.33333%;
   float: left;
   margin-right: 55.55556%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-1 .col-8 {
   width: 1188.88889%;
   float: left;
   margin-right: 55.55556%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-1 .col-9 {
   width: 1344.44444%;
   float: left;
   margin-right: 55.55556%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-1 .col-10 {
   width: 1500%;
   float: left;
   margin-right: 55.55556%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-1 .col-11 {
   width: 1655.55556%;
   float: left;
   margin-right: 55.55556%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-1 .col-12 {
   width: 1811.11111%;
   float: left;
@@ -866,101 +1040,101 @@ li {
   display: inline;
 }
 
-/* line 50, ../sass/lib/layout/_grid.scss */
+/* line 50, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .prefix-1 {
   margin-left: 8.58896%;
 }
 
-/* line 53, ../sass/lib/layout/_grid.scss */
+/* line 53, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .suffix-1 {
   margin-right: 8.58896%;
 }
 
-/* line 42, ../sass/lib/layout/_grid.scss */
+/* line 42, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-2 {
   width: 14.11043%;
   float: left;
   margin-right: 3.06748%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-2 .col-1 {
   width: 39.13043%;
   float: left;
   margin-right: 21.73913%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-2 .col-2 {
   width: 100%;
   float: left;
   margin-right: 21.73913%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-2 .col-3 {
   width: 160.86957%;
   float: left;
   margin-right: 21.73913%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-2 .col-4 {
   width: 221.73913%;
   float: left;
   margin-right: 21.73913%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-2 .col-5 {
   width: 282.6087%;
   float: left;
   margin-right: 21.73913%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-2 .col-6 {
   width: 343.47826%;
   float: left;
   margin-right: 21.73913%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-2 .col-7 {
   width: 404.34783%;
   float: left;
   margin-right: 21.73913%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-2 .col-8 {
   width: 465.21739%;
   float: left;
   margin-right: 21.73913%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-2 .col-9 {
   width: 526.08696%;
   float: left;
   margin-right: 21.73913%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-2 .col-10 {
   width: 586.95652%;
   float: left;
   margin-right: 21.73913%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-2 .col-11 {
   width: 647.82609%;
   float: left;
   margin-right: 21.73913%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-2 .col-12 {
   width: 708.69565%;
   float: left;
@@ -968,101 +1142,101 @@ li {
   display: inline;
 }
 
-/* line 50, ../sass/lib/layout/_grid.scss */
+/* line 50, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .prefix-2 {
   margin-left: 17.17791%;
 }
 
-/* line 53, ../sass/lib/layout/_grid.scss */
+/* line 53, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .suffix-2 {
   margin-right: 17.17791%;
 }
 
-/* line 42, ../sass/lib/layout/_grid.scss */
+/* line 42, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-3 {
   width: 22.69939%;
   float: left;
   margin-right: 3.06748%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-3 .col-1 {
   width: 24.32432%;
   float: left;
   margin-right: 13.51351%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-3 .col-2 {
   width: 62.16216%;
   float: left;
   margin-right: 13.51351%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-3 .col-3 {
   width: 100%;
   float: left;
   margin-right: 13.51351%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-3 .col-4 {
   width: 137.83784%;
   float: left;
   margin-right: 13.51351%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-3 .col-5 {
   width: 175.67568%;
   float: left;
   margin-right: 13.51351%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-3 .col-6 {
   width: 213.51351%;
   float: left;
   margin-right: 13.51351%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-3 .col-7 {
   width: 251.35135%;
   float: left;
   margin-right: 13.51351%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-3 .col-8 {
   width: 289.18919%;
   float: left;
   margin-right: 13.51351%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-3 .col-9 {
   width: 327.02703%;
   float: left;
   margin-right: 13.51351%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-3 .col-10 {
   width: 364.86486%;
   float: left;
   margin-right: 13.51351%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-3 .col-11 {
   width: 402.7027%;
   float: left;
   margin-right: 13.51351%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-3 .col-12 {
   width: 440.54054%;
   float: left;
@@ -1070,101 +1244,101 @@ li {
   display: inline;
 }
 
-/* line 50, ../sass/lib/layout/_grid.scss */
+/* line 50, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .prefix-3 {
   margin-left: 25.76687%;
 }
 
-/* line 53, ../sass/lib/layout/_grid.scss */
+/* line 53, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .suffix-3 {
   margin-right: 25.76687%;
 }
 
-/* line 42, ../sass/lib/layout/_grid.scss */
+/* line 42, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-4 {
   width: 31.28834%;
   float: left;
   margin-right: 3.06748%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-4 .col-1 {
   width: 17.64706%;
   float: left;
   margin-right: 9.80392%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-4 .col-2 {
   width: 45.09804%;
   float: left;
   margin-right: 9.80392%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-4 .col-3 {
   width: 72.54902%;
   float: left;
   margin-right: 9.80392%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-4 .col-4 {
   width: 100%;
   float: left;
   margin-right: 9.80392%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-4 .col-5 {
   width: 127.45098%;
   float: left;
   margin-right: 9.80392%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-4 .col-6 {
   width: 154.90196%;
   float: left;
   margin-right: 9.80392%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-4 .col-7 {
   width: 182.35294%;
   float: left;
   margin-right: 9.80392%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-4 .col-8 {
   width: 209.80392%;
   float: left;
   margin-right: 9.80392%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-4 .col-9 {
   width: 237.2549%;
   float: left;
   margin-right: 9.80392%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-4 .col-10 {
   width: 264.70588%;
   float: left;
   margin-right: 9.80392%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-4 .col-11 {
   width: 292.15686%;
   float: left;
   margin-right: 9.80392%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-4 .col-12 {
   width: 319.60784%;
   float: left;
@@ -1172,101 +1346,101 @@ li {
   display: inline;
 }
 
-/* line 50, ../sass/lib/layout/_grid.scss */
+/* line 50, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .prefix-4 {
   margin-left: 34.35583%;
 }
 
-/* line 53, ../sass/lib/layout/_grid.scss */
+/* line 53, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .suffix-4 {
   margin-right: 34.35583%;
 }
 
-/* line 42, ../sass/lib/layout/_grid.scss */
+/* line 42, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-5 {
   width: 39.8773%;
   float: left;
   margin-right: 3.06748%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-5 .col-1 {
   width: 13.84615%;
   float: left;
   margin-right: 7.69231%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-5 .col-2 {
   width: 35.38462%;
   float: left;
   margin-right: 7.69231%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-5 .col-3 {
   width: 56.92308%;
   float: left;
   margin-right: 7.69231%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-5 .col-4 {
   width: 78.46154%;
   float: left;
   margin-right: 7.69231%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-5 .col-5 {
   width: 100%;
   float: left;
   margin-right: 7.69231%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-5 .col-6 {
   width: 121.53846%;
   float: left;
   margin-right: 7.69231%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-5 .col-7 {
   width: 143.07692%;
   float: left;
   margin-right: 7.69231%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-5 .col-8 {
   width: 164.61538%;
   float: left;
   margin-right: 7.69231%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-5 .col-9 {
   width: 186.15385%;
   float: left;
   margin-right: 7.69231%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-5 .col-10 {
   width: 207.69231%;
   float: left;
   margin-right: 7.69231%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-5 .col-11 {
   width: 229.23077%;
   float: left;
   margin-right: 7.69231%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-5 .col-12 {
   width: 250.76923%;
   float: left;
@@ -1274,101 +1448,101 @@ li {
   display: inline;
 }
 
-/* line 50, ../sass/lib/layout/_grid.scss */
+/* line 50, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .prefix-5 {
   margin-left: 42.94479%;
 }
 
-/* line 53, ../sass/lib/layout/_grid.scss */
+/* line 53, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .suffix-5 {
   margin-right: 42.94479%;
 }
 
-/* line 42, ../sass/lib/layout/_grid.scss */
+/* line 42, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-6 {
   width: 48.46626%;
   float: left;
   margin-right: 3.06748%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-6 .col-1 {
   width: 11.39241%;
   float: left;
   margin-right: 6.32911%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-6 .col-2 {
   width: 29.11392%;
   float: left;
   margin-right: 6.32911%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-6 .col-3 {
   width: 46.83544%;
   float: left;
   margin-right: 6.32911%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-6 .col-4 {
   width: 64.55696%;
   float: left;
   margin-right: 6.32911%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-6 .col-5 {
   width: 82.27848%;
   float: left;
   margin-right: 6.32911%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-6 .col-6 {
   width: 100%;
   float: left;
   margin-right: 6.32911%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-6 .col-7 {
   width: 117.72152%;
   float: left;
   margin-right: 6.32911%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-6 .col-8 {
   width: 135.44304%;
   float: left;
   margin-right: 6.32911%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-6 .col-9 {
   width: 153.16456%;
   float: left;
   margin-right: 6.32911%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-6 .col-10 {
   width: 170.88608%;
   float: left;
   margin-right: 6.32911%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-6 .col-11 {
   width: 188.60759%;
   float: left;
   margin-right: 6.32911%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-6 .col-12 {
   width: 206.32911%;
   float: left;
@@ -1376,101 +1550,101 @@ li {
   display: inline;
 }
 
-/* line 50, ../sass/lib/layout/_grid.scss */
+/* line 50, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .prefix-6 {
   margin-left: 51.53374%;
 }
 
-/* line 53, ../sass/lib/layout/_grid.scss */
+/* line 53, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .suffix-6 {
   margin-right: 51.53374%;
 }
 
-/* line 42, ../sass/lib/layout/_grid.scss */
+/* line 42, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-7 {
   width: 57.05521%;
   float: left;
   margin-right: 3.06748%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-7 .col-1 {
   width: 9.67742%;
   float: left;
   margin-right: 5.37634%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-7 .col-2 {
   width: 24.73118%;
   float: left;
   margin-right: 5.37634%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-7 .col-3 {
   width: 39.78495%;
   float: left;
   margin-right: 5.37634%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-7 .col-4 {
   width: 54.83871%;
   float: left;
   margin-right: 5.37634%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-7 .col-5 {
   width: 69.89247%;
   float: left;
   margin-right: 5.37634%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-7 .col-6 {
   width: 84.94624%;
   float: left;
   margin-right: 5.37634%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-7 .col-7 {
   width: 100%;
   float: left;
   margin-right: 5.37634%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-7 .col-8 {
   width: 115.05376%;
   float: left;
   margin-right: 5.37634%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-7 .col-9 {
   width: 130.10753%;
   float: left;
   margin-right: 5.37634%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-7 .col-10 {
   width: 145.16129%;
   float: left;
   margin-right: 5.37634%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-7 .col-11 {
   width: 160.21505%;
   float: left;
   margin-right: 5.37634%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-7 .col-12 {
   width: 175.26882%;
   float: left;
@@ -1478,101 +1652,101 @@ li {
   display: inline;
 }
 
-/* line 50, ../sass/lib/layout/_grid.scss */
+/* line 50, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .prefix-7 {
   margin-left: 60.1227%;
 }
 
-/* line 53, ../sass/lib/layout/_grid.scss */
+/* line 53, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .suffix-7 {
   margin-right: 60.1227%;
 }
 
-/* line 42, ../sass/lib/layout/_grid.scss */
+/* line 42, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-8 {
   width: 65.64417%;
   float: left;
   margin-right: 3.06748%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-8 .col-1 {
   width: 8.41121%;
   float: left;
   margin-right: 4.6729%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-8 .col-2 {
   width: 21.49533%;
   float: left;
   margin-right: 4.6729%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-8 .col-3 {
   width: 34.57944%;
   float: left;
   margin-right: 4.6729%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-8 .col-4 {
   width: 47.66355%;
   float: left;
   margin-right: 4.6729%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-8 .col-5 {
   width: 60.74766%;
   float: left;
   margin-right: 4.6729%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-8 .col-6 {
   width: 73.83178%;
   float: left;
   margin-right: 4.6729%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-8 .col-7 {
   width: 86.91589%;
   float: left;
   margin-right: 4.6729%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-8 .col-8 {
   width: 100%;
   float: left;
   margin-right: 4.6729%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-8 .col-9 {
   width: 113.08411%;
   float: left;
   margin-right: 4.6729%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-8 .col-10 {
   width: 126.16822%;
   float: left;
   margin-right: 4.6729%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-8 .col-11 {
   width: 139.25234%;
   float: left;
   margin-right: 4.6729%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-8 .col-12 {
   width: 152.33645%;
   float: left;
@@ -1580,101 +1754,101 @@ li {
   display: inline;
 }
 
-/* line 50, ../sass/lib/layout/_grid.scss */
+/* line 50, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .prefix-8 {
   margin-left: 68.71166%;
 }
 
-/* line 53, ../sass/lib/layout/_grid.scss */
+/* line 53, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .suffix-8 {
   margin-right: 68.71166%;
 }
 
-/* line 42, ../sass/lib/layout/_grid.scss */
+/* line 42, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-9 {
   width: 74.23313%;
   float: left;
   margin-right: 3.06748%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-9 .col-1 {
   width: 7.43802%;
   float: left;
   margin-right: 4.13223%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-9 .col-2 {
   width: 19.00826%;
   float: left;
   margin-right: 4.13223%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-9 .col-3 {
   width: 30.57851%;
   float: left;
   margin-right: 4.13223%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-9 .col-4 {
   width: 42.14876%;
   float: left;
   margin-right: 4.13223%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-9 .col-5 {
   width: 53.71901%;
   float: left;
   margin-right: 4.13223%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-9 .col-6 {
   width: 65.28926%;
   float: left;
   margin-right: 4.13223%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-9 .col-7 {
   width: 76.8595%;
   float: left;
   margin-right: 4.13223%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-9 .col-8 {
   width: 88.42975%;
   float: left;
   margin-right: 4.13223%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-9 .col-9 {
   width: 100%;
   float: left;
   margin-right: 4.13223%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-9 .col-10 {
   width: 111.57025%;
   float: left;
   margin-right: 4.13223%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-9 .col-11 {
   width: 123.1405%;
   float: left;
   margin-right: 4.13223%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-9 .col-12 {
   width: 134.71074%;
   float: left;
@@ -1682,101 +1856,101 @@ li {
   display: inline;
 }
 
-/* line 50, ../sass/lib/layout/_grid.scss */
+/* line 50, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .prefix-9 {
   margin-left: 77.30061%;
 }
 
-/* line 53, ../sass/lib/layout/_grid.scss */
+/* line 53, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .suffix-9 {
   margin-right: 77.30061%;
 }
 
-/* line 42, ../sass/lib/layout/_grid.scss */
+/* line 42, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-10 {
   width: 82.82209%;
   float: left;
   margin-right: 3.06748%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-10 .col-1 {
   width: 6.66667%;
   float: left;
   margin-right: 3.7037%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-10 .col-2 {
   width: 17.03704%;
   float: left;
   margin-right: 3.7037%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-10 .col-3 {
   width: 27.40741%;
   float: left;
   margin-right: 3.7037%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-10 .col-4 {
   width: 37.77778%;
   float: left;
   margin-right: 3.7037%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-10 .col-5 {
   width: 48.14815%;
   float: left;
   margin-right: 3.7037%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-10 .col-6 {
   width: 58.51852%;
   float: left;
   margin-right: 3.7037%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-10 .col-7 {
   width: 68.88889%;
   float: left;
   margin-right: 3.7037%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-10 .col-8 {
   width: 79.25926%;
   float: left;
   margin-right: 3.7037%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-10 .col-9 {
   width: 89.62963%;
   float: left;
   margin-right: 3.7037%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-10 .col-10 {
   width: 100%;
   float: left;
   margin-right: 3.7037%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-10 .col-11 {
   width: 110.37037%;
   float: left;
   margin-right: 3.7037%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-10 .col-12 {
   width: 120.74074%;
   float: left;
@@ -1784,101 +1958,101 @@ li {
   display: inline;
 }
 
-/* line 50, ../sass/lib/layout/_grid.scss */
+/* line 50, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .prefix-10 {
   margin-left: 85.88957%;
 }
 
-/* line 53, ../sass/lib/layout/_grid.scss */
+/* line 53, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .suffix-10 {
   margin-right: 85.88957%;
 }
 
-/* line 42, ../sass/lib/layout/_grid.scss */
+/* line 42, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-11 {
   width: 91.41104%;
   float: left;
   margin-right: 3.06748%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-11 .col-1 {
   width: 6.04027%;
   float: left;
   margin-right: 3.3557%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-11 .col-2 {
   width: 15.43624%;
   float: left;
   margin-right: 3.3557%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-11 .col-3 {
   width: 24.83221%;
   float: left;
   margin-right: 3.3557%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-11 .col-4 {
   width: 34.22819%;
   float: left;
   margin-right: 3.3557%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-11 .col-5 {
   width: 43.62416%;
   float: left;
   margin-right: 3.3557%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-11 .col-6 {
   width: 53.02013%;
   float: left;
   margin-right: 3.3557%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-11 .col-7 {
   width: 62.41611%;
   float: left;
   margin-right: 3.3557%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-11 .col-8 {
   width: 71.81208%;
   float: left;
   margin-right: 3.3557%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-11 .col-9 {
   width: 81.20805%;
   float: left;
   margin-right: 3.3557%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-11 .col-10 {
   width: 90.60403%;
   float: left;
   margin-right: 3.3557%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-11 .col-11 {
   width: 100%;
   float: left;
   margin-right: 3.3557%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-11 .col-12 {
   width: 109.39597%;
   float: left;
@@ -1886,101 +2060,101 @@ li {
   display: inline;
 }
 
-/* line 50, ../sass/lib/layout/_grid.scss */
+/* line 50, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .prefix-11 {
   margin-left: 94.47853%;
 }
 
-/* line 53, ../sass/lib/layout/_grid.scss */
+/* line 53, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .suffix-11 {
   margin-right: 94.47853%;
 }
 
-/* line 42, ../sass/lib/layout/_grid.scss */
+/* line 42, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-12 {
   width: 100%;
   float: left;
   margin-right: 3.06748%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-12 .col-1 {
   width: 5.52147%;
   float: left;
   margin-right: 3.06748%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-12 .col-2 {
   width: 14.11043%;
   float: left;
   margin-right: 3.06748%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-12 .col-3 {
   width: 22.69939%;
   float: left;
   margin-right: 3.06748%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-12 .col-4 {
   width: 31.28834%;
   float: left;
   margin-right: 3.06748%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-12 .col-5 {
   width: 39.8773%;
   float: left;
   margin-right: 3.06748%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-12 .col-6 {
   width: 48.46626%;
   float: left;
   margin-right: 3.06748%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-12 .col-7 {
   width: 57.05521%;
   float: left;
   margin-right: 3.06748%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-12 .col-8 {
   width: 65.64417%;
   float: left;
   margin-right: 3.06748%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-12 .col-9 {
   width: 74.23313%;
   float: left;
   margin-right: 3.06748%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-12 .col-10 {
   width: 82.82209%;
   float: left;
   margin-right: 3.06748%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-12 .col-11 {
   width: 91.41104%;
   float: left;
   margin-right: 3.06748%;
   display: inline;
 }
-/* line 45, ../sass/lib/layout/_grid.scss */
+/* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-12 .col-12 {
   width: 100%;
   float: left;
@@ -1988,129 +2162,129 @@ li {
   display: inline;
 }
 
-/* line 50, ../sass/lib/layout/_grid.scss */
+/* line 50, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .prefix-12 {
   margin-left: 103.06748%;
 }
 
-/* line 53, ../sass/lib/layout/_grid.scss */
+/* line 53, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .suffix-12 {
   margin-right: 103.06748%;
 }
 
-/* line 101, ../sass/lib/layout/_grid.scss */
+/* line 101, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-1of2 {
   width: 50%;
 }
 
-/* line 105, ../sass/lib/layout/_grid.scss */
+/* line 105, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-1of3 {
   width: 33.333333333%;
 }
 
-/* line 109, ../sass/lib/layout/_grid.scss */
+/* line 109, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-2of3 {
   width: 66.666666667%;
 }
 
-/* line 113, ../sass/lib/layout/_grid.scss */
+/* line 113, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-1of4 {
   width: 25%;
 }
 
-/* line 117, ../sass/lib/layout/_grid.scss */
+/* line 117, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-3of4 {
   width: 75%;
 }
 
-/* line 121, ../sass/lib/layout/_grid.scss */
+/* line 121, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-1of5 {
   width: 20%;
 }
 
-/* line 125, ../sass/lib/layout/_grid.scss */
+/* line 125, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-2of5 {
   width: 40%;
 }
 
-/* line 129, ../sass/lib/layout/_grid.scss */
+/* line 129, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-3of5 {
   width: 60%;
 }
 
-/* line 133, ../sass/lib/layout/_grid.scss */
+/* line 133, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_grid.scss */
 .col-4of5 {
   width: 80%;
 }
 
-/* line 25, ../sass/lib/layout/_layout.scss */
+/* line 25, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_layout.scss */
 .section {
   clear: both;
   padding: 1em 0;
 }
 
-/* line 32, ../sass/lib/layout/_layout.scss */
+/* line 32, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_layout.scss */
 .section-highlight {
   background: #DDD;
 }
 
-/* line 38, ../sass/lib/layout/_layout.scss */
+/* line 38, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_layout.scss */
 .row {
   margin: 0;
   padding: 0;
   *zoom: 1;
 }
-/* line 38, ../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 38, /Users/benoitdeziel/.rvm/gems/ruby-1.9.3-p194@global/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* line 44, ../sass/lib/layout/_layout.scss */
+/* line 44, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_layout.scss */
 .row-highlight {
   background: #DDD;
 }
 
-/* line 48, ../sass/lib/layout/_layout.scss */
+/* line 48, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_layout.scss */
 .row-divider-top {
   border-top: 1px solid #cbc9cf;
 }
 
-/* line 52, ../sass/lib/layout/_layout.scss */
+/* line 52, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_layout.scss */
 .row-divider-bottom {
   border-bottom: 1px solid #cbc9cf;
 }
 
-/* line 58, ../sass/lib/layout/_layout.scss */
+/* line 58, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_layout.scss */
 .box {
   border: solid #cbc9cf;
   border-width: 1px;
   margin-bottom: 20px;
 }
-/* line 62, ../sass/lib/layout/_layout.scss */
+/* line 62, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_layout.scss */
 .box .box-header {
   padding: 10px;
   border-bottom: 1px solid #cbc9cf;
 }
-/* line 66, ../sass/lib/layout/_layout.scss */
+/* line 66, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_layout.scss */
 .box .box-inner {
   padding: 10px;
 }
-/* line 68, ../sass/lib/layout/_layout.scss */
+/* line 68, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_layout.scss */
 .box .box-inner ul {
   padding: 0;
 }
-/* line 72, ../sass/lib/layout/_layout.scss */
+/* line 72, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_layout.scss */
 .box .actions-container {
   padding: 0 10px 10px 10px;
 }
-/* line 75, ../sass/lib/layout/_layout.scss */
+/* line 75, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/layout/_layout.scss */
 .box .box-highlight {
   background-color: #cbc9cf;
 }
 
-/* line 1, ../sass/lib/helpers/_alerts.scss */
+/* line 1, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/helpers/_alerts.scss */
 .message, .messages .messages {
   padding: 8px 35px 8px 14px;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
@@ -2124,7 +2298,7 @@ li {
   color: #333;
 }
 
-/* line 1, ../sass/lib/helpers/_buttons.scss */
+/* line 1, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/helpers/_buttons.scss */
 .btn {
   padding: 5px 10px;
   margin-right: 0;
@@ -2137,106 +2311,106 @@ li {
   line-height: 1.8;
   text-decoration: none;
 }
-/* line 13, ../sass/lib/helpers/_buttons.scss */
+/* line 13, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/helpers/_buttons.scss */
 .btn:hover {
   background-color: #d1d2da;
   color: #333;
 }
-/* line 18, ../sass/lib/helpers/_buttons.scss */
+/* line 18, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/helpers/_buttons.scss */
 .btn.btn-primary {
   background-color: #3382dc;
   border-color: #1c5da6;
   color: #FFF;
 }
-/* line 22, ../sass/lib/helpers/_buttons.scss */
+/* line 22, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/helpers/_buttons.scss */
 .btn.btn-primary:hover {
   background-color: #2069bc;
 }
-/* line 26, ../sass/lib/helpers/_buttons.scss */
+/* line 26, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/helpers/_buttons.scss */
 .btn.btn-secondary {
   color: #FFF;
   background-color: #90cb4f;
   border-color: #699f2f;
 }
-/* line 30, ../sass/lib/helpers/_buttons.scss */
+/* line 30, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/helpers/_buttons.scss */
 .btn.btn-secondary:hover {
   background-color: #77b235;
 }
-/* line 34, ../sass/lib/helpers/_buttons.scss */
+/* line 34, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/helpers/_buttons.scss */
 .btn.btn-alt {
   color: #FFF;
   background-color: #b5001b;
   border-color: #690010;
 }
-/* line 38, ../sass/lib/helpers/_buttons.scss */
+/* line 38, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/helpers/_buttons.scss */
 .btn.btn-alt:hover {
   background-color: #820013;
 }
-/* line 42, ../sass/lib/helpers/_buttons.scss */
+/* line 42, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/helpers/_buttons.scss */
 .btn.btn-highlight {
   color: #FFF;
   background-color: #ebb32c;
   border-color: #b98812;
 }
-/* line 46, ../sass/lib/helpers/_buttons.scss */
+/* line 46, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/helpers/_buttons.scss */
 .btn.btn-highlight:hover {
   background-color: #d09914;
 }
-/* line 50, ../sass/lib/helpers/_buttons.scss */
+/* line 50, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/helpers/_buttons.scss */
 .btn.btn-disabled {
   background-color: #dfe0e5;
   border-color: #b5b7c3;
   cursor: default;
   opacity: 0.5;
 }
-/* line 55, ../sass/lib/helpers/_buttons.scss */
+/* line 55, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/helpers/_buttons.scss */
 .btn.btn-disabled:hover {
   background-color: #dfe0e5;
   border-color: #b5b7c3;
 }
-/* line 61, ../sass/lib/helpers/_buttons.scss */
+/* line 61, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/helpers/_buttons.scss */
 .btn.btn-xsmall {
   font-size: 12px;
   line-height: 1;
 }
-/* line 65, ../sass/lib/helpers/_buttons.scss */
+/* line 65, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/helpers/_buttons.scss */
 .btn.btn-small {
   font-size: 14px;
   line-height: 1.4;
 }
-/* line 69, ../sass/lib/helpers/_buttons.scss */
+/* line 69, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/helpers/_buttons.scss */
 .btn.btn-medium {
   font-size: 16px;
   line-height: 1.8;
 }
-/* line 73, ../sass/lib/helpers/_buttons.scss */
+/* line 73, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/helpers/_buttons.scss */
 .btn.btn-large {
   font-size: 18px;
   line-height: 2;
 }
-/* line 77, ../sass/lib/helpers/_buttons.scss */
+/* line 77, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/helpers/_buttons.scss */
 .btn.btn-xlarge {
   font-size: 24px;
   line-height: 2;
 }
-/* line 81, ../sass/lib/helpers/_buttons.scss */
+/* line 81, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/helpers/_buttons.scss */
 .btn.btn-full {
   float: left;
   width: 100%;
   clear: both;
   text-align: center;
 }
-/* line 89, ../sass/lib/helpers/_buttons.scss */
+/* line 89, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/helpers/_buttons.scss */
 .btn.btn-up, .btn.btn-down, .btn.btn-right {
   padding-right: 30px;
 }
-/* line 91, ../sass/lib/helpers/_buttons.scss */
+/* line 91, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/helpers/_buttons.scss */
 .btn.btn-up:after, .btn.btn-down:after, .btn.btn-right:after {
   content: "";
   display: block;
   position: absolute;
 }
-/* line 98, ../sass/lib/helpers/_buttons.scss */
+/* line 98, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/helpers/_buttons.scss */
 .btn.btn-up:after {
   width: 0;
   height: 0;
@@ -2247,7 +2421,7 @@ li {
   right: 10px;
   margin-top: -2px;
 }
-/* line 106, ../sass/lib/helpers/_buttons.scss */
+/* line 106, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/helpers/_buttons.scss */
 .btn.btn-down:after {
   width: 0;
   height: 0;
@@ -2258,7 +2432,7 @@ li {
   right: 10px;
   margin-top: -2px;
 }
-/* line 115, ../sass/lib/helpers/_buttons.scss */
+/* line 115, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/helpers/_buttons.scss */
 .btn.btn-right:after {
   width: 0;
   height: 0;
@@ -2269,29 +2443,29 @@ li {
   right: 10px;
 }
 
-/* line 123, ../sass/lib/helpers/_buttons.scss */
+/* line 123, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/helpers/_buttons.scss */
 .btn-group {
   list-style: none;
   padding: 0;
   *zoom: 1;
 }
-/* line 38, ../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 38, /Users/benoitdeziel/.rvm/gems/ruby-1.9.3-p194@global/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 .btn-group:after {
   content: "";
   display: table;
   clear: both;
 }
-/* line 127, ../sass/lib/helpers/_buttons.scss */
+/* line 127, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/helpers/_buttons.scss */
 .btn-group li {
   float: left;
   padding: 0;
   margin: 0 0 0 -1px;
 }
-/* line 131, ../sass/lib/helpers/_buttons.scss */
+/* line 131, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/helpers/_buttons.scss */
 .btn-group li:first-child {
   margin-left: 0;
 }
-/* line 135, ../sass/lib/helpers/_buttons.scss */
+/* line 135, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/helpers/_buttons.scss */
 .btn-group li:not(:first-child) .btn {
   -moz-border-radius-topleft: 0;
   -webkit-border-top-left-radius: 0;
@@ -2300,7 +2474,7 @@ li {
   -webkit-border-bottom-left-radius: 0;
   border-bottom-left-radius: 0;
 }
-/* line 139, ../sass/lib/helpers/_buttons.scss */
+/* line 139, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/helpers/_buttons.scss */
 .btn-group li:not(:last-child) .btn {
   -moz-border-radius-topright: 0;
   -webkit-border-top-right-radius: 0;
@@ -2309,32 +2483,32 @@ li {
   -webkit-border-bottom-right-radius: 0;
   border-bottom-right-radius: 0;
 }
-/* line 144, ../sass/lib/helpers/_buttons.scss */
+/* line 144, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/helpers/_buttons.scss */
 .btn-group .btn {
   margin-right: 0;
 }
 
-/* line 5, ../sass/lib/helpers/_forms.scss */
+/* line 5, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/helpers/_forms.scss */
 legend {
   margin-bottom: 10px;
 }
 
-/* line 9, ../sass/lib/helpers/_forms.scss */
+/* line 9, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/helpers/_forms.scss */
 label {
   font-weight: 600;
 }
 
-/* line 13, ../sass/lib/helpers/_forms.scss */
+/* line 13, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/helpers/_forms.scss */
 input {
   padding: 5px;
   border: #999 1px solid;
 }
-/* line 16, ../sass/lib/helpers/_forms.scss */
+/* line 16, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/helpers/_forms.scss */
 input:focus {
   border-color: darkblue;
 }
 
-/* line 21, ../sass/lib/helpers/_forms.scss */
+/* line 21, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/helpers/_forms.scss */
 input[type=text], input[type=email], input[type=password] {
   color: #333333;
   border: 1px solid #aaaaaa;
@@ -2343,7 +2517,7 @@ input[type=text], input[type=email], input[type=password] {
   line-height: 1.5;
 }
 
-/* line 29, ../sass/lib/helpers/_forms.scss */
+/* line 29, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/helpers/_forms.scss */
 input[type=text]:focus, input[type=email]:focus, input[type=password]:focus, .content input[type=search]:focus, textarea:focus, select:focus {
   border: 1px solid #0099ff;
   -webkit-box-shadow: 0 0 4px #1737e0;
@@ -2352,19 +2526,19 @@ input[type=text]:focus, input[type=email]:focus, input[type=password]:focus, .co
   outline: none;
 }
 
-/* line 3, ../sass/lib/helpers/_media.scss */
+/* line 3, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/helpers/_media.scss */
 figcaption {
   font-size: 0.75em;
   line-height: 2em;
 }
 
-/* line 9, ../sass/lib/helpers/_media.scss */
+/* line 9, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/helpers/_media.scss */
 img.img-fit {
   max-width: 100%;
   height: auto;
 }
 
-/* line 2, ../sass/lib/helpers/_tabs.scss */
+/* line 2, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/helpers/_tabs.scss */
 .tabs .tabs-nav {
   margin: 0;
   padding: 0;
@@ -2372,89 +2546,89 @@ img.img-fit {
   display: block;
   height: 40px;
 }
-/* line 8, ../sass/lib/helpers/_tabs.scss */
+/* line 8, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/helpers/_tabs.scss */
 .tabs .tabs-nav li {
   list-style: none;
   margin: 0;
   padding: 0;
   float: left;
 }
-/* line 14, ../sass/lib/helpers/_tabs.scss */
+/* line 14, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/helpers/_tabs.scss */
 .tabs .tabs-nav a {
   display: inline-block;
   padding: 0 15px;
   margin: 0;
   line-height: 40px;
 }
-/* line 21, ../sass/lib/helpers/_tabs.scss */
+/* line 21, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/helpers/_tabs.scss */
 .tabs .tabs-nav a.current {
   margin-top: -1px;
   background-color: white;
   border: 1px solid #cbc9cf;
   border-bottom: none;
 }
-/* line 28, ../sass/lib/helpers/_tabs.scss */
+/* line 28, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/helpers/_tabs.scss */
 .tabs .tabs-content {
   border: 1px solid #cbc9cf;
   border-top: none;
 }
-/* line 31, ../sass/lib/helpers/_tabs.scss */
+/* line 31, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/helpers/_tabs.scss */
 .tabs .tabs-content > .tab-pane {
   display: none;
   min-height: 150px;
   padding: 15px 20px;
 }
-/* line 39, ../sass/lib/helpers/_tabs.scss */
+/* line 39, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/helpers/_tabs.scss */
 .tabs.tabs-vertical .tabs-nav {
   border-bottom: none;
   width: 20%;
 }
-/* line 42, ../sass/lib/helpers/_tabs.scss */
+/* line 42, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/helpers/_tabs.scss */
 .tabs.tabs-vertical .tabs-nav li {
   float: none;
 }
-/* line 46, ../sass/lib/helpers/_tabs.scss */
+/* line 46, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/helpers/_tabs.scss */
 .tabs.tabs-vertical .tabs-content {
   float: left;
   width: 80%;
 }
-/* line 53, ../sass/lib/helpers/_tabs.scss */
+/* line 53, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/helpers/_tabs.scss */
 .tabs.tabs-left .tabs-nav {
   float: left;
   border-right: 1px solid #cbc9cf;
 }
-/* line 56, ../sass/lib/helpers/_tabs.scss */
+/* line 56, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/helpers/_tabs.scss */
 .tabs.tabs-left .tabs-nav a.current {
   border: 1px solid #cbc9cf;
   border-right: none;
   margin-top: 0;
 }
-/* line 62, ../sass/lib/helpers/_tabs.scss */
+/* line 62, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/helpers/_tabs.scss */
 .tabs.tabs-left .tabs-content {
   border: 1px solid #cbc9cf;
   border-left: none;
 }
-/* line 69, ../sass/lib/helpers/_tabs.scss */
+/* line 69, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/helpers/_tabs.scss */
 .tabs.tabs-right .tabs-nav {
   float: right;
 }
-/* line 71, ../sass/lib/helpers/_tabs.scss */
+/* line 71, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/helpers/_tabs.scss */
 .tabs.tabs-right .tabs-nav a.current {
   border: 1px solid #cbc9cf;
   border-left: none;
   margin-top: 0;
 }
-/* line 77, ../sass/lib/helpers/_tabs.scss */
+/* line 77, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/helpers/_tabs.scss */
 .tabs.tabs-right .tabs-content {
   border: 1px solid #cbc9cf;
   border-right: none;
 }
 
-/* line 84, ../sass/lib/helpers/_tabs.scss */
+/* line 84, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/helpers/_tabs.scss */
 .accordion {
   border-bottom: 1px solid #cbc9cf;
 }
-/* line 86, ../sass/lib/helpers/_tabs.scss */
+/* line 86, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/helpers/_tabs.scss */
 .accordion .accordion-tab {
   position: relative;
   padding: 15px;
@@ -2465,7 +2639,7 @@ img.img-fit {
   cursor: pointer;
   font-weight: bold;
 }
-/* line 96, ../sass/lib/helpers/_tabs.scss */
+/* line 96, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/helpers/_tabs.scss */
 .accordion .accordion-tab:after {
   content: " ";
   position: absolute;
@@ -2477,7 +2651,7 @@ img.img-fit {
   border-width: 10px;
   border-color: #cccccc transparent transparent transparent;
 }
-/* line 103, ../sass/lib/helpers/_tabs.scss */
+/* line 103, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/helpers/_tabs.scss */
 .accordion .accordion-tab.current:after {
   content: " ";
   position: absolute;
@@ -2489,7 +2663,7 @@ img.img-fit {
   border-width: 10px;
   border-color: transparent transparent #cccccc transparent;
 }
-/* line 110, ../sass/lib/helpers/_tabs.scss */
+/* line 110, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/helpers/_tabs.scss */
 .accordion .accordion-pane {
   display: none;
   padding: 0;
@@ -2497,25 +2671,25 @@ img.img-fit {
   border-style: solid;
   border-color: #cbc9cf;
 }
-/* line 118, ../sass/lib/helpers/_tabs.scss */
+/* line 118, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/helpers/_tabs.scss */
 .accordion .accordion-content {
   display: block;
   padding: 15px;
 }
 
-/* line 23, ../sass/lib/helpers/_tables.scss */
+/* line 23, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/helpers/_tables.scss */
 table.table-striped tbody tr:nth-child(odd) td,
 table.table-striped tbody tr:nth-child(odd) th {
   background-color: #CCC;
 }
 
-/* line 3, ../sass/lib/helpers/_misc.scss */
+/* line 3, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/helpers/_misc.scss */
 hr {
   margin: 0;
   border: 0;
 }
 
-/* line 10, ../sass/lib/helpers/_misc.scss */
+/* line 10, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/helpers/_misc.scss */
 .tooltip {
   display: none;
   padding: 15px;
@@ -2524,7 +2698,7 @@ hr {
   background-color: #333;
 }
 
-/* line 20, ../sass/lib/helpers/_misc.scss */
+/* line 20, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/helpers/_misc.scss */
 .keystroke, kbd {
   font-family: "Consolas", "Menlo", "Courier", monospace;
   font-size: 0.875em;
@@ -2540,100 +2714,100 @@ hr {
   border-radius: 5px;
 }
 
-/* line 30, ../sass/lib/helpers/_misc.scss */
+/* line 30, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/helpers/_misc.scss */
 #googlemap img, object, embed {
   max-width: none;
 }
 
-/* line 32, ../sass/lib/helpers/_misc.scss */
+/* line 32, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/helpers/_misc.scss */
 #map_canvas embed {
   max-width: none;
 }
 
-/* line 33, ../sass/lib/helpers/_misc.scss */
+/* line 33, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/helpers/_misc.scss */
 #map_canvas img {
   max-width: none;
 }
 
-/* line 34, ../sass/lib/helpers/_misc.scss */
+/* line 34, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/helpers/_misc.scss */
 #map_canvas object {
   max-width: none;
 }
 
-/* line 1, ../sass/lib/navigation/_nav-bar.scss */
+/* line 1, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/navigation/_nav-bar.scss */
 .navbar {
   *position: relative;
   *z-index: 2;
   overflow: visible;
 }
 
-/* line 1, ../sass/lib/navigation/_navs.scss */
+/* line 1, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/navigation/_navs.scss */
 .nav {
   padding: 0;
   margin: 0;
 }
-/* line 4, ../sass/lib/navigation/_navs.scss */
+/* line 4, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/navigation/_navs.scss */
 .nav ul {
   padding: 0;
   margin: 0;
 }
-/* line 5, ../sass/lib/navigation/_navs.scss */
+/* line 5, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/navigation/_navs.scss */
 .nav a {
   padding: 5px 10px;
 }
-/* line 16, ../sass/lib/navigation/_navs.scss */
+/* line 16, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/navigation/_navs.scss */
 .nav.nav-horizontal li {
   display: inline-block;
   padding: 0;
   margin: 0;
 }
-/* line 20, ../sass/lib/navigation/_navs.scss */
+/* line 20, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/navigation/_navs.scss */
 .nav.nav-horizontal li ul {
   padding: 0;
   margin: 0;
 }
 
-/* line 1, ../sass/lib/navigation/_breadcrumbs.scss */
+/* line 1, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/navigation/_breadcrumbs.scss */
 .breadcrumbs {
   padding: 0;
   margin: 0;
 }
-/* line 4, ../sass/lib/navigation/_breadcrumbs.scss */
+/* line 4, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/navigation/_breadcrumbs.scss */
 .breadcrumbs li {
   float: left;
   padding: 0;
   margin: 0;
 }
-/* line 9, ../sass/lib/navigation/_breadcrumbs.scss */
+/* line 9, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/navigation/_breadcrumbs.scss */
 .breadcrumbs a {
   display: inline-block;
 }
-/* line 12, ../sass/lib/navigation/_breadcrumbs.scss */
+/* line 12, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/navigation/_breadcrumbs.scss */
 .breadcrumbs .divider {
   padding: 0 5px;
   color: #999;
 }
 
-/* line 3, ../sass/lib/navigation/_pagination.scss */
+/* line 3, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/navigation/_pagination.scss */
 .pagination ul {
   padding: 0;
   text-align: center;
 }
-/* line 7, ../sass/lib/navigation/_pagination.scss */
+/* line 7, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/navigation/_pagination.scss */
 .pagination li {
   display: inline;
 }
-/* line 10, ../sass/lib/navigation/_pagination.scss */
+/* line 10, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/navigation/_pagination.scss */
 .pagination a {
   padding: 0 10px;
 }
 
-/* line 1, ../sass/lib/cms/_drupal.scss */
+/* line 1, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/cms/_drupal.scss */
 body.logged-in {
   margin-bottom: 35px;
 }
 
-/* line 7, ../sass/lib/cms/_drupal.scss */
+/* line 7, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/cms/_drupal.scss */
 .admin-tabs .tabs-container {
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #e8e9f4), color-stop(100%, #c2cdd1));
   background-image: -webkit-linear-gradient(#e8e9f4, #c2cdd1);
@@ -2650,7 +2824,7 @@ body.logged-in {
   z-index: 100;
   padding: 5px 0;
 }
-/* line 19, ../sass/lib/cms/_drupal.scss */
+/* line 19, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/cms/_drupal.scss */
 .admin-tabs .tabs-container ul.tabs {
   margin: 0;
   padding: 0;
@@ -2659,14 +2833,14 @@ body.logged-in {
   background: none;
   border: none;
 }
-/* line 28, ../sass/lib/cms/_drupal.scss */
+/* line 28, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/cms/_drupal.scss */
 .admin-tabs .tabs-container .tabs li {
   float: left;
   padding: 0 10px;
   line-height: 25px;
   background: none;
 }
-/* line 35, ../sass/lib/cms/_drupal.scss */
+/* line 35, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/cms/_drupal.scss */
 .admin-tabs .tabs-container .tabs li.active {
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #c2cdd1), color-stop(100%, #e8e9f4));
   background-image: -webkit-linear-gradient(#c2cdd1, #e8e9f4);
@@ -2681,23 +2855,23 @@ body.logged-in {
   border-radius: 20px;
   border: 1px solid #BBB;
 }
-/* line 41, ../sass/lib/cms/_drupal.scss */
+/* line 41, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/cms/_drupal.scss */
 .admin-tabs .tabs-container .tabs li a {
   color: #333;
   line-height: 25px;
   text-decoration: none;
 }
-/* line 47, ../sass/lib/cms/_drupal.scss */
+/* line 47, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/cms/_drupal.scss */
 .admin-tabs .tabs-container ul.primary li.active a {
   font-weight: 600;
 }
 
-/* line 60, ../sass/lib/cms/_drupal.scss */
+/* line 60, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/cms/_drupal.scss */
 .admin-menu ul {
   display: inline;
 }
 
-/* line 2, ../sass/lib/helpers/_dev.scss */
+/* line 2, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/helpers/_dev.scss */
 .dev.grid .wrapper {
   background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(0%, rgba(100, 100, 225, 0.25)), color-stop(5.52147%, rgba(100, 100, 225, 0.25)), color-stop(5.52147%, rgba(0, 0, 0, 0)), color-stop(8.58896%, rgba(0, 0, 0, 0)), color-stop(8.58896%, rgba(100, 100, 225, 0.25)), color-stop(14.11043%, rgba(100, 100, 225, 0.25)), color-stop(14.11043%, rgba(0, 0, 0, 0)), color-stop(17.17791%, rgba(0, 0, 0, 0)), color-stop(17.17791%, rgba(100, 100, 225, 0.25)), color-stop(22.69939%, rgba(100, 100, 225, 0.25)), color-stop(22.69939%, rgba(0, 0, 0, 0)), color-stop(25.76687%, rgba(0, 0, 0, 0)), color-stop(25.76687%, rgba(100, 100, 225, 0.25)), color-stop(31.28834%, rgba(100, 100, 225, 0.25)), color-stop(31.28834%, rgba(0, 0, 0, 0)), color-stop(34.35583%, rgba(0, 0, 0, 0)), color-stop(34.35583%, rgba(100, 100, 225, 0.25)), color-stop(39.8773%, rgba(100, 100, 225, 0.25)), color-stop(39.8773%, rgba(0, 0, 0, 0)), color-stop(42.94479%, rgba(0, 0, 0, 0)), color-stop(42.94479%, rgba(100, 100, 225, 0.25)), color-stop(48.46626%, rgba(100, 100, 225, 0.25)), color-stop(48.46626%, rgba(0, 0, 0, 0)), color-stop(51.53374%, rgba(0, 0, 0, 0)), color-stop(51.53374%, rgba(100, 100, 225, 0.25)), color-stop(57.05521%, rgba(100, 100, 225, 0.25)), color-stop(57.05521%, rgba(0, 0, 0, 0)), color-stop(60.1227%, rgba(0, 0, 0, 0)), color-stop(60.1227%, rgba(100, 100, 225, 0.25)), color-stop(65.64417%, rgba(100, 100, 225, 0.25)), color-stop(65.64417%, rgba(0, 0, 0, 0)), color-stop(68.71166%, rgba(0, 0, 0, 0)), color-stop(68.71166%, rgba(100, 100, 225, 0.25)), color-stop(74.23313%, rgba(100, 100, 225, 0.25)), color-stop(74.23313%, rgba(0, 0, 0, 0)), color-stop(77.30061%, rgba(0, 0, 0, 0)), color-stop(77.30061%, rgba(100, 100, 225, 0.25)), color-stop(82.82209%, rgba(100, 100, 225, 0.25)), color-stop(82.82209%, rgba(0, 0, 0, 0)), color-stop(85.88957%, rgba(0, 0, 0, 0)), color-stop(85.88957%, rgba(100, 100, 225, 0.25)), color-stop(91.41104%, rgba(100, 100, 225, 0.25)), color-stop(91.41104%, rgba(0, 0, 0, 0)), color-stop(94.47853%, rgba(0, 0, 0, 0)), color-stop(94.47853%, rgba(100, 100, 225, 0.25)), color-stop(100%, rgba(100, 100, 225, 0.25)), color-stop(100%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0)));
   background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 5.52147%, rgba(0, 0, 0, 0) 5.52147%, rgba(0, 0, 0, 0) 8.58896%, rgba(100, 100, 225, 0.25) 8.58896%, rgba(100, 100, 225, 0.25) 14.11043%, rgba(0, 0, 0, 0) 14.11043%, rgba(0, 0, 0, 0) 17.17791%, rgba(100, 100, 225, 0.25) 17.17791%, rgba(100, 100, 225, 0.25) 22.69939%, rgba(0, 0, 0, 0) 22.69939%, rgba(0, 0, 0, 0) 25.76687%, rgba(100, 100, 225, 0.25) 25.76687%, rgba(100, 100, 225, 0.25) 31.28834%, rgba(0, 0, 0, 0) 31.28834%, rgba(0, 0, 0, 0) 34.35583%, rgba(100, 100, 225, 0.25) 34.35583%, rgba(100, 100, 225, 0.25) 39.8773%, rgba(0, 0, 0, 0) 39.8773%, rgba(0, 0, 0, 0) 42.94479%, rgba(100, 100, 225, 0.25) 42.94479%, rgba(100, 100, 225, 0.25) 48.46626%, rgba(0, 0, 0, 0) 48.46626%, rgba(0, 0, 0, 0) 51.53374%, rgba(100, 100, 225, 0.25) 51.53374%, rgba(100, 100, 225, 0.25) 57.05521%, rgba(0, 0, 0, 0) 57.05521%, rgba(0, 0, 0, 0) 60.1227%, rgba(100, 100, 225, 0.25) 60.1227%, rgba(100, 100, 225, 0.25) 65.64417%, rgba(0, 0, 0, 0) 65.64417%, rgba(0, 0, 0, 0) 68.71166%, rgba(100, 100, 225, 0.25) 68.71166%, rgba(100, 100, 225, 0.25) 74.23313%, rgba(0, 0, 0, 0) 74.23313%, rgba(0, 0, 0, 0) 77.30061%, rgba(100, 100, 225, 0.25) 77.30061%, rgba(100, 100, 225, 0.25) 82.82209%, rgba(0, 0, 0, 0) 82.82209%, rgba(0, 0, 0, 0) 85.88957%, rgba(100, 100, 225, 0.25) 85.88957%, rgba(100, 100, 225, 0.25) 91.41104%, rgba(0, 0, 0, 0) 91.41104%, rgba(0, 0, 0, 0) 94.47853%, rgba(100, 100, 225, 0.25) 94.47853%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
@@ -2715,54 +2889,50 @@ body.logged-in {
   -moz-background-clip: content-box;
   background-clip: content-box;
 }
-/* line 7, ../sass/lib/helpers/_dev.scss */
+/* line 7, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/helpers/_dev.scss */
 .dev.wireframe .box {
   outline: 1px solid red;
 }
-/* line 13, ../sass/lib/helpers/_dev.scss */
+/* line 13, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/helpers/_dev.scss */
 .dev.show-elements * {
   outline: red solid 1px;
 }
 
 @media screen and (min-width: 1400px) {
-  /* line 3, ../sass/lib/responsive/_320.scss */
+  /* line 3, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/responsive/_320.scss */
   .wrapper, .container {
     width: 1200px;
   }
 }
 @media screen and (min-width: 1024px) {
-  /* line 11, ../sass/lib/responsive/_320.scss */
+  /* line 11, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/responsive/_320.scss */
   .wrapper, .container {
     width: 978px;
   }
 }
 @media screen and (max-width: 320px) {
-  /* line 26, ../sass/lib/responsive/_320.scss */
+  /* line 26, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/responsive/_320.scss */
   .wrapper, .container {
     width: 300px;
     padding: 0;
   }
 
-  /* line 31, ../sass/lib/responsive/_320.scss */
+  /* line 31, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/responsive/_320.scss */
   [class^="col-"], .grid-10 [class^="col-"] {
     width: 300px;
     margin-right: 0;
   }
 }
 @media screen and (max-width: 480px) {
-  /* line 40, ../sass/lib/responsive/_320.scss */
+  /* line 40, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/responsive/_320.scss */
   .wrapper, .container {
     width: 420px;
     padding: 0;
   }
 
-  /* line 45, ../sass/lib/responsive/_320.scss */
+  /* line 45, /Volumes/Dogmeat/Sites/Bedrock/assets/sass/lib/responsive/_320.scss */
   [class^="col-"], .grid-10 [class^="col-"] {
     width: 420px;
     margin-right: 0;
   }
 }
-/* Your App
-   ========================================================================== */
-/* Themes
-   ========================================================================== */
