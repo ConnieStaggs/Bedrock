@@ -1,5 +1,5 @@
 p {
-	@include adjust-font-size-to(16px);
+	@include adjust-font-size-to($base-font-size);
 }
 
 p.notes {}
