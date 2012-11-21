@@ -20,6 +20,12 @@
 // Default settings - Copy this file & comment this line to use your own in your app
 // @import "lib/settings";
 
+/* Bedrock Core - Do not edit
+   ========================================================================== */
+
+// Bedrock's core
+@import "lib/core";
+
 /* Your App - Your custom style
    ========================================================================== */
 
@@ -31,9 +37,3 @@
 @import "themes/dark-night/dark-night";
 
 // @import "themes/iweb/iweb";
-
-/* Bedrock Core - Do not edit
-   ========================================================================== */
-
-// Bedrock's core
-@import "lib/core";
